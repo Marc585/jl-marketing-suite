@@ -837,6 +837,15 @@ body {
   margin-top: 8px;
 }
 
+.made-with-love {
+  text-align: center;
+  font-size: 11px;
+  color: var(--pink);
+  margin-top: 6px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
 /* ============================================
    Responsive Design
    ============================================ */
