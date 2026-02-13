@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jean&Len Marketing Suite</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💄</text></svg>">
+</head>
+<body>
+  <div class="app">
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <div class="brand">
+          <span class="brand-name">Jean&Len</span>
+          <span class="brand-sub">Marketing Suite</span>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <div class="nav-section-label">Tools</div>
+
+        <a class="nav-item active" data-tool="artikelsuche">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+          </svg>
+          <span>Artikelsuche</span>
+        </a>
+
+        <a class="nav-item disabled" data-tool="kampagnen">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/>
+          </svg>
+          <span>Kampagnen-Planer</span>
+          <span class="badge">Bald</span>
+        </a>
+
+        <a class="nav-item disabled" data-tool="content">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+          </svg>
+          <span>Content-Kalender</span>
+          <span class="badge">Bald</span>
+        </a>
+
+        <a class="nav-item disabled" data-tool="assets">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/>
+          </svg>
+          <span>Brand Assets</span>
+          <span class="badge">Bald</span>
+        </a>
+
+        <a class="nav-item disabled" data-tool="reporting">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/>
+          </svg>
+          <span>Reporting</span>
+          <span class="badge">Bald</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="data-status">
+          <svg class="status-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+          </svg>
+          <div class="status-text">
+            <span class="status-label">Datenstand</span>
+            <span class="status-date" id="dataDate">Lade...</span>
+          </div>
+        </div>
+        <div class="footer-meta">
+          <span id="articleCount">0 Artikel</span>
+          <span class="dot">·</span>
+          <span id="categoryCount">0 Kategorien</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Mobile Header -->
+    <div class="mobile-header" id="mobileHeader">
+      <button class="menu-toggle" id="menuToggle">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+      <span class="mobile-title">Jean&Len Marketing Suite</span>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <header class="main-header">
+        <div class="header-text">
+          <h1>Artikelnummern-Suche</h1>
+          <p>Frag mich nach Artikelnummern, Produkten oder Kategorien</p>
+        </div>
+        <div class="header-stats">
+          <div class="stat">
+            <span class="stat-value" id="statArticles">608</span>
+            <span class="stat-label">Artikel</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="statCategories">19</span>
+            <span class="stat-label">Kategorien</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- Chat Area -->
+      <div class="chat-container">
+        <div class="chat-messages" id="chatMessages">
+          <!-- Welcome message -->
+          <div class="message bot">
+            <div class="avatar">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+              </svg>
+            </div>
+            <div class="bubble">
+              <div class="bubble-content">
+                <strong>Hi! Ich bin dein Artikel-Assistent.</strong><br><br>
+                Frag mich einfach nach Artikelnummern – zum Beispiel:
+                <ul class="example-list">
+                  <li>„Welche Lip Treatments haben wir?"</li>
+                  <li>„Zeig mir alle Shampoos"</li>
+                  <li>„Artikelnummer Rosemary Ginger Duschgel"</li>
+                  <li>„Was haben wir im Bereich Sonnenpflege?"</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Actions -->
+        <div class="quick-actions" id="quickActions">
+          <button class="chip" data-query="Lippenpflege">Lippenpflege</button>
+          <button class="chip" data-query="Shampoo">Shampoos</button>
+          <button class="chip" data-query="Handseife">Handseifen</button>
+          <button class="chip" data-query="Gesichtspflege">Gesichtspflege</button>
+          <button class="chip" data-query="Rosemary Ginger">Rosemary Ginger</button>
+          <button class="chip" data-query="Alle Kategorien">Alle Kategorien</button>
+        </div>
+
+        <!-- Input Area -->
+        <div class="chat-input-container">
+          <div class="input-wrapper">
+            <input
+              type="text"
+              id="chatInput"
+              placeholder="z.B. Zeig mir alle Lip Treatments..."
+              autocomplete="off"
+            >
+            <button class="send-btn" id="sendBtn" title="Senden (Enter)">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+              </svg>
+            </button>
+          </div>
+          <span class="input-hint">Enter zum Senden · Die Suche durchsucht Namen, Artikelnummern und Kategorien</span>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Overlay for mobile sidebar -->
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
