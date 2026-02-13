@@ -290,6 +290,18 @@ function processQuery(query) {
   }
 }
 
+function depluralize(word) {
+  // German depluralization: returns array of possible singular forms
+  const forms = [word];
+  if (word.endsWith('en')) forms.push(word.slice(0, -2));
+  if (word.endsWith('e')) forms.push(word.slice(0, -1));
+  if (word.endsWith('n')) forms.push(word.slice(0, -1));
+  if (word.endsWith('s')) forms.push(word.slice(0, -1));
+  if (word.endsWith('er')) forms.push(word.slice(0, -2));
+  // Umlaute rückverwandeln (Häuser→Haus doesn't apply here, but Gele→Gel etc.)
+  return [...new Set(forms.filter(f => f.length >= 2))];
+}
+
 function smartSearch(queryLower) {
   // 1. Extract meaningful tokens
   const tokens = queryLower
@@ -303,14 +315,36 @@ function smartSearch(queryLower) {
     return { articles: [], label: '', showCategory: false };
   }
 
+  // Build expanded token list with depluralized forms
+  const expandedTokens = [];
+  for (const token of tokens) {
+    expandedTokens.push(...depluralize(token));
+  }
+
+  // Compact query (no spaces) for compound word matching
+  const queryCompact = tokens.join('');
+
   // 2. Score-based name search: rank articles by how many tokens match
   const scored = [];
   for (const article of articleData.articles) {
     const nameLower = article.name.toLowerCase();
+    const nameCompact = nameLower.replace(/[\s/,()-]+/g, '');
     let score = 0;
+
+    // Standard token matching (including depluralized forms)
     for (const token of tokens) {
-      if (nameLower.includes(token)) score++;
+      const forms = depluralize(token);
+      const matched = forms.some(form => nameLower.includes(form));
+      if (matched) score++;
     }
+
+    // Compound word match: "bodylotion" matches "body lotion", "bodylotion"
+    if (score < tokens.length && queryCompact.length >= 4) {
+      if (nameCompact.includes(queryCompact)) {
+        score = tokens.length; // Full match via compound
+      }
+    }
+
     if (score > 0) {
       scored.push({ article, score });
     }
@@ -348,7 +382,11 @@ function smartSearch(queryLower) {
   // 3. Subcategory name match (for single generic terms like "Sets", "Deos")
   const subcategories = [...new Set(articleData.articles.map(a => a.subcategory).filter(Boolean))];
   for (const subCat of subcategories) {
-    if (queryClean.includes(subCat.toLowerCase()) || subCat.toLowerCase().includes(queryClean)) {
+    const subLower = subCat.toLowerCase();
+    // Check both directions + depluralized forms
+    const matchesSub = queryClean.includes(subLower) || subLower.includes(queryClean)
+      || expandedTokens.some(t => subLower.includes(t) || t.includes(subLower));
+    if (matchesSub) {
       const subResults = articleData.articles.filter(a => a.subcategory === subCat);
       return {
         articles: subResults,
@@ -358,7 +396,7 @@ function smartSearch(queryLower) {
     }
   }
 
-  // 4. Category keyword matches (for broad queries: "Haarpflege", "Körper", "Home")
+  // 4. Category keyword matches (only as fallback when name search found nothing)
   let bestCategoryMatch = null;
   let bestCategoryScore = 0;
 
@@ -372,7 +410,10 @@ function smartSearch(queryLower) {
       }
     }
     for (const keyword of keywords) {
-      if (queryClean.includes(keyword) || queryLower.includes(keyword)) {
+      // Match with depluralized forms too
+      const matches = queryClean.includes(keyword) || queryLower.includes(keyword)
+        || expandedTokens.some(t => t === keyword || keyword === t);
+      if (matches) {
         const score = keyword.length;
         if (score > bestCategoryScore) {
           bestCategoryScore = score;
