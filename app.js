@@ -299,28 +299,66 @@ function smartSearch(queryLower) {
 
   const queryClean = tokens.join(' ');
 
-  // 2. Check category keyword matches
+  if (tokens.length === 0) {
+    return { articles: [], label: '', showCategory: false };
+  }
+
+  // 2. FIRST: Search by article name (precise, AND logic)
+  //    "Body Lotion" → only articles with both words in the name
+  const nameResults = articleData.articles.filter(article => {
+    const nameLower = article.name.toLowerCase();
+    return tokens.every(token => nameLower.includes(token));
+  });
+
+  if (nameResults.length > 0) {
+    // Build a nice label from the matched tokens
+    const label = tokens.map(t => t.charAt(0).toUpperCase() + t.slice(1)).join(' ');
+    return {
+      articles: nameResults,
+      label: label,
+      showCategory: new Set(nameResults.map(a => a.category)).size > 1
+    };
+  }
+
+  // 3. SECOND: Search by subcategory name (exact match)
+  //    "Shampoo" → all articles in subcategory "Shampoo"
+  //    "Deos" → all articles in subcategory "Deos"
+  for (const article of articleData.articles) {
+    if (article.subcategory && queryClean.includes(article.subcategory.toLowerCase())) {
+      const subCat = article.subcategory;
+      const subResults = articleData.articles.filter(a => a.subcategory === subCat);
+      return {
+        articles: subResults,
+        label: subCat,
+        showCategory: false
+      };
+    }
+  }
+
+  // 4. THIRD: Check category keyword matches
+  //    Only for broad queries like "Haarpflege", "Körper", "Home"
   let bestCategoryMatch = null;
   let bestCategoryScore = 0;
 
   for (const [category, keywords] of Object.entries(articleData.categoryKeywords)) {
+    // Check category name directly (highest priority)
+    const catLower = category.toLowerCase();
+    if (queryClean.includes(catLower) || queryLower.includes(catLower)) {
+      const score = category.length + 10;
+      if (score > bestCategoryScore) {
+        bestCategoryScore = score;
+        bestCategoryMatch = category;
+      }
+    }
+
+    // Check keywords
     for (const keyword of keywords) {
-      // Check if the keyword appears in the clean query
       if (queryClean.includes(keyword) || queryLower.includes(keyword)) {
-        const score = keyword.length; // Longer match = better
+        const score = keyword.length;
         if (score > bestCategoryScore) {
           bestCategoryScore = score;
           bestCategoryMatch = category;
         }
-      }
-    }
-
-    // Also check category name directly
-    if (queryClean.includes(category.toLowerCase()) || queryLower.includes(category.toLowerCase())) {
-      const score = category.length + 10; // Bonus for exact category match
-      if (score > bestCategoryScore) {
-        bestCategoryScore = score;
-        bestCategoryMatch = category;
       }
     }
   }
@@ -340,49 +378,21 @@ function smartSearch(queryLower) {
       articles = articleData.articles.filter(a => a.category === bestCategoryMatch);
     }
 
-    // Also find articles from other categories that match keywords in their name
-    const additionalKeywords = Object.entries(articleData.categoryKeywords)
-      .find(([cat]) => cat === bestCategoryMatch)?.[1] || [];
-
-    const articleSkus = new Set(articles.map(a => a.sku));
-    const crossCategoryMatches = articleData.articles.filter(a =>
-      !articleSkus.has(a.sku) &&
-      additionalKeywords.some(kw => a.name.toLowerCase().includes(kw))
-    );
-
-    const allResults = [...articles, ...crossCategoryMatches];
-    const unique = [...new Map(allResults.map(a => [a.sku, a])).values()];
-
     return {
-      articles: unique,
+      articles: articles,
       label: label,
-      showCategory: crossCategoryMatches.length > 0
+      showCategory: false
     };
   }
 
-  // 3. Search by article name (fuzzy)
-  const nameResults = articleData.articles.filter(article => {
-    const nameLower = article.name.toLowerCase();
-    // All tokens must match (AND logic)
-    return tokens.every(token => nameLower.includes(token));
-  });
-
-  if (nameResults.length > 0) {
-    return {
-      articles: nameResults,
-      label: `Suchergebnisse für „${tokens.join(' ')}"`,
-      showCategory: true
-    };
-  }
-
-  // 4. Relaxed search: any token matches (OR logic)
+  // 5. Relaxed search: any token matches in name or SKU (OR logic)
   const relaxedResults = articleData.articles.filter(article => {
     const nameLower = article.name.toLowerCase();
     const skuLower = article.sku.toLowerCase();
     return tokens.some(token => nameLower.includes(token) || skuLower.includes(token));
   });
 
-  if (relaxedResults.length > 0) {
+  if (relaxedResults.length > 0 && relaxedResults.length <= 50) {
     return {
       articles: relaxedResults,
       label: `Mögliche Treffer für „${tokens.join(' ')}"`,
@@ -390,7 +400,7 @@ function smartSearch(queryLower) {
     };
   }
 
-  // 5. Fuzzy match with Levenshtein distance
+  // 6. Fuzzy match with Levenshtein distance
   const fuzzyResults = [];
   for (const article of articleData.articles) {
     const nameParts = article.name.toLowerCase().split(/[\s/,]+/);
