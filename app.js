@@ -360,18 +360,16 @@ function smartSearch(queryLower) {
   // Compact query (no spaces) for compound word matching
   const queryCompact = tokens.join('');
 
-  // 2. Score-based name search: rank articles by how many tokens match
+  // 2. Score-based name search (direkt + compound, OHNE reverse compound)
   const scored = [];
   for (const article of articleData.articles) {
     const nameLower = article.name.toLowerCase();
     const nameCompact = nameLower.replace(/[\s/,()-]+/g, '');
     let score = 0;
 
-    // Standard token matching (including depluralized forms)
     for (const token of tokens) {
       const forms = depluralize(token);
-      const matched = forms.some(form => nameLower.includes(form));
-      if (matched) score++;
+      if (forms.some(form => nameLower.includes(form))) score++;
     }
 
     // Compound word match: "bodylotion" matches "body lotion"
@@ -389,18 +387,11 @@ function smartSearch(queryLower) {
   if (scored.length > 0) {
     scored.sort((a, b) => b.score - a.score || a.article.name.localeCompare(b.article.name));
     const maxScore = scored[0].score;
-
-    // Mindest-Score: Bei mehreren Tokens mindestens 50% matchen
     const minScore = tokens.length === 1 ? 1 : Math.ceil(tokens.length / 2);
 
     if (maxScore >= minScore) {
-      // Nur Artikel mit dem besten Score anzeigen – keine Runner-Ups
       let topResults = scored.filter(s => s.score === maxScore).map(s => s.article);
-
-      // Bei >40 Treffern: trotzdem die besten zeigen (nicht zur Kategorie fallen!)
-      if (topResults.length > 40) {
-        topResults = topResults.slice(0, 40);
-      }
+      if (topResults.length > 40) topResults = topResults.slice(0, 40);
 
       const label = tokens.map(t => t.charAt(0).toUpperCase() + t.slice(1)).join(' ');
       const matchInfo = maxScore === tokens.length
@@ -417,18 +408,13 @@ function smartSearch(queryLower) {
   const subcategories = [...new Set(articleData.articles.map(a => a.subcategory).filter(Boolean))];
   for (const subCat of subcategories) {
     const subLower = subCat.toLowerCase();
-    if (queryClean === subLower || subLower === queryClean
-      || expandedTokens.some(t => t === subLower || subLower === t)) {
+    if (queryClean === subLower || expandedTokens.some(t => t === subLower)) {
       const subResults = articleData.articles.filter(a => a.subcategory === subCat);
-      return {
-        articles: subResults,
-        label: subCat,
-        showCategory: false
-      };
+      return { articles: subResults, label: subCat, showCategory: false };
     }
   }
 
-  // 4. Category keyword matches (only when name search had no useful results)
+  // 4. Category keyword matches
   let bestCategoryMatch = null;
   let bestCategoryScore = 0;
 
@@ -442,7 +428,6 @@ function smartSearch(queryLower) {
       }
     }
     for (const keyword of keywords) {
-      // Exakter Match: Token muss exakt dem Keyword entsprechen (nicht substring!)
       if (expandedTokens.some(t => t === keyword) || queryClean === keyword) {
         const score = keyword.length;
         if (score > bestCategoryScore) {
@@ -454,21 +439,55 @@ function smartSearch(queryLower) {
   }
 
   if (bestCategoryMatch) {
-    let articles;
+    let catArticles;
     let label = bestCategoryMatch;
     if (bestCategoryMatch.includes(' > ')) {
       const [mainCat, subCat] = bestCategoryMatch.split(' > ');
-      articles = articleData.articles.filter(a =>
+      catArticles = articleData.articles.filter(a =>
         a.category === mainCat && a.subcategory === subCat
       );
       label = subCat;
     } else {
-      articles = articleData.articles.filter(a => a.category === bestCategoryMatch);
+      catArticles = articleData.articles.filter(a => a.category === bestCategoryMatch);
     }
-    return { articles, label, showCategory: false };
+
+    // Kategorie-Ergebnis mit Reverse-Compound-Treffern ergänzen
+    // "lippenpflege" → Kategorie "Pflege > Lippen" (3 Artikel) + Name-Match auf "lip" (6 Lip Balms)
+    if (tokens.length === 1 && tokens[0].length >= 6) {
+      const token = tokens[0];
+      const reverseMatches = articleData.articles.filter(a => {
+        if (catArticles.includes(a)) return false; // schon drin
+        const parts = a.name.toLowerCase().split(/[\s/,()&]+/).filter(p => p.length >= 3);
+        return parts.some(part => token.startsWith(part));
+      });
+      if (reverseMatches.length > 0 && reverseMatches.length <= 20) {
+        catArticles = [...catArticles, ...reverseMatches];
+        catArticles.sort((a, b) => a.name.localeCompare(b.name));
+      }
+    }
+
+    return { articles: catArticles, label, showCategory: false };
   }
 
-  // 5. Fuzzy match with Levenshtein distance (typo tolerance)
+  // 5. Reverse compound als eigenständiger Fallback
+  // "lippenpflege" → Artikelnamen mit "lip" am Token-Anfang
+  if (tokens.length === 1 && tokens[0].length >= 6) {
+    const token = tokens[0];
+    const reverseResults = articleData.articles.filter(a => {
+      const parts = a.name.toLowerCase().split(/[\s/,()&]+/).filter(p => p.length >= 3);
+      return parts.some(part => token.startsWith(part));
+    });
+    if (reverseResults.length > 0 && reverseResults.length <= 25) {
+      const label = token.charAt(0).toUpperCase() + token.slice(1);
+      return {
+        articles: reverseResults,
+        label,
+        showCategory: new Set(reverseResults.map(a => a.category)).size > 1
+      };
+    }
+  }
+
+  // 6. Fuzzy match with Levenshtein distance (typo tolerance)
   const fuzzyScored = [];
   for (const article of articleData.articles) {
     const nameParts = article.name.toLowerCase().split(/[\s/,()]+/);
