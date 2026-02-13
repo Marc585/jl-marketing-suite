@@ -5,35 +5,68 @@
 
 let articleData = null;
 
-// German stopwords to remove from queries
+// German stopwords – comprehensive list of function words, pronouns, verbs
 const STOPWORDS = new Set([
+  // Artikel & Demonstrativpronomen
   'der', 'die', 'das', 'ein', 'eine', 'einer', 'eines', 'einem', 'einen',
-  'für', 'von', 'mit', 'und', 'oder', 'ist', 'sind', 'was', 'wie', 'wo',
-  'wer', 'alle', 'welche', 'welcher', 'welches', 'nochmal', 'bitte',
-  'gib', 'mir', 'zeig', 'zeige', 'sag', 'sage', 'nenn', 'nenne',
+  'den', 'dem', 'des', 'dieses', 'dieser', 'diese', 'diesen', 'diesem',
+  'jede', 'jeder', 'jedes', 'jeden', 'jedem', 'jene', 'jener', 'jenes', 'jenen', 'jenem',
+  'solche', 'solcher', 'solches', 'solchen', 'solchem',
+  // Personalpronomen (alle Kasus)
+  'ich', 'du', 'er', 'sie', 'es', 'wir', 'ihr', 'man',
+  'mich', 'dich', 'sich', 'uns', 'euch', 'ihn', 'ihm',
+  // Possessivpronomen (alle Deklinationen)
+  'mein', 'meine', 'meiner', 'meinem', 'meinen', 'meines',
+  'dein', 'deine', 'deiner', 'deinem', 'deinen', 'deines',
+  'sein', 'seine', 'seiner', 'seinem', 'seinen', 'seines',
+  'unser', 'unsere', 'unserer', 'unserem', 'unseren', 'unseres',
+  'euer', 'eure', 'eurer', 'eurem', 'euren', 'eures',
+  'ihr', 'ihre', 'ihrer', 'ihrem', 'ihren', 'ihres',
+  // Relativ- & Fragepronomen
+  'welche', 'welcher', 'welches', 'welchen', 'welchem',
+  'wer', 'was', 'wie', 'wo', 'wann', 'warum', 'woher', 'wohin', 'wozu',
+  'wofür', 'womit', 'worüber', 'wonach', 'wovon', 'deren', 'dessen',
+  // Präpositionen
+  'für', 'von', 'mit', 'zu', 'im', 'in', 'am', 'an', 'auf', 'aus',
+  'bei', 'nach', 'vor', 'über', 'unter', 'zwischen', 'durch', 'um',
+  'ohne', 'gegen', 'bis', 'seit', 'während', 'wegen', 'trotz', 'statt',
+  'anstatt', 'außer', 'samt', 'nebst', 'gemäß', 'laut', 'entlang',
+  // Konjunktionen
+  'und', 'oder', 'aber', 'doch', 'denn', 'wenn', 'als', 'ob', 'dass',
+  'weil', 'da', 'obwohl', 'damit', 'sodass', 'sowohl', 'weder', 'noch',
+  'sondern', 'jedoch', 'bevor', 'nachdem', 'sobald', 'solange', 'falls',
+  // Hilfsverben & Modalverben (alle gängigen Formen)
+  'ist', 'sind', 'bin', 'bist', 'war', 'wars', 'waren', 'warst', 'wäre', 'wären',
+  'sei', 'seien', 'gewesen',
+  'haben', 'hat', 'hast', 'hatte', 'hatten', 'hätte', 'hätten', 'habe', 'hab',
+  'wird', 'werden', 'wurde', 'würde', 'würden', 'worden',
+  'kann', 'kannst', 'können', 'könnte', 'könnten', 'kannste', 'könntest',
+  'muss', 'müssen', 'musst', 'müsste', 'müssten',
+  'soll', 'sollen', 'sollst', 'sollte', 'sollten',
+  'will', 'wollen', 'willst', 'wollte', 'wollten',
+  'darf', 'dürfen', 'darfst', 'dürfte', 'dürften',
+  'möchte', 'möchten', 'möchtest', 'mag', 'mögen',
+  // Negation
+  'nicht', 'kein', 'keine', 'keiner', 'keines', 'keinem', 'keinen', 'nichts',
+  // Adverbien & Partikel
+  'so', 'also', 'noch', 'auch', 'schon', 'mal', 'nur', 'dann', 'gleich',
+  'ganz', 'gar', 'sehr', 'ziemlich', 'recht', 'eher', 'fast', 'wohl',
+  'gerade', 'eigentlich', 'genau', 'eben', 'hier', 'dort', 'gern', 'gerne',
+  'bereits', 'immer', 'nie', 'niemals', 'nochmal',
+  'jetzt', 'heute', 'nun', 'derzeit', 'aktuell', 'momentan', 'zurzeit',
+  'bisher', 'davor', 'danach', 'dabei', 'daran', 'darin', 'daraus',
+  'dazu', 'davon', 'darüber', 'darunter', 'dafür', 'dagegen',
+  'viel', 'viele', 'vielen', 'mehr', 'etwas', 'alles', 'alle',
+  // Auffordernde / fragende Verben & Chat-typische Wörter
+  'bitte', 'gib', 'mir', 'zeig', 'zeige', 'sag', 'sage', 'nenn', 'nenne',
+  'suche', 'such', 'finde', 'find', 'mache', 'brauche', 'brauch', 'bräuchte',
+  'brauchen', 'benötige', 'benötigen', 'weiß', 'wissen', 'sagen', 'heissen',
+  'heißen', 'heißt',
+  // Artikelsuche-spezifische Wörter
   'liste', 'artikelnummern', 'artikelnummer', 'artikel', 'nummer', 'nummern',
-  'heißen', 'heißt', 'haben', 'hat', 'den', 'dem', 'des', 'zu', 'im',
-  'in', 'am', 'an', 'auf', 'aus', 'bei', 'nach', 'vor', 'über', 'unter',
-  'zwischen', 'durch', 'um', 'ich', 'du', 'er', 'sie', 'es', 'wir', 'ihr',
-  'mich', 'dich', 'sich', 'uns', 'euch', 'mein', 'dein', 'sein', 'unser',
-  'meiner', 'meinem', 'meinen', 'meines', 'deiner', 'deinem', 'deinen', 'deines',
-  'seiner', 'seinem', 'seinen', 'seines', 'unserer', 'unserem', 'unseren', 'unseres',
-  'ihrer', 'ihrem', 'ihren', 'ihres', 'eurer', 'eurem', 'euren', 'eures',
-  'nicht', 'kein', 'keine', 'keiner', 'noch', 'auch', 'aber', 'doch',
-  'schon', 'mal', 'nur', 'dann', 'wenn', 'als', 'ob', 'dass', 'weil',
-  'da', 'so', 'also', 'denn', 'kann', 'kannst', 'können', 'könnte',
-  'möchte', 'möchten', 'will', 'wollen', 'soll', 'sollen', 'muss',
-  'müssen', 'darf', 'dürfen', 'wird', 'werden', 'wurde', 'habe', 'hab',
-  'brauche', 'brauch', 'bräuchte', 'deine', 'unsere', 'eure', 'welchen',
-  'dieses', 'dieser', 'diese', 'jede', 'jeder', 'jedes', 'man', 'hier',
-  'dort', 'alles', 'etwas', 'mehr', 'viel', 'viele', 'gibt', 'gibt\'s',
-  'denn', 'wohl', 'gerade', 'eigentlich', 'genau', 'eben', 'gleich',
-  'ganz', 'gar', 'sehr', 'ziemlich', 'recht', 'eher', 'fast', 'gern',
-  'gerne', 'schon', 'bereits', 'noch', 'immer', 'nie', 'niemals',
   'bereich', 'produkte', 'produkten', 'produkt', 'sachen', 'sache',
-  'dazu', 'davon', 'darüber', 'darunter', 'infos', 'info', 'mache',
-  'suche', 'such', 'finde', 'find', 'brauchen', 'benötige', 'benötigen',
-  'hab', 'weiß', 'wissen', 'sagen', 'heissen', 'kannste', 'könntest'
+  'infos', 'info', 'ergebnis', 'ergebnisse', 'übersicht',
+  'gibt', 'gibt\'s', 'gibs', 'gibts',
 ]);
 
 // Greeting patterns
@@ -341,10 +374,10 @@ function smartSearch(queryLower) {
       if (matched) score++;
     }
 
-    // Compound word match: "bodylotion" matches "body lotion", "bodylotion"
+    // Compound word match: "bodylotion" matches "body lotion"
     if (score < tokens.length && queryCompact.length >= 4) {
       if (nameCompact.includes(queryCompact)) {
-        score = tokens.length; // Full match via compound
+        score = tokens.length;
       }
     }
 
@@ -354,23 +387,21 @@ function smartSearch(queryLower) {
   }
 
   if (scored.length > 0) {
-    // Sort by score descending, then by name
     scored.sort((a, b) => b.score - a.score || a.article.name.localeCompare(b.article.name));
     const maxScore = scored[0].score;
 
-    // Only show articles with the best score
-    let topResults = scored.filter(s => s.score === maxScore).map(s => s.article);
+    // Mindest-Score: Bei mehreren Tokens mindestens 50% matchen
+    const minScore = tokens.length === 1 ? 1 : Math.ceil(tokens.length / 2);
 
-    // If too few results (< 3) and there are runner-ups, include score - 1
-    if (topResults.length < 3 && maxScore > 1) {
-      const runnerUps = scored.filter(s => s.score === maxScore - 1).map(s => s.article);
-      if (runnerUps.length <= 10) {
-        topResults = [...topResults, ...runnerUps];
+    if (maxScore >= minScore) {
+      // Nur Artikel mit dem besten Score anzeigen – keine Runner-Ups
+      let topResults = scored.filter(s => s.score === maxScore).map(s => s.article);
+
+      // Bei >40 Treffern: trotzdem die besten zeigen (nicht zur Kategorie fallen!)
+      if (topResults.length > 40) {
+        topResults = topResults.slice(0, 40);
       }
-    }
 
-    // Cap results
-    if (topResults.length <= 40) {
       const label = tokens.map(t => t.charAt(0).toUpperCase() + t.slice(1)).join(' ');
       const matchInfo = maxScore === tokens.length
         ? '' : ` (beste Treffer: ${maxScore}/${tokens.length} Begriffe)`;
@@ -382,14 +413,12 @@ function smartSearch(queryLower) {
     }
   }
 
-  // 3. Subcategory name match (for single generic terms like "Sets", "Deos")
+  // 3. Subcategory name match (for generic terms like "Sets", "Deos")
   const subcategories = [...new Set(articleData.articles.map(a => a.subcategory).filter(Boolean))];
   for (const subCat of subcategories) {
     const subLower = subCat.toLowerCase();
-    // Check both directions + depluralized forms
-    const matchesSub = queryClean.includes(subLower) || subLower.includes(queryClean)
-      || expandedTokens.some(t => subLower.includes(t) || t.includes(subLower));
-    if (matchesSub) {
+    if (queryClean === subLower || subLower === queryClean
+      || expandedTokens.some(t => t === subLower || subLower === t)) {
       const subResults = articleData.articles.filter(a => a.subcategory === subCat);
       return {
         articles: subResults,
@@ -399,13 +428,13 @@ function smartSearch(queryLower) {
     }
   }
 
-  // 4. Category keyword matches (only as fallback when name search found nothing)
+  // 4. Category keyword matches (only when name search had no useful results)
   let bestCategoryMatch = null;
   let bestCategoryScore = 0;
 
   for (const [category, keywords] of Object.entries(articleData.categoryKeywords)) {
     const catLower = category.toLowerCase();
-    if (queryClean.includes(catLower) || queryLower.includes(catLower)) {
+    if (queryClean === catLower || expandedTokens.some(t => t === catLower)) {
       const score = category.length + 10;
       if (score > bestCategoryScore) {
         bestCategoryScore = score;
@@ -413,10 +442,8 @@ function smartSearch(queryLower) {
       }
     }
     for (const keyword of keywords) {
-      // Match with depluralized forms too
-      const matches = queryClean.includes(keyword) || queryLower.includes(keyword)
-        || expandedTokens.some(t => t === keyword || keyword === t);
-      if (matches) {
+      // Exakter Match: Token muss exakt dem Keyword entsprechen (nicht substring!)
+      if (expandedTokens.some(t => t === keyword) || queryClean === keyword) {
         const score = keyword.length;
         if (score > bestCategoryScore) {
           bestCategoryScore = score;
