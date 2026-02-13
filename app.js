@@ -391,16 +391,25 @@ function smartSearch(queryLower) {
 
     if (maxScore >= minScore) {
       let topResults = scored.filter(s => s.score === maxScore).map(s => s.article);
-      if (topResults.length > 40) topResults = topResults.slice(0, 40);
 
-      const label = tokens.map(t => t.charAt(0).toUpperCase() + t.slice(1)).join(' ');
-      const matchInfo = maxScore === tokens.length
-        ? '' : ` (beste Treffer: ${maxScore}/${tokens.length} Begriffe)`;
-      return {
-        articles: topResults,
-        label: label + matchInfo,
-        showCategory: new Set(topResults.map(a => a.category)).size > 1
-      };
+      // Bei Einwort-Suche mit wenigen Treffern: Kategorie-Match könnte besser sein
+      // "Handseife" → 2 Name-Treffer, aber Kategorie "Handseifen" hat 12
+      // Nur weitersuchen lassen, nicht sofort zurückgeben
+      if (tokens.length === 1 && topResults.length <= 5) {
+        // Merken für später, aber erst Kategorie-Keywords prüfen
+        // Falls Kategorie mehr Treffer hat, wird diese bevorzugt
+      } else {
+        if (topResults.length > 40) topResults = topResults.slice(0, 40);
+
+        const label = tokens.map(t => t.charAt(0).toUpperCase() + t.slice(1)).join(' ');
+        const matchInfo = maxScore === tokens.length
+          ? '' : ` (beste Treffer: ${maxScore}/${tokens.length} Begriffe)`;
+        return {
+          articles: topResults,
+          label: label + matchInfo,
+          showCategory: new Set(topResults.map(a => a.category)).size > 1
+        };
+      }
     }
   }
 
@@ -515,6 +524,18 @@ function smartSearch(queryLower) {
         label: `Ähnliche Treffer für „${tokens.join(' ')}"`,
         showCategory: true
       };
+    }
+  }
+
+  // 7. Fallback: Name-Treffer zurückgeben, falls in Stufe 2 geparkt (≤5 Treffer)
+  if (scored.length > 0) {
+    const maxScore = scored[0].score;
+    const minScore = tokens.length === 1 ? 1 : Math.ceil(tokens.length / 2);
+    if (maxScore >= minScore) {
+      let topResults = scored.filter(s => s.score === maxScore).map(s => s.article);
+      if (topResults.length > 40) topResults = topResults.slice(0, 40);
+      const label = tokens.map(t => t.charAt(0).toUpperCase() + t.slice(1)).join(' ');
+      return { articles: topResults, label, showCategory: new Set(topResults.map(a => a.category)).size > 1 };
     }
   }
 
