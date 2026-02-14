@@ -1,51 +1,47 @@
 /* ============================================
-   Jean&Len Marketing Suite – Styles
-   Design: J&L Branding + Rosa/Pink Akzente
+   Jean&Len Marketing Suite – Styles v2
+   Redesign: Hoher Kontrast, klare Lesbarkeit
    ============================================ */
 
 :root {
   /* Brand Colors */
-  --bg: #FBF8F4;
-  --sidebar-bg: #2D2926;
-  --sidebar-hover: #3D3936;
-  --sidebar-text: #E8DDD0;
+  --bg: #F7F8FA;
+  --sidebar-bg: #1A1B2E;
+  --sidebar-hover: #2A2B3E;
+  --sidebar-text: #C8CDD5;
 
-  /* Pink Theme */
-  --pink: #E8A0BF;
-  --pink-light: #FDF2F7;
-  --pink-medium: #F0C4D8;
-  --pink-dark: #D4789C;
-  --pink-glow: rgba(232, 160, 191, 0.15);
+  /* Pink Theme – kräftiger für Lesbarkeit */
+  --pink: #D4608A;
+  --pink-light: #FDF0F5;
+  --pink-medium: #E899B5;
+  --pink-dark: #B8406E;
+  --pink-glow: rgba(212, 96, 138, 0.12);
 
-  /* Neutrals */
-  --cream: #F5EFE7;
-  --cream-dark: #E8DDD0;
-  --beige: #D4C5B2;
-  --text: #2D2926;
-  --text-secondary: #7A7068;
-  --text-light: #A89E94;
+  /* Neutrals – deutlich höherer Kontrast */
+  --text: #111827;
+  --text-secondary: #374151;
+  --text-muted: #6B7280;
   --white: #FFFFFF;
-  --border: #E8E0D8;
+  --border: #E5E7EB;
+  --border-light: #F3F4F6;
 
   /* Functional */
-  --success: #7DB89E;
-  --success-light: #EEF6F1;
-  --info: #7BA4D4;
-  --info-light: #EEF3FA;
+  --success: #059669;
+  --success-light: #ECFDF5;
+  --info: #2563EB;
+  --info-light: #EFF6FF;
 
   /* Sizing */
-  --sidebar-width: 280px;
-  --header-height: 72px;
-  --input-height: 56px;
+  --sidebar-width: 260px;
   --radius: 12px;
   --radius-sm: 8px;
   --radius-lg: 16px;
 
   /* Shadows */
-  --shadow-sm: 0 1px 3px rgba(45, 41, 38, 0.06);
-  --shadow-md: 0 4px 12px rgba(45, 41, 38, 0.08);
-  --shadow-lg: 0 8px 30px rgba(45, 41, 38, 0.12);
-  --shadow-pink: 0 4px 15px rgba(232, 160, 191, 0.25);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
+  --shadow-pink: 0 4px 14px rgba(212, 96, 138, 0.2);
 }
 
 /* ============================================
@@ -68,8 +64,9 @@ body {
   background: var(--bg);
   color: var(--text);
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* ============================================
@@ -97,8 +94,8 @@ body {
 }
 
 .sidebar-header {
-  padding: 28px 24px 24px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 24px 20px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .brand {
@@ -108,48 +105,48 @@ body {
 }
 
 .brand-name {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   color: var(--white);
   letter-spacing: -0.3px;
 }
 
 .brand-sub {
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 11px;
+  font-weight: 600;
   color: var(--pink);
   text-transform: uppercase;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
 }
 
 /* Navigation */
 .sidebar-nav {
   flex: 1;
-  padding: 16px 12px;
+  padding: 16px 10px;
   overflow-y: auto;
 }
 
 .nav-section-label {
-  font-size: 11px;
-  font-weight: 600;
-  color: var(--text-light);
+  font-size: 10px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.35);
   text-transform: uppercase;
-  letter-spacing: 1.2px;
-  padding: 8px 12px 12px;
+  letter-spacing: 1.5px;
+  padding: 8px 12px 10px;
 }
 
 .nav-item {
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 10px 12px;
+  gap: 10px;
+  padding: 9px 12px;
   border-radius: var(--radius-sm);
   color: var(--sidebar-text);
   text-decoration: none;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 400;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.15s ease;
   margin-bottom: 2px;
   position: relative;
   user-select: none;
@@ -162,46 +159,46 @@ body {
 
 .nav-item.active {
   background: var(--pink);
-  color: var(--sidebar-bg);
+  color: var(--white);
   font-weight: 500;
 }
 
 .nav-item.active .nav-icon {
-  stroke: var(--sidebar-bg);
+  stroke: var(--white);
 }
 
 .nav-item.disabled {
-  opacity: 0.4;
+  opacity: 0.35;
   cursor: default;
 }
 
 .nav-icon {
-  width: 18px;
-  height: 18px;
+  width: 17px;
+  height: 17px;
   flex-shrink: 0;
   stroke: var(--sidebar-text);
 }
 
 .nav-item.active .nav-icon {
-  stroke: var(--sidebar-bg);
+  stroke: var(--white);
 }
 
 .badge {
   margin-left: auto;
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 600;
-  padding: 2px 8px;
+  padding: 2px 7px;
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.1);
-  color: var(--text-light);
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.4);
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
 /* Sidebar Footer */
 .sidebar-footer {
-  padding: 16px 20px 20px;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 14px 20px 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .data-status {
@@ -212,8 +209,8 @@ body {
 }
 
 .status-icon {
-  width: 16px;
-  height: 16px;
+  width: 15px;
+  height: 15px;
   stroke: var(--success);
   flex-shrink: 0;
 }
@@ -224,8 +221,8 @@ body {
 }
 
 .status-label {
-  font-size: 11px;
-  color: var(--text-light);
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.4);
 }
 
 .status-date {
@@ -236,15 +233,33 @@ body {
 
 .footer-meta {
   font-size: 11px;
-  color: var(--text-light);
+  color: rgba(255, 255, 255, 0.4);
   display: flex;
   align-items: center;
   gap: 6px;
-  padding-left: 26px;
+  padding-left: 25px;
 }
 
 .dot {
   opacity: 0.5;
+}
+
+.sidebar-impressum {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.3);
+  line-height: 1.5;
+}
+
+.sidebar-impressum a {
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+}
+
+.sidebar-impressum a:hover {
+  color: var(--pink);
 }
 
 /* ============================================
@@ -310,14 +325,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 32px;
+  padding: 18px 32px;
   background: var(--white);
   border-bottom: 1px solid var(--border);
   flex-shrink: 0;
 }
 
 .header-text h1 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   color: var(--text);
   letter-spacing: -0.3px;
@@ -326,32 +341,34 @@ body {
 .header-text p {
   font-size: 13px;
   color: var(--text-secondary);
-  margin-top: 2px;
+  margin-top: 1px;
 }
 
 .header-stats {
   display: flex;
-  gap: 24px;
+  gap: 16px;
 }
 
 .stat {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 8px 16px;
+  padding: 6px 16px;
   background: var(--pink-light);
   border-radius: var(--radius-sm);
+  border: 1px solid rgba(212, 96, 138, 0.1);
 }
 
 .stat-value {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   color: var(--pink-dark);
 }
 
 .stat-label {
-  font-size: 11px;
-  color: var(--text-secondary);
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
@@ -377,7 +394,7 @@ body {
 }
 
 .chat-messages::-webkit-scrollbar {
-  width: 6px;
+  width: 5px;
 }
 
 .chat-messages::-webkit-scrollbar-track {
@@ -385,8 +402,12 @@ body {
 }
 
 .chat-messages::-webkit-scrollbar-thumb {
-  background: var(--cream-dark);
+  background: var(--border);
   border-radius: 3px;
+}
+
+.chat-messages::-webkit-scrollbar-thumb:hover {
+  background: #D1D5DB;
 }
 
 /* Message Styles */
@@ -395,13 +416,13 @@ body {
   gap: 12px;
   margin-bottom: 20px;
   max-width: 85%;
-  animation: messageIn 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: messageIn 0.25s ease-out;
 }
 
 @keyframes messageIn {
   from {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(8px);
   }
   to {
     opacity: 1;
@@ -419,8 +440,8 @@ body {
 }
 
 .avatar {
-  width: 36px;
-  height: 36px;
+  width: 34px;
+  height: 34px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -430,19 +451,19 @@ body {
 
 .message.bot .avatar {
   background: var(--pink-light);
-  color: var(--pink-dark);
+  border: 1px solid rgba(212, 96, 138, 0.15);
 }
 
 .message.bot .avatar svg {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   stroke: var(--pink-dark);
 }
 
 .message.user .avatar {
-  background: var(--cream);
-  color: var(--text-secondary);
-  font-size: 14px;
+  background: var(--sidebar-bg);
+  color: var(--white);
+  font-size: 13px;
   font-weight: 600;
 }
 
@@ -450,7 +471,7 @@ body {
   padding: 14px 18px;
   border-radius: var(--radius-lg);
   font-size: 14px;
-  line-height: 1.6;
+  line-height: 1.65;
   position: relative;
 }
 
@@ -458,18 +479,20 @@ body {
   background: var(--white);
   border: 1px solid var(--border);
   border-top-left-radius: 4px;
+  color: var(--text);
   box-shadow: var(--shadow-sm);
 }
 
 .message.user .bubble {
-  background: linear-gradient(135deg, var(--pink) 0%, var(--pink-dark) 100%);
+  background: var(--sidebar-bg);
   color: var(--white);
   border-top-right-radius: 4px;
-  box-shadow: var(--shadow-pink);
+  box-shadow: var(--shadow-md);
 }
 
 .bubble-content strong {
   font-weight: 600;
+  color: var(--text);
 }
 
 .example-list {
@@ -479,15 +502,15 @@ body {
 }
 
 .example-list li {
-  padding: 4px 0;
+  padding: 3px 0;
   color: var(--text-secondary);
   font-size: 13px;
 }
 
 .example-list li::before {
-  content: "→ ";
+  content: "\2192  ";
   color: var(--pink);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* ============================================
@@ -500,25 +523,25 @@ body {
   gap: 8px;
   margin-bottom: 12px;
   padding-bottom: 10px;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 2px solid var(--border-light);
 }
 
 .result-header .result-icon {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   stroke: var(--pink-dark);
 }
 
 .result-header h3 {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text);
 }
 
 .result-header .result-count {
   margin-left: auto;
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 11px;
+  font-weight: 700;
   color: var(--pink-dark);
   background: var(--pink-light);
   padding: 2px 10px;
@@ -533,19 +556,20 @@ body {
 
 .article-table th {
   text-align: left;
-  font-size: 11px;
-  font-weight: 600;
-  color: var(--text-light);
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text-muted);
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.8px;
   padding: 6px 0;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 2px solid var(--border);
 }
 
 .article-table td {
   padding: 8px 0;
-  border-bottom: 1px solid rgba(232, 224, 216, 0.5);
+  border-bottom: 1px solid var(--border-light);
   vertical-align: top;
+  color: var(--text);
 }
 
 .article-table tr:last-child td {
@@ -556,7 +580,7 @@ body {
   font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
   font-size: 12px;
   color: var(--pink-dark);
-  font-weight: 500;
+  font-weight: 600;
   white-space: nowrap;
   padding-right: 16px;
   width: 130px;
@@ -564,11 +588,12 @@ body {
 
 .article-table .article-name {
   color: var(--text);
+  font-weight: 400;
 }
 
 .article-table .article-category {
   font-size: 11px;
-  color: var(--text-light);
+  color: var(--text-muted);
   white-space: nowrap;
   padding-left: 12px;
   text-align: right;
@@ -579,22 +604,23 @@ body {
   align-items: center;
   gap: 6px;
   margin-top: 12px;
-  padding: 6px 14px;
-  background: var(--pink-light);
+  padding: 7px 16px;
+  background: var(--white);
   color: var(--pink-dark);
-  border: 1px solid var(--pink-medium);
+  border: 1px solid var(--border);
   border-radius: 20px;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.15s ease;
   font-family: inherit;
 }
 
 .copy-btn:hover {
-  background: var(--pink);
+  background: var(--pink-dark);
   color: var(--white);
-  border-color: var(--pink);
+  border-color: var(--pink-dark);
+  box-shadow: var(--shadow-pink);
 }
 
 .copy-btn.copied {
@@ -621,16 +647,16 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 10px 14px;
-  background: var(--pink-light);
+  background: var(--bg);
   border-radius: var(--radius-sm);
   cursor: pointer;
-  transition: all 0.2s ease;
-  border: 1px solid transparent;
+  transition: all 0.15s ease;
+  border: 1px solid var(--border);
 }
 
 .category-card:hover {
   border-color: var(--pink);
-  background: var(--white);
+  background: var(--pink-light);
   box-shadow: var(--shadow-sm);
 }
 
@@ -642,8 +668,11 @@ body {
 
 .category-card .cat-count {
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--pink-dark);
+  background: var(--pink-light);
+  padding: 1px 8px;
+  border-radius: 8px;
 }
 
 /* No results */
@@ -660,6 +689,7 @@ body {
 
 .no-results p {
   font-size: 13px;
+  color: var(--text-secondary);
 }
 
 .suggestions {
@@ -672,13 +702,14 @@ body {
 
 .suggestions button {
   font-size: 12px;
-  padding: 4px 12px;
-  background: var(--cream);
+  padding: 5px 14px;
+  background: var(--white);
   border: 1px solid var(--border);
   border-radius: 14px;
   color: var(--text-secondary);
   cursor: pointer;
   font-family: inherit;
+  font-weight: 500;
   transition: all 0.15s ease;
 }
 
@@ -704,7 +735,7 @@ body {
   background: var(--pink);
   border-radius: 50%;
   animation: typingBounce 1.4s ease-in-out infinite;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .typing-indicator .dot:nth-child(2) {
@@ -738,23 +769,23 @@ body {
 }
 
 .chip {
-  padding: 6px 16px;
-  background: var(--pink-light);
-  border: 1px solid var(--pink-medium);
+  padding: 7px 16px;
+  background: var(--white);
+  border: 1px solid var(--border);
   border-radius: 20px;
   font-size: 13px;
   font-weight: 500;
-  color: var(--pink-dark);
+  color: var(--text-secondary);
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.15s ease;
   font-family: inherit;
   white-space: nowrap;
 }
 
 .chip:hover {
-  background: var(--pink);
+  background: var(--pink-dark);
   color: var(--white);
-  border-color: var(--pink);
+  border-color: var(--pink-dark);
   box-shadow: var(--shadow-pink);
   transform: translateY(-1px);
 }
@@ -764,7 +795,7 @@ body {
    ============================================ */
 
 .chat-input-container {
-  padding: 16px 32px 20px;
+  padding: 16px 32px 18px;
   background: var(--white);
   border-top: 1px solid var(--border);
   flex-shrink: 0;
@@ -782,7 +813,8 @@ body {
 
 .input-wrapper:focus-within {
   border-color: var(--pink);
-  box-shadow: 0 0 0 4px var(--pink-glow);
+  box-shadow: 0 0 0 3px var(--pink-glow);
+  background: var(--white);
 }
 
 #chatInput {
@@ -797,25 +829,26 @@ body {
 }
 
 #chatInput::placeholder {
-  color: var(--text-light);
+  color: var(--text-muted);
 }
 
 .send-btn {
-  width: 44px;
-  height: 44px;
+  width: 42px;
+  height: 42px;
   border: none;
-  background: linear-gradient(135deg, var(--pink) 0%, var(--pink-dark) 100%);
+  background: var(--pink-dark);
   color: var(--white);
   border-radius: 50%;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.2s ease;
+  transition: all 0.15s ease;
   flex-shrink: 0;
 }
 
 .send-btn:hover {
+  background: var(--pink);
   transform: scale(1.05);
   box-shadow: var(--shadow-pink);
 }
@@ -825,15 +858,15 @@ body {
 }
 
 .send-btn svg {
-  width: 18px;
-  height: 18px;
+  width: 17px;
+  height: 17px;
 }
 
 .input-hint {
   display: block;
   text-align: center;
   font-size: 11px;
-  color: var(--text-light);
+  color: var(--text-muted);
   margin-top: 8px;
 }
 
@@ -841,7 +874,7 @@ body {
   text-align: center;
   font-size: 11px;
   color: var(--pink);
-  margin-top: 6px;
+  margin-top: 4px;
   font-weight: 500;
   letter-spacing: 0.3px;
 }
@@ -878,7 +911,7 @@ body {
   }
 
   .main-header {
-    padding: 16px 20px;
+    padding: 14px 20px;
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
@@ -915,7 +948,7 @@ body {
 
 @media (max-width: 480px) {
   .header-text h1 {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .chip {
