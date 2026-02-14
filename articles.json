@@ -1,8 +1,8 @@
 {
   "meta": {
-    "lastUpdated": "2026-02-13",
+    "lastUpdated": "2026-02-14",
     "totalArticles": 334,
-    "source": "Shopware Feed (Kategorien) + Excel (offizielle Bezeichnungen)",
+    "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
   "categoryKeywords": {
