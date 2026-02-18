@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-02-17",
+    "lastUpdated": "2026-02-18",
     "totalArticles": 335,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -671,17 +671,6 @@
       "gtin": "4262401735639"
     },
     {
-      "sku": "2800100222",
-      "name": "Hitzeschutz 2-Phasen Leave-In Pflegespray, 100 ml",
-      "category": "Haare",
-      "subcategory": "Extrapflege",
-      "availability": "in stock",
-      "price": "3.99 EUR",
-      "salePrice": "2.49 EUR",
-      "url": "https://www.jeanlen.de/hitzeschutz-2-phasen-leave-in-pflegespray",
-      "gtin": "4262401732522"
-    },
-    {
       "sku": "2800100221",
       "name": "Hitzeschutz-Spray Mango, 100 ml",
       "category": "Haare",
@@ -834,6 +823,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/trockenshampoo-volumen",
       "gtin": "4262401739569"
+    },
+    {
+      "sku": "2900100237",
+      "name": "Zuverlässiger Hitzeschutz für Deine Haare",
+      "category": "Haare",
+      "subcategory": "Extrapflege",
+      "availability": "in stock",
+      "price": "3.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/hitzeschutz-protect-and-care",
+      "gtin": "4262500780882"
     },
     {
       "sku": "2900100212",
@@ -2494,7 +2494,7 @@
       "price": "2.99 EUR",
       "salePrice": null,
       "url": "https://www.jeanlen.de/repair-handcreme-ceramide-sheabutter",
-      "gtin": "4262401739125"
+      "gtin": "4262500783753"
     },
     {
       "sku": "2800101064",
@@ -2937,15 +2937,15 @@
       "gtin": "4262401739835"
     },
     {
-      "sku": "2800100341",
-      "name": "Duschgel Cranberry/Vanille, 250 ml",
+      "sku": "2925000132",
+      "name": "Duschgel Cranberry/Vanille - Vanille Duschgel",
       "category": "Pflege",
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "2.99 EUR",
       "salePrice": null,
       "url": "https://www.jeanlen.de/vanille-duschgel-cranberry-vanille",
-      "gtin": "4262401731952"
+      "gtin": "4262500783876"
     },
     {
       "sku": "2800100346",
