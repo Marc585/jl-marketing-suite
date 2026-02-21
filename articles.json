@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-02-20",
+    "lastUpdated": "2026-02-21",
     "totalArticles": 335,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -2937,7 +2937,7 @@
       "gtin": "4262401739835"
     },
     {
-      "sku": "2925000132",
+      "sku": "2800100341",
       "name": "Duschgel Cranberry/Vanille - Vanille Duschgel",
       "category": "Pflege",
       "subcategory": "Körper",
@@ -2945,7 +2945,7 @@
       "price": "2.99 EUR",
       "salePrice": null,
       "url": "https://www.jeanlen.de/vanille-duschgel-cranberry-vanille",
-      "gtin": "4262500783876"
+      "gtin": "4262401731952"
     },
     {
       "sku": "2800100346",
