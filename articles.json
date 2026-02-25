@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-02-24",
+    "lastUpdated": "2026-02-25",
     "totalArticles": 335,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -671,15 +671,15 @@
       "gtin": "4262401735639"
     },
     {
-      "sku": "2800100221",
-      "name": "Hitzeschutz-Spray Mango, 100 ml",
+      "sku": "2925000002",
+      "name": "Hitzeschutzspray mit fruchtigem Mango-Duft",
       "category": "Haare",
       "subcategory": "Extrapflege",
       "availability": "in stock",
-      "price": "4.99 EUR",
-      "salePrice": "2.99 EUR",
-      "url": "https://www.jeanlen.de/hitzeschutzspray-mango",
-      "gtin": "4262401732270"
+      "price": "3.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/hitzeschutzspray-beat-the-heat",
+      "gtin": "4262500781476"
     },
     {
       "sku": "2925000025",
