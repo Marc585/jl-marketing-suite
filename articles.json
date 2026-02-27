@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-02-26",
-    "totalArticles": 335,
+    "lastUpdated": "2026-02-27",
+    "totalArticles": 337,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -275,6 +275,28 @@
       "gtin": "4262401731112"
     },
     {
+      "sku": "2925000156",
+      "name": "Body Mist pure joy mit sommerlichem Duft",
+      "category": "Duft",
+      "subcategory": "Körper",
+      "availability": "in stock",
+      "price": "3.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/body-mist-pure-joy",
+      "gtin": "4262500784347"
+    },
+    {
+      "sku": "2925000157",
+      "name": "Body Mist wild heart mit zartem Kirschblüten Duft",
+      "category": "Duft",
+      "subcategory": "Körper",
+      "availability": "in stock",
+      "price": "3.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/body-mist-wild-heart",
+      "gtin": "4262500784361"
+    },
+    {
       "sku": "2900100242",
       "name": "Sea Salt Spray, 200 ml",
       "category": "Haare",
@@ -458,7 +480,7 @@
       "availability": "in stock",
       "price": "4.29 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/conditioner-fuer-locken",
+      "url": "https://www.jeanlen.de/conditioner-fuer-locken-reiswasser-acai",
       "gtin": "4260702185696"
     },
     {
@@ -924,6 +946,17 @@
       "gtin": ""
     },
     {
+      "sku": "D000000140",
+      "name": "Haarpflege Set für wellliges und lockiges Haar",
+      "category": "Haare",
+      "subcategory": "Sets",
+      "availability": "in stock",
+      "price": "8.58 EUR",
+      "salePrice": "7.99 EUR",
+      "url": "https://www.jeanlen.de/locken-pflege-set-reiswasser-acai",
+      "gtin": ""
+    },
+    {
       "sku": "D000000216",
       "name": "Haarpflegeduo Keratin/Mandel",
       "category": "Haare",
@@ -1327,7 +1360,7 @@
       "availability": "in stock",
       "price": "4.29 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/lockenshampoo-vegan",
+      "url": "https://www.jeanlen.de/shampoo-fuer-locken-reiswasser-acai",
       "gtin": "4260702185672"
     },
     {
@@ -1865,7 +1898,7 @@
       "subcategory": "",
       "availability": "in stock",
       "price": "11.99 EUR",
-      "salePrice": null,
+      "salePrice": "8.49 EUR",
       "url": "https://www.jeanlen.de/Hand-Body-Wash-Pfingstrose-Litschi-500ml/2800101011",
       "gtin": "4260702184767"
     },
@@ -3416,7 +3449,7 @@
       "subcategory": "Nachfüllpack",
       "availability": "in stock",
       "price": "29.98 EUR",
-      "salePrice": "27.99 EUR",
+      "salePrice": "24.99 EUR",
       "url": "https://www.jeanlen.de/hand-body-wash-nachfuellpack-pfingstrose-litschi",
       "gtin": ""
     },
@@ -3737,17 +3770,6 @@
       "price": "3.99 EUR",
       "salePrice": null,
       "url": "https://www.jeanlen.de/glasflasche-leer-mit-pumpspender",
-      "gtin": ""
-    },
-    {
-      "sku": "D000000140",
-      "name": "Haarpflege Set für wellliges und lockiges Haar",
-      "category": "Sonstiges",
-      "subcategory": "",
-      "availability": "in stock",
-      "price": "8.58 EUR",
-      "salePrice": "7.99 EUR",
-      "url": "https://www.jeanlen.de/lockenpflege-duo",
       "gtin": ""
     },
     {
