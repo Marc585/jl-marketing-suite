@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-02-27",
-    "totalArticles": 337,
+    "lastUpdated": "2026-02-28",
+    "totalArticles": 338,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -1075,6 +1075,17 @@
       "price": "8.58 EUR",
       "salePrice": "7.99 EUR",
       "url": "https://www.jeanlen.de/pflege-fuer-coloriertes-haar-haarpflegeset-granatapfel-rose",
+      "gtin": ""
+    },
+    {
+      "sku": "D000000246",
+      "name": "Pflege für geschädigtes Haar – Professional Advanced Repair Serie",
+      "category": "Haare",
+      "subcategory": "Sets",
+      "availability": "in stock",
+      "price": "44.95 EUR",
+      "salePrice": "39.99 EUR",
+      "url": "https://www.jeanlen.de/pflege-fuer-geschaedigtes-haar-professional-advanced-repair-set",
       "gtin": ""
     },
     {
