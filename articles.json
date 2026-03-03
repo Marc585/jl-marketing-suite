@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-02",
-    "totalArticles": 338,
+    "lastUpdated": "2026-03-03",
+    "totalArticles": 337,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -3529,17 +3529,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/Hand-Body-Wash-Rosemary-Ginger-Refill-INT-1-5-L/2902101030",
       "gtin": "4262401736421"
-    },
-    {
-      "sku": "2902101042",
-      "name": "Hand Soap Bergamot/Cedarwood Nachfüllpack, 500 ml",
-      "category": "Pflege",
-      "subcategory": "Nachfüllpack",
-      "availability": "in stock",
-      "price": "6.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/hand-soap-bergamot-cedarwood-nachfuellpack-500ml",
-      "gtin": "4262401739163"
     },
     {
       "sku": "2800109440",
