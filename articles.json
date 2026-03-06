@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-03",
-    "totalArticles": 337,
+    "lastUpdated": "2026-03-06",
+    "totalArticles": 338,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -413,7 +413,7 @@
       "subcategory": "Conditioner",
       "availability": "in stock",
       "price": "4.29 EUR",
-      "salePrice": null,
+      "salePrice": "3.49 EUR",
       "url": "https://www.jeanlen.de/Frische-Conditioner-Gruener-Tee-Limette-300ml/2800100209",
       "gtin": "4260702181193"
     },
@@ -710,7 +710,7 @@
       "subcategory": "Extrapflege",
       "availability": "in stock",
       "price": "4.99 EUR",
-      "salePrice": null,
+      "salePrice": "3.49 EUR",
       "url": "https://www.jeanlen.de/kopfhaut-peeling-pink-grapefruit-spirulina",
       "gtin": "4262500782008"
     },
@@ -919,7 +919,7 @@
       "subcategory": "Sets",
       "availability": "in stock",
       "price": "8.58 EUR",
-      "salePrice": "7.99 EUR",
+      "salePrice": "7.49 EUR",
       "url": "https://www.jeanlen.de/Frische-Haarpflegeset-Gruener-Tee-Limette/D000000080",
       "gtin": ""
     },
@@ -930,7 +930,7 @@
       "subcategory": "Sets",
       "availability": "in stock",
       "price": "9.28 EUR",
-      "salePrice": "8.79 EUR",
+      "salePrice": "7.49 EUR",
       "url": "https://www.jeanlen.de/haar-tiefenreinigung-set-pink-grapefruit-spirulina",
       "gtin": ""
     },
@@ -1260,7 +1260,7 @@
       "subcategory": "Shampoo",
       "availability": "in stock",
       "price": "5.49 EUR",
-      "salePrice": null,
+      "salePrice": "4.49 EUR",
       "url": "https://www.jeanlen.de/shampoo-mango-avocado-vorteilsgroesse-500ml",
       "gtin": "4262401735721"
     },
@@ -1348,7 +1348,7 @@
       "subcategory": "Shampoo",
       "availability": "in stock",
       "price": "4.29 EUR",
-      "salePrice": null,
+      "salePrice": "3.49 EUR",
       "url": "https://www.jeanlen.de/anti-schuppen-shampoo-thymian-minze",
       "gtin": "4262401739699"
     },
@@ -1392,7 +1392,7 @@
       "subcategory": "",
       "availability": "in stock",
       "price": "7.99 EUR",
-      "salePrice": null,
+      "salePrice": "4.99 EUR",
       "url": "https://www.jeanlen.de/aufbewahrungsdose-dolomit-salbei",
       "gtin": "4262401738692"
     },
@@ -1403,7 +1403,7 @@
       "subcategory": "",
       "availability": "in stock",
       "price": "4.99 EUR",
-      "salePrice": null,
+      "salePrice": "3.49 EUR",
       "url": "https://www.jeanlen.de/aufbewahrungsdose-mit-deckel-dolomit-sand",
       "gtin": "4262401738678"
     },
@@ -1524,7 +1524,7 @@
       "subcategory": "",
       "availability": "in stock",
       "price": "9.99 EUR",
-      "salePrice": null,
+      "salePrice": "6.99 EUR",
       "url": "https://www.jeanlen.de/blumenvase-dolomit-creme",
       "gtin": "4262401738715"
     },
@@ -2162,7 +2162,7 @@
       "subcategory": "Gesicht & Lippen",
       "availability": "in stock",
       "price": "2.99 EUR",
-      "salePrice": "1.99 EUR",
+      "salePrice": "1.49 EUR",
       "url": "https://www.jeanlen.de/lip-balm-calendula-jojobaoel",
       "gtin": "4262401734328"
     },
@@ -2616,6 +2616,17 @@
       "salePrice": "51.49 EUR",
       "url": "https://www.jeanlen.de/Rosemary-Ginger-Handcreme-Parfum/D000000021",
       "gtin": ""
+    },
+    {
+      "sku": "2800101044",
+      "name": "Silky  Rich Hand Treatment Cardamom/Tonka",
+      "category": "Pflege",
+      "subcategory": "Hände",
+      "availability": "in stock",
+      "price": "6.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/silky-and-rich-hand-treatment-cardamom-tonka",
+      "gtin": "4262401730740"
     },
     {
       "sku": "2800101406",
@@ -3119,7 +3130,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "3.99 EUR",
-      "salePrice": null,
+      "salePrice": "2.99 EUR",
       "url": "https://www.jeanlen.de/Fusscreme-Sheabutter-Calendula-100-ml/2800102807",
       "gtin": "4260602127376"
     },
@@ -3372,7 +3383,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "9.99 EUR",
-      "salePrice": "7.99 EUR",
+      "salePrice": "4.99 EUR",
       "url": "https://www.jeanlen.de/travel-set-cardamom-tonka",
       "gtin": "4262401732874"
     },
@@ -3408,17 +3419,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/duschschaum-kokos-hafermilch",
       "gtin": "4262401730092"
-    },
-    {
-      "sku": "2800100322",
-      "name": "verwöhnender Traumschaum Arganöl & Feige, 200 ml",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "4.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/duschschaum-arganoel-feige",
-      "gtin": "4262401730115"
     },
     {
       "sku": "2925000073",
@@ -3529,6 +3529,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/Hand-Body-Wash-Rosemary-Ginger-Refill-INT-1-5-L/2902101030",
       "gtin": "4262401736421"
+    },
+    {
+      "sku": "2902101042",
+      "name": "Handseife Nachfüllpack Bergamot/Cedarwood",
+      "category": "Pflege",
+      "subcategory": "Nachfüllpack",
+      "availability": "in stock",
+      "price": "6.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/hand-soap-bergamot-cedarwood-nachfuellpack-500ml",
+      "gtin": "4262401739163"
     },
     {
       "sku": "2800109440",
