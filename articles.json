@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-10",
-    "totalArticles": 338,
+    "lastUpdated": "2026-03-11",
+    "totalArticles": 337,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -1199,17 +1199,6 @@
       "gtin": "4260602128670"
     },
     {
-      "sku": "2800100141",
-      "name": "Shampoo Bambus/Lilie, 300 ml",
-      "category": "Haare",
-      "subcategory": "Shampoo",
-      "availability": "in stock",
-      "price": "4.29 EUR",
-      "salePrice": "2.99 EUR",
-      "url": "https://www.jeanlen.de/shampoo-volumen",
-      "gtin": "4262401735295"
-    },
-    {
       "sku": "2900100223",
       "name": "Shampoo Granatapfel/Rose, 300 ml",
       "category": "Haare",
@@ -1373,6 +1362,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/shampoo-fuer-locken-reiswasser-acai",
       "gtin": "4260702185672"
+    },
+    {
+      "sku": "2900100235",
+      "name": "Volumen Shampoo Bambus/Lilie",
+      "category": "Haare",
+      "subcategory": "Shampoo",
+      "availability": "in stock",
+      "price": "4.29 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/shampoo-volumen",
+      "gtin": "4262500780325"
     },
     {
       "sku": "2800101111",
@@ -1920,7 +1920,7 @@
       "subcategory": "Deos",
       "availability": "in stock",
       "price": "3.49 EUR",
-      "salePrice": null,
+      "salePrice": "1.99 EUR",
       "url": "https://www.jeanlen.de/aloe-vera-deo-roll-on-5in1-protect",
       "gtin": "4262500780240"
     },
@@ -1931,7 +1931,7 @@
       "subcategory": "Deos",
       "availability": "in stock",
       "price": "3.99 EUR",
-      "salePrice": "2.79 EUR",
+      "salePrice": "1.99 EUR",
       "url": "https://www.jeanlen.de/Deo-Zerstaeuber-Baumwolle-75ml/2800100609",
       "gtin": "4260702184835"
     },
@@ -1942,7 +1942,7 @@
       "subcategory": "Deos",
       "availability": "in stock",
       "price": "3.99 EUR",
-      "salePrice": "2.49 EUR",
+      "salePrice": "1.99 EUR",
       "url": "https://www.jeanlen.de/deo-zerstaeuber-rosenwasser",
       "gtin": "4262401733390"
     },
@@ -1953,7 +1953,7 @@
       "subcategory": "Deos",
       "availability": "in stock",
       "price": "3.99 EUR",
-      "salePrice": "2.49 EUR",
+      "salePrice": "1.99 EUR",
       "url": "https://www.jeanlen.de/deo-zerstaeuber-wasserlilie",
       "gtin": "4262401733277"
     },
@@ -1964,7 +1964,7 @@
       "subcategory": "Deos",
       "availability": "in stock",
       "price": "3.49 EUR",
-      "salePrice": null,
+      "salePrice": "1.99 EUR",
       "url": "https://www.jeanlen.de/Deobalsam-Baumwolle-50ml/2800100605",
       "gtin": "4260602129677"
     },
@@ -1975,7 +1975,7 @@
       "subcategory": "Deos",
       "availability": "in stock",
       "price": "3.49 EUR",
-      "salePrice": "2.19 EUR",
+      "salePrice": "1.99 EUR",
       "url": "https://www.jeanlen.de/deobalsam-rosenwasser",
       "gtin": "4260702185955"
     },
@@ -1986,7 +1986,7 @@
       "subcategory": "Deos",
       "availability": "in stock",
       "price": "3.49 EUR",
-      "salePrice": "2.19 EUR",
+      "salePrice": "1.99 EUR",
       "url": "https://www.jeanlen.de/deobalsam-wasserlilie",
       "gtin": "4260602129714"
     },
@@ -1997,7 +1997,7 @@
       "subcategory": "Deos",
       "availability": "in stock",
       "price": "3.49 EUR",
-      "salePrice": "2.49 EUR",
+      "salePrice": "1.99 EUR",
       "url": "https://www.jeanlen.de/deospray-glycerin-rosenbluetenwasser",
       "gtin": "4262401734618"
     },
@@ -2008,7 +2008,7 @@
       "subcategory": "Deos",
       "availability": "in stock",
       "price": "3.49 EUR",
-      "salePrice": null,
+      "salePrice": "1.99 EUR",
       "url": "https://www.jeanlen.de/deospray-menthol-wasserlilie",
       "gtin": "4262401734632"
     },
@@ -2019,7 +2019,7 @@
       "subcategory": "Deos",
       "availability": "in stock",
       "price": "3.49 EUR",
-      "salePrice": null,
+      "salePrice": "1.99 EUR",
       "url": "https://www.jeanlen.de/deospray-panthenol-baumwollsaatoel",
       "gtin": "4262401734656"
     },
@@ -3102,6 +3102,17 @@
       "gtin": "4262401739873"
     },
     {
+      "sku": "2925000091",
+      "name": "Duschschaum Pfingstrose/Litschi - Whipped Shower Sufflé",
+      "category": "Pflege",
+      "subcategory": "Körper",
+      "availability": "in stock",
+      "price": "6.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/duschschaum-shower-souffle-peony-lychee",
+      "gtin": "4262500783227"
+    },
+    {
       "sku": "2800100513",
       "name": "Exotische Body Butter Mango/Avocado, 200ml",
       "category": "Pflege",
@@ -3300,17 +3311,6 @@
       "gtin": "4262500783265"
     },
     {
-      "sku": "2800100326",
-      "name": "Shower Gel to Mousse Peony/Lychee INT, 200ml",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "6.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/duschschaum-shower-souffle-peony-lychee",
-      "gtin": "4262401730542"
-    },
-    {
       "sku": "2925000090",
       "name": "Shower Gel to Mousse Rosemary/Ginger, 200ml",
       "category": "Pflege",
@@ -3375,17 +3375,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/Sugar-Scrub-Peony-Lychee-INT-250-g/2800101207",
       "gtin": "4262401736506"
-    },
-    {
-      "sku": "2800109417",
-      "name": "Travel Set Cardamom/Tonka INT",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "9.99 EUR",
-      "salePrice": "4.99 EUR",
-      "url": "https://www.jeanlen.de/travel-set-cardamom-tonka",
-      "gtin": "4262401732874"
     },
     {
       "sku": "2800100191",
