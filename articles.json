@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-13",
-    "totalArticles": 337,
+    "lastUpdated": "2026-03-14",
+    "totalArticles": 339,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -297,6 +297,28 @@
       "gtin": "4262500784361"
     },
     {
+      "sku": "D000000253",
+      "name": "Fresh  Floral Perfume Bundle",
+      "category": "Duft",
+      "subcategory": "Sets",
+      "availability": "in stock",
+      "price": "7.98 EUR",
+      "salePrice": "7.49 EUR",
+      "url": "https://www.jeanlen.de/fresh-and-floral-perfume-bundle-haarparfum-bodymist",
+      "gtin": ""
+    },
+    {
+      "sku": "D000000254",
+      "name": "Sweet  Sunny Perfume Bundle",
+      "category": "Duft",
+      "subcategory": "Sets",
+      "availability": "in stock",
+      "price": "7.98 EUR",
+      "salePrice": "7.49 EUR",
+      "url": "https://www.jeanlen.de/sweet-and-sunny-perfume-bundle-haarparfum-bodymist",
+      "gtin": ""
+    },
+    {
       "sku": "2900100242",
       "name": "Sea Salt Spray, 200 ml",
       "category": "Haare",
@@ -440,15 +462,15 @@
       "gtin": "4262401731686"
     },
     {
-      "sku": "2800101112",
+      "sku": "2925000007",
       "name": "Repair Conditioner Keratin/Mandel, 300 ml",
       "category": "Haare",
       "subcategory": "Conditioner",
       "availability": "in stock",
       "price": "4.29 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Repair-Conditioner-Keratin-Mandel-300-ml/2800101112",
-      "gtin": "4260602121466"
+      "url": "https://www.jeanlen.de/Repair-Conditioner-Keratin-Mandel-300-ml/2925000007",
+      "gtin": "4262500781575"
     },
     {
       "sku": "2800100200",
@@ -3362,7 +3384,7 @@
       "availability": "in stock",
       "price": "9.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Sugar-Scrub-Cardamom-Tonka-INT-250-g/2800101208",
+      "url": "https://www.jeanlen.de/Sugar-Scrub-Cardamom-Tonka-GLO-250-g/2800101208",
       "gtin": "4262401736520"
     },
     {
