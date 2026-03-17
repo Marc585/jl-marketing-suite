@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-16",
+    "lastUpdated": "2026-03-17",
     "totalArticles": 339,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -842,7 +842,7 @@
       "subcategory": "Extrapflege",
       "availability": "in stock",
       "price": "3.79 EUR",
-      "salePrice": "3.49 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/trockenshampoo-frische-und-geschmeidigkeit",
       "gtin": "4262401739545"
     },
@@ -1788,7 +1788,7 @@
       "subcategory": "Raumduft & Kerzen",
       "availability": "in stock",
       "price": "8.99 EUR",
-      "salePrice": "8.49 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/scented-candle-grey-vetiver-cedarwood-kerze",
       "gtin": "4262401736988"
     },
@@ -1821,7 +1821,7 @@
       "subcategory": "Raumduft & Kerzen",
       "availability": "in stock",
       "price": "8.99 EUR",
-      "salePrice": "8.49 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/scented-candle-sea-salt-coconut-duftkerze-kokos",
       "gtin": "4262401737107"
     },
@@ -2492,7 +2492,7 @@
       "subcategory": "Hände",
       "availability": "in stock",
       "price": "6.99 EUR",
-      "salePrice": "6.49 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/silky-and-rich-hand-treatment-peony-lychee",
       "gtin": "4262401730764"
     },
@@ -3405,7 +3405,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "2.99 EUR",
-      "salePrice": "2.79 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/Verwoehnende-Creme-OEl-Dusche-Arganoel-Feige-250-ml/2800100191",
       "gtin": "4260602128366"
     },
@@ -3548,7 +3548,7 @@
       "subcategory": "Nachfüllpack",
       "availability": "in stock",
       "price": "6.99 EUR",
-      "salePrice": "6.49 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/hand-soap-bergamot-cedarwood-nachfuellpack-500ml",
       "gtin": "4262401739163"
     },
