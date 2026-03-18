@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-17",
-    "totalArticles": 339,
+    "lastUpdated": "2026-03-18",
+    "totalArticles": 341,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -2799,8 +2799,8 @@
       "category": "Pflege",
       "subcategory": "Körper",
       "availability": "in stock",
-      "price": "7.99 EUR",
-      "salePrice": "3.99 EUR",
+      "price": "4.99 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/bodylotion-mit-hyaluron",
       "gtin": "4262401738784"
     },
@@ -2822,7 +2822,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "4.99 EUR",
-      "salePrice": "3.99 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/body-lotion-niacinamide",
       "gtin": "4262401738807"
     },
@@ -2844,7 +2844,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "4.99 EUR",
-      "salePrice": "3.99 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/body-lotion-retinol",
       "gtin": "4262401738821"
     },
@@ -3300,6 +3300,17 @@
       "gtin": "4262401736544"
     },
     {
+      "sku": "2925000151",
+      "name": "Schimmerndes Körperöl – Shimmering Dry Oil Rosé",
+      "category": "Pflege",
+      "subcategory": "Körper",
+      "availability": "in stock",
+      "price": "9.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/schimmerndes-koerperoel-shimmering-dry-oil-rose",
+      "gtin": "4262500784262"
+    },
+    {
       "sku": "2800101418",
       "name": "Shimmering Dry Oil, 50 ml",
       "category": "Pflege",
@@ -3397,6 +3408,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/Sugar-Scrub-Peony-Lychee-INT-250-g/2800101207",
       "gtin": "4262401736506"
+    },
+    {
+      "sku": "2925000152",
+      "name": "Trockenöl Ultra Light Dry Oil",
+      "category": "Pflege",
+      "subcategory": "Körper",
+      "availability": "in stock",
+      "price": "7.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/trockenoel-ultra-light-dry-oil",
+      "gtin": "4262500784286"
     },
     {
       "sku": "2800100191",
