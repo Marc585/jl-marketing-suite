@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-19",
-    "totalArticles": 341,
+    "lastUpdated": "2026-03-20",
+    "totalArticles": 340,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -1584,8 +1584,8 @@
       "gtin": "4262500780097"
     },
     {
-      "sku": "2800609511",
-      "name": "Toilettenpapierhalter aus Aluminium, schwarz - verpackt",
+      "sku": "2925000056",
+      "name": "Toilettenpapierhalter mit Ablage in zeitlosem Mattschwarz",
       "category": "Home",
       "subcategory": "",
       "availability": "in stock",
@@ -3377,15 +3377,15 @@
       "gtin": "4262401732683"
     },
     {
-      "sku": "2800109411",
-      "name": "Spa Ceremony Giftbox Rosemary/Ginger INT",
+      "sku": "2925000171",
+      "name": "Spa Ceremony Giftbox Rosemary/Ginger",
       "category": "Pflege",
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "24.99 EUR",
       "salePrice": null,
       "url": "https://www.jeanlen.de/geschenkset-spa-ceremony-rosemary-ginger",
-      "gtin": "4262401732713"
+      "gtin": "4262500784644"
     },
     {
       "sku": "2800101208",
@@ -3782,17 +3782,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/sonnencreme-gesicht",
       "gtin": "4260702189434"
-    },
-    {
-      "sku": "D000000206",
-      "name": "Bestseller Set",
-      "category": "Sonstiges",
-      "subcategory": "",
-      "availability": "in stock",
-      "price": "25.13 EUR",
-      "salePrice": "23.99 EUR",
-      "url": "https://www.jeanlen.de/bestseller-set",
-      "gtin": ""
     },
     {
       "sku": "2800609198",
