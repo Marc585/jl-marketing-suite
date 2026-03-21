@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-20",
+    "lastUpdated": "2026-03-21",
     "totalArticles": 340,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -2530,14 +2530,14 @@
       "gtin": "4262401736148"
     },
     {
-      "sku": "2925000226",
-      "name": "Handbalsam Baumwolle Sheabutter, 20ml",
+      "sku": "2800101120",
+      "name": "Handbalsam Baumwolle  Sheabutter in der Reisegröße",
       "category": "Pflege",
       "subcategory": "Hände",
       "availability": "in stock",
       "price": "1.49 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Handbalsam-Baumwolle-Sheabutter-20ml/2925000226",
+      "url": "https://www.jeanlen.de/Handbalsam-Baumwolle-Sheabutter-20ml/2800101120",
       "gtin": "4262500785832"
     },
     {
@@ -3036,15 +3036,15 @@
       "gtin": "4262401732997"
     },
     {
-      "sku": "2800100344",
-      "name": "Duschgel Mango/Maracuja, 250 ml",
+      "sku": "2925000129",
+      "name": "Duschgel Mango/Maracuja, 250ml",
       "category": "Pflege",
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "2.99 EUR",
       "salePrice": null,
       "url": "https://www.jeanlen.de/duschgel-mango-maracuja",
-      "gtin": "4262401732409"
+      "gtin": "4262500783838"
     },
     {
       "sku": "2800100323",
