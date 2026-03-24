@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-23",
-    "totalArticles": 340,
+    "lastUpdated": "2026-03-24",
+    "totalArticles": 342,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -249,7 +249,7 @@
       "availability": "in stock",
       "price": "79.00 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Rosemary-Ginger-EDP-50-ml/2800101542",
+      "url": "https://www.jeanlen.de/Rosemary-Ginger-EdP-GLO-50-ml/2800101542",
       "gtin": "4260602129806"
     },
     {
@@ -273,6 +273,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/scent-experience-cardamom-tonka",
       "gtin": "4262401731112"
+    },
+    {
+      "sku": "2925000155",
+      "name": "Body Mist dream cloud mit himmlisch-cremigem Duft",
+      "category": "Duft",
+      "subcategory": "Körper",
+      "availability": "in stock",
+      "price": "3.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/body-mist-dream-cloud",
+      "gtin": "4262500784323"
     },
     {
       "sku": "2925000156",
@@ -305,6 +316,17 @@
       "price": "7.98 EUR",
       "salePrice": "7.49 EUR",
       "url": "https://www.jeanlen.de/fresh-and-floral-perfume-bundle-haarparfum-bodymist",
+      "gtin": ""
+    },
+    {
+      "sku": "D000000252",
+      "name": "Soft  Dreamy Perfume Bundle",
+      "category": "Duft",
+      "subcategory": "Sets",
+      "availability": "in stock",
+      "price": "7.98 EUR",
+      "salePrice": "7.49 EUR",
+      "url": "https://www.jeanlen.de/soft-and-dreamy-perfume-bundle-haarparfum-bodymist",
       "gtin": ""
     },
     {
@@ -2537,8 +2559,8 @@
       "availability": "in stock",
       "price": "1.49 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Handbalsam-Baumwolle-Sheabutter-20ml/2800101120",
-      "gtin": "4262500785832"
+      "url": "https://www.jeanlen.de/Handbalsam-Baumwolle-Sheabutter-Reisegroesse-20ml/2800101120",
+      "gtin": "4260602128588"
     },
     {
       "sku": "2925000122",
@@ -3406,7 +3428,7 @@
       "availability": "in stock",
       "price": "9.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Sugar-Scrub-Peony-Lychee-INT-250-g/2800101207",
+      "url": "https://www.jeanlen.de/Sugar-Scrub-Peony-Lychee-GLO-250-g/2800101207",
       "gtin": "4262401736506"
     },
     {
