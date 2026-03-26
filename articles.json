@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-25",
-    "totalArticles": 342,
+    "lastUpdated": "2026-03-26",
+    "totalArticles": 340,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -1969,17 +1969,6 @@
       "gtin": "4262500780240"
     },
     {
-      "sku": "2800100609",
-      "name": "Deo-Zerstäuber Baumwolle 75ml",
-      "category": "Pflege",
-      "subcategory": "Deos",
-      "availability": "in stock",
-      "price": "3.99 EUR",
-      "salePrice": "1.99 EUR",
-      "url": "https://www.jeanlen.de/Deo-Zerstaeuber-Baumwolle-75ml/2800100609",
-      "gtin": "4260702184835"
-    },
-    {
       "sku": "2800100621",
       "name": "Deo-Zerstäuber Rosenwasser, 75 ml",
       "category": "Pflege",
@@ -2596,17 +2585,6 @@
       "gtin": "4262401736162"
     },
     {
-      "sku": "2800101052",
-      "name": "Handcreme Kamilleon Times, 75 ml",
-      "category": "Pflege",
-      "subcategory": "Hände",
-      "availability": "in stock",
-      "price": "2.99 EUR",
-      "salePrice": "2.69 EUR",
-      "url": "https://www.jeanlen.de/handcreme-i-love-you-kamille-on-times",
-      "gtin": "4262401733734"
-    },
-    {
       "sku": "2800101065",
       "name": "Handcreme Pfingstrose/Litschi, 75 ml",
       "category": "Pflege",
@@ -3036,17 +3014,6 @@
       "gtin": "4262401739835"
     },
     {
-      "sku": "2800100341",
-      "name": "Duschgel Cranberry/Vanille - Vanille Duschgel",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "2.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/vanille-duschgel-cranberry-vanille",
-      "gtin": "4262401731952"
-    },
-    {
       "sku": "2800100346",
       "name": "Duschgel Grüner Tee/Thymian, 250 ml",
       "category": "Pflege",
@@ -3441,6 +3408,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/trockenoel-ultra-light-dry-oil",
       "gtin": "4262500784286"
+    },
+    {
+      "sku": "2925000132",
+      "name": "Vanille Duschgel – Cranberry/Vanille für für fruchtig-süße Duftliebhaber",
+      "category": "Pflege",
+      "subcategory": "Körper",
+      "availability": "in stock",
+      "price": "2.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/vanille-duschgel-cranberry-vanille",
+      "gtin": "4262500783876"
     },
     {
       "sku": "2800100191",
