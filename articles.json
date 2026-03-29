@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-28",
+    "lastUpdated": "2026-03-29",
     "totalArticles": 340,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -1188,6 +1188,17 @@
       "gtin": "4260702181179"
     },
     {
+      "sku": "2925000008",
+      "name": "Lockenshampoo Lockenpracht Mango/Matcha",
+      "category": "Haare",
+      "subcategory": "Shampoo",
+      "availability": "in stock",
+      "price": "4.29 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/lockenshampoo-mango-matcha",
+      "gtin": "4262500781599"
+    },
+    {
       "sku": "2800100903",
       "name": "Nutri Care Shampoo Mango/Avocado, 300 ml",
       "category": "Haare",
@@ -1307,17 +1318,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/nutri-care-shampoo-mango-avocado-reisegroesse",
       "gtin": "4262401734557"
-    },
-    {
-      "sku": "2800100138",
-      "name": "Shampoo Mango/Matcha, 300 ml",
-      "category": "Haare",
-      "subcategory": "Shampoo",
-      "availability": "in stock",
-      "price": "4.29 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/lockenshampoo-mango-matcha",
-      "gtin": "4262401732935"
     },
     {
       "sku": "2925000036",
