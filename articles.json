@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-03-31",
-    "totalArticles": 340,
+    "lastUpdated": "2026-04-01",
+    "totalArticles": 341,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -186,6 +186,17 @@
     ]
   },
   "articles": [
+    {
+      "sku": "2925000166",
+      "name": "Tanning Drops für sommerliche Bräune im Gesicht",
+      "category": "Beauty",
+      "subcategory": "Gesicht & Lippen",
+      "availability": "in stock",
+      "price": "7.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/tanning-drops-the-face-glow",
+      "gtin": "4262500784521"
+    },
     {
       "sku": "2900101619",
       "name": "Eau de Toilette Lily of the Valley INT, 10 ml",
@@ -1287,6 +1298,17 @@
       "gtin": "4262401735707"
     },
     {
+      "sku": "2900100236",
+      "name": "Shampoo Holunder/Jasmin, 300 ml",
+      "category": "Haare",
+      "subcategory": "Shampoo",
+      "availability": "in stock",
+      "price": "4.29 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/Shampoo-Holunder-Jasmin-300-ml/2900100236",
+      "gtin": "4262500780349"
+    },
+    {
       "sku": "2800100139",
       "name": "Shampoo Kokos/Macadamia, 50 ml",
       "category": "Haare",
@@ -1417,17 +1439,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/shampoo-volumen",
       "gtin": "4262500780325"
-    },
-    {
-      "sku": "2800101111",
-      "name": "Volumen Shampoo Holunder/Jasmin, 300 ml",
-      "category": "Haare",
-      "subcategory": "Shampoo",
-      "availability": "in stock",
-      "price": "4.29 EUR",
-      "salePrice": "2.99 EUR",
-      "url": "https://www.jeanlen.de/Volumen-Shampoo-Holunder-Jasmin-300-ml/2800101111",
-      "gtin": "4260602121435"
     },
     {
       "sku": "2800609516",
@@ -3646,7 +3657,7 @@
       "category": "Pflege",
       "subcategory": "Sets",
       "availability": "in stock",
-      "price": "47.45 EUR",
+      "price": "47.95 EUR",
       "salePrice": "44.99 EUR",
       "url": "https://www.jeanlen.de/sommer-essentials-family-sonnencreme-set-familie",
       "gtin": ""
@@ -3729,15 +3740,15 @@
       "gtin": "4260702189755"
     },
     {
-      "sku": "2900200818",
-      "name": "Sensitives Sonnenspray LSF 50, 250 ml (Rez, ohne UV Sorb Heb)",
+      "sku": "2925000140",
+      "name": "Sensitives Sonnenspray LSF 50",
       "category": "Pflege",
       "subcategory": "Sonne",
       "availability": "in stock",
-      "price": "14.49 EUR",
+      "price": "14.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Sensitives-Sonnenspray-LSF-50-250-ml-Rez-ohne-UV-Sorb-Heb/2900200818",
-      "gtin": "4260702189731"
+      "url": "https://www.jeanlen.de/Sensitives-Sonnenspray-LSF50-250ml/2925000140",
+      "gtin": "4262500784040"
     },
     {
       "sku": "D000000114",
