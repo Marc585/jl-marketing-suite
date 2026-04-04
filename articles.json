@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-03",
-    "totalArticles": 341,
+    "lastUpdated": "2026-04-04",
+    "totalArticles": 342,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -196,6 +196,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/tanning-drops-the-face-glow",
       "gtin": "4262500784521"
+    },
+    {
+      "sku": "D000000256",
+      "name": "Vitamin C für die Haut Set",
+      "category": "Beauty",
+      "subcategory": "Sets",
+      "availability": "in stock",
+      "price": "30.96 EUR",
+      "salePrice": "24.97 EUR",
+      "url": "https://www.jeanlen.de/vitamin-c-pflege",
+      "gtin": ""
     },
     {
       "sku": "2900101619",
@@ -1305,7 +1316,7 @@
       "availability": "in stock",
       "price": "4.29 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Shampoo-Holunder-Jasmin-300-ml/2900100236",
+      "url": "https://www.jeanlen.de/shampoo-fuer-feines-haar-holunder-jasmin",
       "gtin": "4262500780349"
     },
     {
