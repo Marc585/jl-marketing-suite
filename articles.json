@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-07",
+    "lastUpdated": "2026-04-08",
     "totalArticles": 342,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -479,7 +479,7 @@
       "subcategory": "Conditioner",
       "availability": "in stock",
       "price": "4.29 EUR",
-      "salePrice": "3.49 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/Frische-Conditioner-Gruener-Tee-Limette-300ml/2800100209",
       "gtin": "4260702181193"
     },
@@ -985,7 +985,7 @@
       "subcategory": "Sets",
       "availability": "in stock",
       "price": "8.58 EUR",
-      "salePrice": "7.49 EUR",
+      "salePrice": "7.99 EUR",
       "url": "https://www.jeanlen.de/Frische-Haarpflegeset-Gruener-Tee-Limette/D000000080",
       "gtin": ""
     },
@@ -2888,7 +2888,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "4.99 EUR",
-      "salePrice": "3.99 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/body-lotion-vitamin-c",
       "gtin": "4262401738845"
     },
