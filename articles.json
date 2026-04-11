@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-10",
+    "lastUpdated": "2026-04-11",
     "totalArticles": 342,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -501,7 +501,7 @@
       "subcategory": "Conditioner",
       "availability": "in stock",
       "price": "4.29 EUR",
-      "salePrice": "2.99 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/Pflege-Conditioner-Jojoba-Apfel-300-ml/2800100216",
       "gtin": "4262401731686"
     },
@@ -1051,7 +1051,7 @@
       "subcategory": "Sets",
       "availability": "in stock",
       "price": "8.58 EUR",
-      "salePrice": "5.49 EUR",
+      "salePrice": "7.99 EUR",
       "url": "https://www.jeanlen.de/Haarpflegeset-Jojoba-Apfel/D000000078",
       "gtin": ""
     },
@@ -1238,7 +1238,7 @@
       "subcategory": "Shampoo",
       "availability": "in stock",
       "price": "4.29 EUR",
-      "salePrice": "2.99 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/Pflege-Shampoo-Jojoba-Apfel-300-ml/2800100134",
       "gtin": "4262401731730"
     },
@@ -3758,7 +3758,7 @@
       "availability": "in stock",
       "price": "14.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Sensitives-Sonnenspray-LSF50-250ml/2925000140",
+      "url": "https://www.jeanlen.de/sensitives-sonnenspray-lsf-50",
       "gtin": "4262500784040"
     },
     {
