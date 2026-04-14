@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-13",
-    "totalArticles": 342,
+    "lastUpdated": "2026-04-14",
+    "totalArticles": 341,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -196,17 +196,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/tanning-drops-the-face-glow",
       "gtin": "4262500784521"
-    },
-    {
-      "sku": "D000000256",
-      "name": "Vitamin C für die Haut Set",
-      "category": "Beauty",
-      "subcategory": "Sets",
-      "availability": "in stock",
-      "price": "30.96 EUR",
-      "salePrice": "24.97 EUR",
-      "url": "https://www.jeanlen.de/vitamin-c-pflege",
-      "gtin": ""
     },
     {
       "sku": "2900101619",
@@ -2888,7 +2877,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "4.99 EUR",
-      "salePrice": null,
+      "salePrice": "3.99 EUR",
       "url": "https://www.jeanlen.de/body-lotion-vitamin-c",
       "gtin": "4262401738845"
     },
