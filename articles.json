@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "totalArticles": 341,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -3465,17 +3465,6 @@
       "gtin": "4262401730092"
     },
     {
-      "sku": "2925000073",
-      "name": "Lip Treatment Pink Pillow, 10 ml",
-      "category": "Pflege",
-      "subcategory": "Lippen",
-      "availability": "in stock",
-      "price": "3.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/lippenpflege-vanille-lip-treatment-pink-pillow",
-      "gtin": "4262500782930"
-    },
-    {
       "sku": "2925000074",
       "name": "Lip Treatment Sugar Clear, 10 ml",
       "category": "Pflege",
@@ -3496,6 +3485,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/peptid-lippenpflege-lip-treatment-teddy-brown",
       "gtin": "4262500782992"
+    },
+    {
+      "sku": "2925000235",
+      "name": "Lippenpflege Vanille mit getöntem Gloss Finish",
+      "category": "Pflege",
+      "subcategory": "Lippen",
+      "availability": "in stock",
+      "price": "3.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/lippenpflege-vanille-lip-treatment-pink-pillow",
+      "gtin": "4262500786020"
     },
     {
       "sku": "D000000158",
