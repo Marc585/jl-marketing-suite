@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-17",
-    "totalArticles": 341,
+    "lastUpdated": "2026-04-18",
+    "totalArticles": 342,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -3781,6 +3781,17 @@
       "price": "19.48 EUR",
       "salePrice": "15.99 EUR",
       "url": "https://www.jeanlen.de/Sommer-Essentials-Set-Mini/D000000004",
+      "gtin": ""
+    },
+    {
+      "sku": "D000000257",
+      "name": "Sonnenschutz für empfindliche Haut – Everyday Sun Care Set",
+      "category": "Pflege",
+      "subcategory": "Sonne",
+      "availability": "in stock",
+      "price": "32.97 EUR",
+      "salePrice": "29.99 EUR",
+      "url": "https://www.jeanlen.de/sonnenschutz-fuer-empfindliche-haut-everyday-sun-care-set",
       "gtin": ""
     },
     {
