@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-20",
-    "totalArticles": 342,
+    "lastUpdated": "2026-04-21",
+    "totalArticles": 345,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -394,6 +394,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/Colorglanz-Conditioner-Arganoel-Feige-300-ml/2800100904",
       "gtin": "4260602129110"
+    },
+    {
+      "sku": "2902101028",
+      "name": "Conditioner Cardamom/Tonka",
+      "category": "Haare",
+      "subcategory": "Conditioner",
+      "availability": "in stock",
+      "price": "10.49 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/conditioner-cardamom-tonka",
+      "gtin": "4262401735950"
     },
     {
       "sku": "2900100221",
@@ -2008,7 +2019,7 @@
       "subcategory": "Deos",
       "availability": "in stock",
       "price": "3.49 EUR",
-      "salePrice": "1.99 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/Deobalsam-Baumwolle-50ml/2800100605",
       "gtin": "4260602129677"
     },
@@ -2673,8 +2684,8 @@
       "gtin": "4260602127925"
     },
     {
-      "sku": "2800101003",
-      "name": "sehr geile Handcreme Rosemary/Ginger, 75 ml",
+      "sku": "2925000125",
+      "name": "sehr geile Handcreme Urea Rosemary / Ginger, geschmeidig wie ein Rochen, hergestellt in Deutschland, Hyaluronsäure, Cupuacubutter, Handcreme",
       "category": "Pflege",
       "subcategory": "Hände",
       "availability": "in stock",
@@ -3496,6 +3507,28 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/lippenpflege-vanille-lip-treatment-pink-pillow",
       "gtin": "4262500786020"
+    },
+    {
+      "sku": "2902101026",
+      "name": "Hair  Body Wash Cardamom/Tonka",
+      "category": "Pflege",
+      "subcategory": "Nachfüllpack",
+      "availability": "in stock",
+      "price": "9.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/hair-and-body-wash-cardamom-tonka",
+      "gtin": "4262401735936"
+    },
+    {
+      "sku": "2902101025",
+      "name": "Hair  Body Wash Cardamom/Tonka Nachfüllpack 1,5 L",
+      "category": "Pflege",
+      "subcategory": "Nachfüllpack",
+      "availability": "in stock",
+      "price": "24.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/hair-and-body-wash-cardamom-tonka-nachfuellpack-1500-ml",
+      "gtin": "4262401735929"
     },
     {
       "sku": "D000000158",
