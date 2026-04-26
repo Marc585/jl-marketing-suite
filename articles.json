@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-25",
+    "lastUpdated": "2026-04-26",
     "totalArticles": 345,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -198,6 +198,17 @@
       "gtin": "4262500784521"
     },
     {
+      "sku": "2900101611",
+      "name": "Eau de Toilette Bergamot/Cedarwood",
+      "category": "Duft",
+      "subcategory": "",
+      "availability": "in stock",
+      "price": "7.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/scent-experience-bergamot-cedarwood",
+      "gtin": "4262401738319"
+    },
+    {
       "sku": "2900101619",
       "name": "Eau de Toilette Lily of the Valley INT, 10 ml",
       "category": "Duft",
@@ -262,17 +273,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/Rosemary-Ginger-EdP-GLO-50-ml/2800101542",
       "gtin": "4260602129806"
-    },
-    {
-      "sku": "2900101602",
-      "name": "Scent Experience Bergamot/Cedarwood INT, 10 ml",
-      "category": "Duft",
-      "subcategory": "",
-      "availability": "in stock",
-      "price": "7.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/scent-experience-bergamot-cedarwood",
-      "gtin": "4262401731099"
     },
     {
       "sku": "2900101603",
@@ -1265,15 +1265,15 @@
       "gtin": "4260602128663"
     },
     {
-      "sku": "2800100901",
-      "name": "Sensitiv Shampoo Hafermilch/Baumwolle, 300 ml",
+      "sku": "2925000062",
+      "name": "Sensitiv Shampoo Hafermilch/Baumwolle",
       "category": "Haare",
       "subcategory": "Shampoo",
       "availability": "in stock",
       "price": "4.29 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Sensitiv-Shampoo-Hafermilch-Baumwolle-300-ml/2800100901",
-      "gtin": "4260602128670"
+      "url": "https://www.jeanlen.de/sensitiv-shampoo-hafermilch-baumwolle",
+      "gtin": "4262500782701"
     },
     {
       "sku": "2900100223",
@@ -2013,17 +2013,6 @@
       "gtin": "4262401733277"
     },
     {
-      "sku": "2800100605",
-      "name": "Deobalsam Baumwolle, 50ml",
-      "category": "Pflege",
-      "subcategory": "Deos",
-      "availability": "in stock",
-      "price": "3.49 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/Deobalsam-Baumwolle-50ml/2800100605",
-      "gtin": "4260602129677"
-    },
-    {
       "sku": "2800100616",
       "name": "Deobalsam Rosenwasser, 50ml",
       "category": "Pflege",
@@ -2462,6 +2451,17 @@
       "salePrice": "7.99 EUR",
       "url": "https://www.jeanlen.de/hand-soap-duo-time-to-bloom",
       "gtin": ""
+    },
+    {
+      "sku": "2925000224",
+      "name": "Hand Soap Thymian/Minze",
+      "category": "Pflege",
+      "subcategory": "Handseifen",
+      "availability": "in stock",
+      "price": "4.29 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/hand-soap-thymian-minze",
+      "gtin": "4262500785795"
     },
     {
       "sku": "2902101048",
@@ -3718,6 +3718,17 @@
       "gtin": "4260372938943"
     },
     {
+      "sku": "2925000020",
+      "name": "2in1 Sonnenschutz Gesicht  Lippen LSF 50+",
+      "category": "Pflege",
+      "subcategory": "Sonne",
+      "availability": "in stock",
+      "price": "7.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/sonnencreme-lippen-und-gesicht-lsf-50",
+      "gtin": "4262500781865"
+    },
+    {
       "sku": "2900200820",
       "name": "After Sun Lotion, 200 ml",
       "category": "Pflege",
@@ -3738,17 +3749,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/mini-sonnencreme-sensitive-sonnenmilch-lsf50",
       "gtin": "4262500781407"
-    },
-    {
-      "sku": "2900200815",
-      "name": "Sensitiver Sonnencreme&Stift LSF50+",
-      "category": "Pflege",
-      "subcategory": "Sonne",
-      "availability": "in stock",
-      "price": "7.98 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/sonnencreme-lippen-und-gesicht-lsf-50",
-      "gtin": "4260702189380"
     },
     {
       "sku": "2900200822",
