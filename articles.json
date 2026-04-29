@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "totalArticles": 345,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -713,17 +713,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/haarduft-haarparfum-youre-my-cutie-chai",
       "gtin": "4262500783180"
-    },
-    {
-      "sku": "2800101131",
-      "name": "Haartonikum Rosmarin, 75 ml",
-      "category": "Haare",
-      "subcategory": "Extrapflege",
-      "availability": "in stock",
-      "price": "5.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/haartonikum-rosmarin",
-      "gtin": "4262401736445"
     },
     {
       "sku": "2800101104",
@@ -2464,6 +2453,17 @@
       "gtin": "4262500785795"
     },
     {
+      "sku": "2925000225",
+      "name": "Hand Soap Vanille/Sandelholz",
+      "category": "Pflege",
+      "subcategory": "Handseifen",
+      "availability": "in stock",
+      "price": "4.29 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/hand-soap-vanille-sandelholz",
+      "gtin": "4262500785818"
+    },
+    {
       "sku": "2902101048",
       "name": "Hand Balm Pfingstrose/Litschi, 250 ml",
       "category": "Pflege",
@@ -2692,7 +2692,7 @@
       "price": "3.99 EUR",
       "salePrice": null,
       "url": "https://www.jeanlen.de/sehr-geile-handcreme-rosemary-ginger-urea",
-      "gtin": "4260602123026"
+      "gtin": "4262500783777"
     },
     {
       "sku": "2800101000",
