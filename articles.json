@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-01",
+    "lastUpdated": "2026-05-03",
     "totalArticles": 345,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -271,7 +271,7 @@
       "availability": "in stock",
       "price": "79.00 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Rosemary-Ginger-EdP-GLO-50-ml/2800101542",
+      "url": "https://www.jeanlen.de/Rosemary-Ginger-EDP-50-ml/2800101542",
       "gtin": "4260602129806"
     },
     {
@@ -381,7 +381,7 @@
       "availability": "in stock",
       "price": "4.29 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Aufbau-Conditioner-Mandel-Keratin-300ml/2800100193",
+      "url": "https://www.jeanlen.de/Pflegender-Aufbau-Conditioner-mit-pflanzlichem-Keratin-vegane-Haarpflege/2800100193",
       "gtin": "4260602128427"
     },
     {
@@ -480,7 +480,7 @@
       "availability": "in stock",
       "price": "4.29 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Frische-Conditioner-Gruener-Tee-Limette-300ml/2800100209",
+      "url": "https://www.jeanlen.de/Frische-Conditioner-Gruener-Tee-Limette/2800100209",
       "gtin": "4260702181193"
     },
     {
@@ -810,7 +810,7 @@
       "availability": "in stock",
       "price": "1.79 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Nutri-Care-Long-Hair-Haarkur-Mango-Avocado-20-ml/2800101124",
+      "url": "https://www.jeanlen.de/Nutri-Care-Long-Hair-Haarkur-Mango-Avocado/2800101124",
       "gtin": "4260702186723"
     },
     {
@@ -1195,7 +1195,7 @@
       "availability": "in stock",
       "price": "4.29 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Frische-Shampoo-Gruener-Tee-Limette-300ml/2800100115",
+      "url": "https://www.jeanlen.de/Frische-Shampoo-Gruener-Tee-Limette/2800100115",
       "gtin": "4260702181179"
     },
     {
@@ -1625,7 +1625,7 @@
       "price": "34.99 EUR",
       "salePrice": null,
       "url": "https://www.jeanlen.de/toilettenpapierhalter-mit-ablage-aluminium-schwarz",
-      "gtin": "4262401738197"
+      "gtin": "4262500782572"
     },
     {
       "sku": "2800609512",
@@ -2350,7 +2350,7 @@
       "availability": "in stock",
       "price": "4.29 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Hand-Soap-Blutorange-Vetiver-250ml/2800101008",
+      "url": "https://www.jeanlen.de/Hand-Soap-Blutorange-Vetiver/2800101008",
       "gtin": "4260702180851"
     },
     {
@@ -2394,7 +2394,7 @@
       "availability": "in stock",
       "price": "4.29 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Hand-Soap-Neroli-Jasmine-250-ml/2800101055",
+      "url": "https://www.jeanlen.de/Hand-Soap-Neroli-Jasmine-250ml/2800101055",
       "gtin": "4262401735219"
     },
     {
@@ -2405,7 +2405,7 @@
       "availability": "in stock",
       "price": "4.29 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Hand-Soap-Pfingstrose-Litschi-250ml/2800101006",
+      "url": "https://www.jeanlen.de/Hand-Soap-Pfingstrose-Litschi-Fluessigseife/2800101006",
       "gtin": "4260702180813"
     },
     {
@@ -2680,7 +2680,7 @@
       "availability": "in stock",
       "price": "2.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/intensiv-naehrender-Handbalsam-Baumwolle-Sheabutter-75ml/2800101406",
+      "url": "https://www.jeanlen.de/Intensiv-pflegender-Handbalsam-fuer-sehr-trockene-Haende-Handpflege-mit-Baumwolle-Sheabutter/2800101406",
       "gtin": "4260602127925"
     },
     {
@@ -2878,7 +2878,7 @@
       "availability": "in stock",
       "price": "4.49 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Body-Lotion-Rosemary-Ginger-250-ml/2800100539",
+      "url": "https://www.jeanlen.de/Erfrischende-Bodylotion-Rosemary-Ginger-250ml/2800100539",
       "gtin": "4262401733772"
     },
     {
@@ -3274,7 +3274,7 @@
       "availability": "in stock",
       "price": "11.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Hand-Body-Wash-Rosemary-Ginger-500ml/2902101010",
+      "url": "https://www.jeanlen.de/Hand-Body-Wash-Rosemary-Ginger-Glasflasche-500-ml/2902101010",
       "gtin": "4260602120872"
     },
     {
@@ -3285,7 +3285,7 @@
       "availability": "in stock",
       "price": "4.49 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Hautstraffende-Bodylotion-Aprikosenkernoel-Q10/2800100502",
+      "url": "https://www.jeanlen.de/Hautstraffende-Bodylotion-Aprikosenkernoel-Q10-250-ml/2800100502",
       "gtin": "4260602127819"
     },
     {
@@ -3406,7 +3406,7 @@
       "availability": "in stock",
       "price": "9.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Sugar-Scrub-Cardamom-Tonka-GLO-250-g/2800101208",
+      "url": "https://www.jeanlen.de/Sugar-Scrub-Cardamom-Tonka-INT-250-g/2800101208",
       "gtin": "4262401736520"
     },
     {
@@ -3417,7 +3417,7 @@
       "availability": "in stock",
       "price": "9.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Sugar-Scrub-Peony-Lychee-GLO-250-g/2800101207",
+      "url": "https://www.jeanlen.de/Sugar-Scrub-Peony-Lychee-INT-250-g/2800101207",
       "gtin": "4262401736506"
     },
     {
@@ -3461,7 +3461,7 @@
       "availability": "in stock",
       "price": "2.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/reichhaltige-Creme-OEl-Dusche-Hafermilch-Kokosoel-250-ml/2800100311",
+      "url": "https://www.jeanlen.de/Creme-OEl-Dusche-Hafermilch-Kokosoel/2800100311",
       "gtin": "4260602122715"
     },
     {
@@ -3593,7 +3593,7 @@
       "availability": "in stock",
       "price": "59.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Hand-Body-Wash-Rosemary-Ginger-Canister-INT-5-L/2902101012",
+      "url": "https://www.jeanlen.de/Hand-Body-Wash-Rosemary-Ginger-Kanister-5-L/2902101012",
       "gtin": "4260602123392"
     },
     {
@@ -3813,7 +3813,7 @@
       "availability": "in stock",
       "price": "19.48 EUR",
       "salePrice": "15.99 EUR",
-      "url": "https://www.jeanlen.de/Sommer-Essentials-Set-Mini/D000000004",
+      "url": "https://www.jeanlen.de/Sommer-Essentials-Set-Klein/D000000004",
       "gtin": ""
     },
     {
@@ -3846,7 +3846,7 @@
       "availability": "in stock",
       "price": "119.00 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Geschenkgutschein-Konfetti-5/2800609198",
+      "url": "https://www.jeanlen.de/Online-Geschenkgutschein-Konfetti-5/2800609198",
       "gtin": "4260602126317"
     },
     {
