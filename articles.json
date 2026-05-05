@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-04",
-    "totalArticles": 345,
+    "lastUpdated": "2026-05-05",
+    "totalArticles": 347,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -205,7 +205,7 @@
       "availability": "in stock",
       "price": "7.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/scent-experience-bergamot-cedarwood",
+      "url": "https://www.jeanlen.de/bergamotte-duft-eau-de-toilette-bergamot-cedarwood",
       "gtin": "4262401738319"
     },
     {
@@ -418,17 +418,6 @@
       "gtin": "4262401738883"
     },
     {
-      "sku": "2800100225",
-      "name": "Conditioner Mango/Matcha, 300 ml",
-      "category": "Haare",
-      "subcategory": "Conditioner",
-      "availability": "in stock",
-      "price": "4.29 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/locken-conditioner-mango-matcha",
-      "gtin": "4262401732959"
-    },
-    {
       "sku": "2925000034",
       "name": "Conditioner Monoiöl/Maracuja, 300 ml",
       "category": "Haare",
@@ -482,6 +471,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/Frische-Conditioner-Gruener-Tee-Limette/2800100209",
       "gtin": "4260702181193"
+    },
+    {
+      "sku": "2925000009",
+      "name": "Locken Conditioner Mango/Matcha",
+      "category": "Haare",
+      "subcategory": "Conditioner",
+      "availability": "in stock",
+      "price": "4.29 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/locken-conditioner-mango-matcha",
+      "gtin": "4262500781612"
     },
     {
       "sku": "2800100203",
@@ -713,6 +713,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/haarduft-haarparfum-youre-my-cutie-chai",
       "gtin": "4262500783180"
+    },
+    {
+      "sku": "2800101131",
+      "name": "Haartonikum Rosmarin mit Niacinamide, Koffein und AnaGain™",
+      "category": "Haare",
+      "subcategory": "Extrapflege",
+      "availability": "in stock",
+      "price": "5.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/haartonikum-rosmarin",
+      "gtin": "4262401736445"
     },
     {
       "sku": "2800101104",
@@ -1009,6 +1020,17 @@
       "price": "8.58 EUR",
       "salePrice": "7.99 EUR",
       "url": "https://www.jeanlen.de/locken-pflege-set-reiswasser-acai",
+      "gtin": ""
+    },
+    {
+      "sku": "D000000258",
+      "name": "Haarpflege für Locken Reiswasser/Açai",
+      "category": "Haare",
+      "subcategory": "Sets",
+      "availability": "in stock",
+      "price": "16.56 EUR",
+      "salePrice": "14.99 EUR",
+      "url": "https://www.jeanlen.de/haarpflege-fuer-locken-reiswasser-acai",
       "gtin": ""
     },
     {
@@ -2691,7 +2713,7 @@
       "availability": "in stock",
       "price": "3.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/sehr-geile-handcreme-rosemary-ginger-urea",
+      "url": "https://www.jeanlen.de/urea-handcreme-sehr-geile-handcreme-rosemary-ginger",
       "gtin": "4262500783777"
     },
     {
@@ -2844,7 +2866,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "4.99 EUR",
-      "salePrice": null,
+      "salePrice": "3.99 EUR",
       "url": "https://www.jeanlen.de/body-lotion-niacinamide",
       "gtin": "4262401738807"
     },
@@ -2866,7 +2888,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "4.99 EUR",
-      "salePrice": null,
+      "salePrice": "3.99 EUR",
       "url": "https://www.jeanlen.de/body-lotion-retinol",
       "gtin": "4262401738821"
     },
@@ -3091,15 +3113,15 @@
       "gtin": "4262401739859"
     },
     {
-      "sku": "2800100324",
-      "name": "Duschgel Zitronenverbene/Minze, 250 ml",
+      "sku": "2925000185",
+      "name": "Duschgel mit Minze und Zitronenverbene",
       "category": "Pflege",
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "2.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/vitalisierendes-duschgel-zitronenverbene-minze",
-      "gtin": "4262401730153"
+      "url": "https://www.jeanlen.de/duschgel-mit-minze-duschgel-zitronenverbene-minze",
+      "gtin": "4262500785009"
     },
     {
       "sku": "2800101427",
@@ -3740,6 +3762,17 @@
       "gtin": "4262401739736"
     },
     {
+      "sku": "2925000139",
+      "name": "Sensitiv Sonnencreme Gesicht LSF 50+, 50 ml",
+      "category": "Pflege",
+      "subcategory": "Sonne",
+      "availability": "in stock",
+      "price": "8.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/sonnencreme-gesicht",
+      "gtin": "4262500784026"
+    },
+    {
       "sku": "2800101430",
       "name": "Sensitive Sonnenmilch LSF 50, 50 ml",
       "category": "Pflege",
@@ -3826,17 +3859,6 @@
       "salePrice": "29.99 EUR",
       "url": "https://www.jeanlen.de/sonnenschutz-fuer-empfindliche-haut-everyday-sun-care-set",
       "gtin": ""
-    },
-    {
-      "sku": "2900200817",
-      "name": "sensitive Sonnencreme Gesicht  LSF 50+, 50 ml",
-      "category": "Pflege",
-      "subcategory": "Sonne",
-      "availability": "in stock",
-      "price": "8.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/sonnencreme-gesicht",
-      "gtin": "4260702189434"
     },
     {
       "sku": "2800609198",
