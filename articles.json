@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-05",
-    "totalArticles": 347,
+    "lastUpdated": "2026-05-07",
+    "totalArticles": 348,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -1980,6 +1980,17 @@
       "gtin": "4262500781773"
     },
     {
+      "sku": "2925000201",
+      "name": "Fußcreme mit Urea für trockene und rissige Füße",
+      "category": "Pflege",
+      "subcategory": "",
+      "availability": "in stock",
+      "price": "2.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/fusscreme-ultra-rich-laeuft-bei-dir",
+      "gtin": "4262500785245"
+    },
+    {
       "sku": "2800101011",
       "name": "Hand & Body Wash Pfingstrose/Litschi,  500ml",
       "category": "Pflege",
@@ -2030,7 +2041,7 @@
       "subcategory": "Deos",
       "availability": "in stock",
       "price": "3.49 EUR",
-      "salePrice": "1.99 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/deobalsam-rosenwasser",
       "gtin": "4260702185955"
     },
@@ -3080,17 +3091,6 @@
       "gtin": "4262500783838"
     },
     {
-      "sku": "2800100323",
-      "name": "Duschgel Pfirsich/Maracuja, 250 ml",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "2.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/fruchtiges-duschgel-pfirsich-maracuja",
-      "gtin": "4262401730139"
-    },
-    {
       "sku": "2800100347",
       "name": "Duschgel Rosemary Ginger, 250 ml",
       "category": "Pflege",
@@ -3309,6 +3309,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/Hautstraffende-Bodylotion-Aprikosenkernoel-Q10-250-ml/2800100502",
       "gtin": "4260602127819"
+    },
+    {
+      "sku": "2925000184",
+      "name": "Pfirsich Duschgel für ein exotisches Duscherlebnis",
+      "category": "Pflege",
+      "subcategory": "Körper",
+      "availability": "in stock",
+      "price": "2.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/fruchtiges-duschgel-pfirsich-maracuja",
+      "gtin": "4262500784989"
     },
     {
       "sku": "2800100501",
