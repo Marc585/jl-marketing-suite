@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-07",
-    "totalArticles": 348,
+    "lastUpdated": "2026-05-09",
+    "totalArticles": 346,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -1683,17 +1683,6 @@
       "gtin": "4262401738258"
     },
     {
-      "sku": "2800609529",
-      "name": "Dusch-Handtuch, 100% Bio-Baumwolle, beige, 70 x 140 cm",
-      "category": "Home",
-      "subcategory": "Handtücher",
-      "availability": "in stock",
-      "price": "19.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/duschhandtuch-beige-70x140cm",
-      "gtin": "4262401739347"
-    },
-    {
       "sku": "2800609522",
       "name": "Gästehandtuch aus 100% Bio-Baumwolle, rosmarin, 30 x 50 cm",
       "category": "Home",
@@ -2002,17 +1991,6 @@
       "gtin": "4260702184767"
     },
     {
-      "sku": "2800100632",
-      "name": "Deo Roll-On 5in1 protect, 50 ml",
-      "category": "Pflege",
-      "subcategory": "Deos",
-      "availability": "in stock",
-      "price": "3.49 EUR",
-      "salePrice": "1.99 EUR",
-      "url": "https://www.jeanlen.de/aloe-vera-deo-roll-on-5in1-protect",
-      "gtin": "4262500780240"
-    },
-    {
       "sku": "2800100621",
       "name": "Deo-Zerstäuber Rosenwasser, 75 ml",
       "category": "Pflege",
@@ -2033,17 +2011,6 @@
       "salePrice": "1.99 EUR",
       "url": "https://www.jeanlen.de/deo-zerstaeuber-wasserlilie",
       "gtin": "4262401733277"
-    },
-    {
-      "sku": "2800100616",
-      "name": "Deobalsam Rosenwasser, 50ml",
-      "category": "Pflege",
-      "subcategory": "Deos",
-      "availability": "in stock",
-      "price": "3.49 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/deobalsam-rosenwasser",
-      "gtin": "4260702185955"
     },
     {
       "sku": "2800100607",
@@ -2541,6 +2508,17 @@
       "gtin": "4262401739668"
     },
     {
+      "sku": "2800101047",
+      "name": "Hand Treatment Bergamot/Cedarwood INT, 30 ml",
+      "category": "Pflege",
+      "subcategory": "Hände",
+      "availability": "in stock",
+      "price": "3.49 EUR",
+      "salePrice": "1.49 EUR",
+      "url": "https://www.jeanlen.de/silky-and-rich-hand-treatment-bergamot-cedarwood-mini",
+      "gtin": "4262401730801"
+    },
+    {
       "sku": "2800101043",
       "name": "Hand Treatment Cedarwood/Bergamot INT, 75 ml",
       "category": "Pflege",
@@ -2569,7 +2547,7 @@
       "subcategory": "Hände",
       "availability": "in stock",
       "price": "3.49 EUR",
-      "salePrice": null,
+      "salePrice": "1.49 EUR",
       "url": "https://www.jeanlen.de/silky-and-rich-hand-treatment-rosemary-ginger-mini",
       "gtin": "4262401730863"
     },
@@ -3102,17 +3080,6 @@
       "gtin": "4262401733796"
     },
     {
-      "sku": "2800101420",
-      "name": "Duschgel Zitronengras/Minze, 250 ml",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "2.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/duschgel-zitronengras-minze-250-ml",
-      "gtin": "4262401739859"
-    },
-    {
       "sku": "2925000185",
       "name": "Duschgel mit Minze und Zitronenverbene",
       "category": "Pflege",
@@ -3399,6 +3366,17 @@
       "gtin": "4262500783203"
     },
     {
+      "sku": "2925000126",
+      "name": "Shower gel lemongrass/mint",
+      "category": "Pflege",
+      "subcategory": "Körper",
+      "availability": "in stock",
+      "price": "2.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/erfrischendes-duschgel-zitronengras-minze",
+      "gtin": "4262401739859"
+    },
+    {
       "sku": "2800109409",
       "name": "Spa Ceremony Giftbox Cardamom/Tonka INT",
       "category": "Pflege",
@@ -3408,17 +3386,6 @@
       "salePrice": "19.99 EUR",
       "url": "https://www.jeanlen.de/geschenkset-spa-ceremony-cardamom-tonka",
       "gtin": "4262401732645"
-    },
-    {
-      "sku": "2800109410",
-      "name": "Spa Ceremony Giftbox Peony/Lychee INT",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "24.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/geschenkset-spa-ceremony-peony-lychee",
-      "gtin": "4262401732683"
     },
     {
       "sku": "2925000171",
@@ -3870,6 +3837,17 @@
       "salePrice": "29.99 EUR",
       "url": "https://www.jeanlen.de/sonnenschutz-fuer-empfindliche-haut-everyday-sun-care-set",
       "gtin": ""
+    },
+    {
+      "sku": "2925000173",
+      "name": "Sonnenöl Spray LSF 30 für gepflegte  geschützte Haut",
+      "category": "Pflege",
+      "subcategory": "Sonne",
+      "availability": "in stock",
+      "price": "9.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/sonnenoel-spray-lsf-30",
+      "gtin": "4262500784774"
     },
     {
       "sku": "2800609198",
