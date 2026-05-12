@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-11",
+    "lastUpdated": "2026-05-12",
     "totalArticles": 346,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -275,15 +275,15 @@
       "gtin": "4260602129806"
     },
     {
-      "sku": "2900101603",
-      "name": "Scent Experience Cardamom/Tonka INT, 10 ml",
+      "sku": "2900101613",
+      "name": "Scent Experience Cardamom/Tonka",
       "category": "Duft",
       "subcategory": "",
       "availability": "in stock",
       "price": "7.99 EUR",
       "salePrice": null,
       "url": "https://www.jeanlen.de/scent-experience-cardamom-tonka",
-      "gtin": "4262401731112"
+      "gtin": "4262401738371"
     },
     {
       "sku": "2925000155",
