@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-13",
-    "totalArticles": 346,
+    "lastUpdated": "2026-05-14",
+    "totalArticles": 353,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -227,7 +227,7 @@
       "availability": "in stock",
       "price": "7.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/scent-experience-peony-lychee",
+      "url": "https://www.jeanlen.de/eau-de-toilette-peony-lychee",
       "gtin": "4262401738432"
     },
     {
@@ -238,7 +238,7 @@
       "availability": "in stock",
       "price": "7.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/scent-experience-rosemary-ginger",
+      "url": "https://www.jeanlen.de/eau-de-toilette-rosemary-ginger",
       "gtin": "4262401738494"
     },
     {
@@ -282,7 +282,7 @@
       "availability": "in stock",
       "price": "7.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/scent-experience-cardamom-tonka",
+      "url": "https://www.jeanlen.de/eau-de-toilette-cardamom-tonka",
       "gtin": "4262401738371"
     },
     {
@@ -1188,15 +1188,15 @@
       "gtin": ""
     },
     {
-      "sku": "2800100192",
-      "name": "Aufbau Shampoo Mandel/Keratin, 300ml",
+      "sku": "2925000048",
+      "name": "Aufbau Shampoo Mandel/Keratin, 300 ml",
       "category": "Haare",
       "subcategory": "Shampoo",
       "availability": "in stock",
       "price": "4.29 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Aufbau-Shampoo-Mandel-Keratin-300ml/2800100192",
-      "gtin": "4260602128403"
+      "url": "https://www.jeanlen.de/Aufbau-Shampoo-Mandel-Keratin-300-ml/2925000048",
+      "gtin": "4262500782411"
     },
     {
       "sku": "2800100902",
@@ -1716,6 +1716,17 @@
       "gtin": "4262401739088"
     },
     {
+      "sku": "D000000259",
+      "name": "Steingut Seifenspender + Hand  Body Wash Rosemary/Ginger Nachfüllpack 1,5 L",
+      "category": "Home",
+      "subcategory": "Nachfüllpack",
+      "availability": "in stock",
+      "price": "25.98 EUR",
+      "salePrice": "23.99 EUR",
+      "url": "https://www.jeanlen.de/steingut-seifenspender-mit-hand-body-wash-rosemary-ginger-refill",
+      "gtin": ""
+    },
+    {
       "sku": "2925000103",
       "name": "Home Perfume Bergamot/Cedarwood INT, 500 ml",
       "category": "Home",
@@ -1991,6 +2002,17 @@
       "gtin": "4260702184767"
     },
     {
+      "sku": "2925000176",
+      "name": "48 Stunden Deo – Deospray 5in1 protect",
+      "category": "Pflege",
+      "subcategory": "Deos",
+      "availability": "in stock",
+      "price": "2.79 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/48-stunden-deo-deospray-5in1-protect",
+      "gtin": "4262500784835"
+    },
+    {
       "sku": "2800100621",
       "name": "Deo-Zerstäuber Rosenwasser, 75 ml",
       "category": "Pflege",
@@ -2055,6 +2077,28 @@
       "salePrice": "1.99 EUR",
       "url": "https://www.jeanlen.de/deospray-panthenol-baumwollsaatoel",
       "gtin": "4262401734656"
+    },
+    {
+      "sku": "2925000174",
+      "name": "Gourmandiges Vanille-Deo – Deospray Vanilla Comfort",
+      "category": "Pflege",
+      "subcategory": "Deos",
+      "availability": "in stock",
+      "price": "2.79 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/vanille-deo-deospray-vanilla-comfort",
+      "gtin": "4262500784798"
+    },
+    {
+      "sku": "2800100637",
+      "name": "Pflegendes Rosen-Deo – Deo Roll-On Gentle Rose Care",
+      "category": "Pflege",
+      "subcategory": "Deos",
+      "availability": "in stock",
+      "price": "3.49 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/rosen-deo-roll-on-gentle-rose-care",
+      "gtin": "4262500781308"
     },
     {
       "sku": "2800109234",
@@ -2640,6 +2684,17 @@
       "gtin": "4262500782862"
     },
     {
+      "sku": "2925000180",
+      "name": "Handcreme mit Sheabutter Your Cream Come True",
+      "category": "Pflege",
+      "subcategory": "Hände",
+      "availability": "in stock",
+      "price": "2.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/handcreme-mit-sheabutter-your-cream-come-true",
+      "gtin": "4262500784910"
+    },
+    {
       "sku": "2800101072",
       "name": "Handcreme so matcha , 75 ml",
       "category": "Pflege",
@@ -3131,7 +3186,7 @@
       "availability": "in stock",
       "price": "6.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/duschschaum-shower-souffle-peony-lychee",
+      "url": "https://www.jeanlen.de/duschschaum-shower-gel-to-mousse-peony-lychee",
       "gtin": "4262500783227"
     },
     {
@@ -3311,6 +3366,17 @@
       "gtin": "4262401736544"
     },
     {
+      "sku": "2925000276",
+      "name": "Schaumdusche Shower Foam sweet soul",
+      "category": "Pflege",
+      "subcategory": "Körper",
+      "availability": "in stock",
+      "price": "3.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/schaumdusche-shower-foam-sweet-soul-pistazie-vanille",
+      "gtin": "4262500786952"
+    },
+    {
       "sku": "2925000151",
       "name": "Schimmerndes Körperöl – Shimmering Dry Oil Rosé",
       "category": "Pflege",
@@ -3351,7 +3417,7 @@
       "availability": "in stock",
       "price": "6.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/duschschaum-shower-souffle-cardamom-tonka",
+      "url": "https://www.jeanlen.de/duschschaum-shower-gel-to-mousse-cardamom-tonka",
       "gtin": "4262500783265"
     },
     {
@@ -3362,7 +3428,7 @@
       "availability": "in stock",
       "price": "6.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/duschschaum-shower-souffle-rosemary-ginger",
+      "url": "https://www.jeanlen.de/duschschaum-shower-gel-to-mousse-rosemary-ginger",
       "gtin": "4262500783203"
     },
     {
@@ -3707,6 +3773,17 @@
       "gtin": ""
     },
     {
+      "sku": "D000000263",
+      "name": "sehr geiles Set – Handpflege-Set mit Handseife  Handcreme Rosemary/Ginger",
+      "category": "Pflege",
+      "subcategory": "Sets",
+      "availability": "in stock",
+      "price": "8.28 EUR",
+      "salePrice": "7.49 EUR",
+      "url": "https://www.jeanlen.de/handpflege-set-sehr-geiles-set-handseife-handcreme-rosemary-ginger",
+      "gtin": ""
+    },
+    {
       "sku": "2900100800",
       "name": "100% Aloe Vera-Gel, 100 ml",
       "category": "Pflege",
@@ -3747,7 +3824,7 @@
       "availability": "in stock",
       "price": "8.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/sonnencreme-gesicht",
+      "url": "https://www.jeanlen.de/sensitive-sonnencreme-gesicht-lsf-50",
       "gtin": "4262500784026"
     },
     {
