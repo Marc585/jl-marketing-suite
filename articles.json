@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-16",
-    "totalArticles": 353,
+    "lastUpdated": "2026-05-17",
+    "totalArticles": 354,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -583,17 +583,6 @@
       "gtin": "4262500783722"
     },
     {
-      "sku": "2800100226",
-      "name": "Boost Moisture Leave-In Pflegespray, 100 ml",
-      "category": "Haare",
-      "subcategory": "Extrapflege",
-      "availability": "in stock",
-      "price": "4.29 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/boost-moisture-leave-in-pflegespray",
-      "gtin": "4262401735271"
-    },
-    {
       "sku": "2900100217",
       "name": "Curling Cream Reiswasser/Acaibeere, 100 ml",
       "category": "Haare",
@@ -636,6 +625,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/express-haarkur-express-treatment-professional-advanced-repair",
       "gtin": "4262500782350"
+    },
+    {
+      "sku": "2900100239",
+      "name": "Feuchtigkeitsspray für die Haare – Pflegespray boost moisture| JeanLen",
+      "category": "Haare",
+      "subcategory": "Extrapflege",
+      "availability": "in stock",
+      "price": "4.29 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/feuchtigkeitsspray-fuer-die-haare-pflegespray-boost-moisture",
+      "gtin": "4262500780929"
     },
     {
       "sku": "2900100214",
@@ -2013,6 +2013,28 @@
       "gtin": "4262500784835"
     },
     {
+      "sku": "2925000199",
+      "name": "Aloe Vera Deo Roll-On 5in1 protect",
+      "category": "Pflege",
+      "subcategory": "Deos",
+      "availability": "in stock",
+      "price": "3.49 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/aloe-vera-deo-roll-on-5in1-protect",
+      "gtin": "4262500785184"
+    },
+    {
+      "sku": "2925000175",
+      "name": "Antibakterielles Deo – Deospray Blossom Boost",
+      "category": "Pflege",
+      "subcategory": "Deos",
+      "availability": "in stock",
+      "price": "2.79 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/antibakterielles-deo-despray-blossom-boost",
+      "gtin": "4262500784811"
+    },
+    {
       "sku": "2800100621",
       "name": "Deo-Zerstäuber Rosenwasser, 75 ml",
       "category": "Pflege",
@@ -2033,17 +2055,6 @@
       "salePrice": "1.99 EUR",
       "url": "https://www.jeanlen.de/deo-zerstaeuber-wasserlilie",
       "gtin": "4262401733277"
-    },
-    {
-      "sku": "2800100607",
-      "name": "Deobalsam Wasserlilie, 50ml",
-      "category": "Pflege",
-      "subcategory": "Deos",
-      "availability": "in stock",
-      "price": "3.49 EUR",
-      "salePrice": "1.99 EUR",
-      "url": "https://www.jeanlen.de/deobalsam-wasserlilie",
-      "gtin": "4260602129714"
     },
     {
       "sku": "2800100623",
@@ -2099,6 +2110,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/rosen-deo-roll-on-gentle-rose-care",
       "gtin": "4262500781308"
+    },
+    {
+      "sku": "2800100636",
+      "name": "Sensitiv Deo Roll-On Pure Cotton Power",
+      "category": "Pflege",
+      "subcategory": "Deos",
+      "availability": "in stock",
+      "price": "3.49 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/sensitiv-deo-roll-on-pure-cotton-power",
+      "gtin": "4262500781285"
     },
     {
       "sku": "2800109234",
@@ -3210,17 +3232,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/Exotisches-Duschgel-Mango-Avocado-250-ml/2800100190",
       "gtin": "4260602128359"
-    },
-    {
-      "sku": "2800102807",
-      "name": "Fußcreme Sheabutter/Calendula, 100 ml",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "3.99 EUR",
-      "salePrice": "2.99 EUR",
-      "url": "https://www.jeanlen.de/Fusscreme-Sheabutter-Calendula-100-ml/2800102807",
-      "gtin": "4260602127376"
     },
     {
       "sku": "2800100532",
