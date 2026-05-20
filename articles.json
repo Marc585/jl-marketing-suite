@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-19",
+    "lastUpdated": "2026-05-20",
     "totalArticles": 354,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -1217,7 +1217,7 @@
       "availability": "in stock",
       "price": "4.29 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Frische-Shampoo-Gruener-Tee-Limette/2800100115",
+      "url": "https://www.jeanlen.de/shampoo-fuer-fettiges-haar-frische-shampoo-gruener-tee-limette",
       "gtin": "4260702181179"
     },
     {
@@ -2673,6 +2673,17 @@
       "gtin": "4262500783753"
     },
     {
+      "sku": "2925000121",
+      "name": "Handcreme I Love You So Matcha",
+      "category": "Pflege",
+      "subcategory": "Hände",
+      "availability": "in stock",
+      "price": "2.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/handcreme-i-love-you-so-matcha",
+      "gtin": "4262500783685"
+    },
+    {
       "sku": "2800101064",
       "name": "Handcreme Kamille/Olivenöl, 75 ml",
       "category": "Pflege",
@@ -2715,17 +2726,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/handcreme-mit-sheabutter-your-cream-come-true",
       "gtin": "4262500784910"
-    },
-    {
-      "sku": "2800101072",
-      "name": "Handcreme so matcha , 75 ml",
-      "category": "Pflege",
-      "subcategory": "Hände",
-      "availability": "in stock",
-      "price": "2.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/handcreme-i-love-you-so-matcha",
-      "gtin": "4262401737657"
     },
     {
       "sku": "2902101018",
