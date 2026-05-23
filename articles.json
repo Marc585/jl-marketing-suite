@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-22",
+    "lastUpdated": "2026-05-23",
     "totalArticles": 354,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -1195,7 +1195,7 @@
       "availability": "in stock",
       "price": "4.29 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Aufbau-Shampoo-Mandel-Keratin-300-ml/2925000048",
+      "url": "https://www.jeanlen.de/aufbau-shampoo-mandel-keratin",
       "gtin": "4262500782411"
     },
     {
@@ -1997,7 +1997,7 @@
       "subcategory": "",
       "availability": "in stock",
       "price": "11.99 EUR",
-      "salePrice": "8.49 EUR",
+      "salePrice": "5.99 EUR",
       "url": "https://www.jeanlen.de/Hand-Body-Wash-Pfingstrose-Litschi-500ml/2800101011",
       "gtin": "4260702184767"
     },
@@ -2680,7 +2680,7 @@
       "availability": "in stock",
       "price": "2.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/handcreme-i-love-you-so-matcha",
+      "url": "https://www.jeanlen.de/matcha-handcreme-i-love-you-so-matcha",
       "gtin": "4262500783685"
     },
     {
