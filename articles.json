@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-26",
+    "lastUpdated": "2026-05-27",
     "totalArticles": 354,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -2948,17 +2948,6 @@
       "gtin": "4262401731938"
     },
     {
-      "sku": "2800101415",
-      "name": "Body Lotion Retinol, 200 ml",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "4.99 EUR",
-      "salePrice": "3.99 EUR",
-      "url": "https://www.jeanlen.de/body-lotion-retinol",
-      "gtin": "4262401738821"
-    },
-    {
       "sku": "2800100539",
       "name": "Body Lotion Rosemary Ginger, 250 ml",
       "category": "Pflege",
@@ -3190,6 +3179,17 @@
       "gtin": "4262500781186"
     },
     {
+      "sku": "2925000092",
+      "name": "Duschschaum Bergamot/Cedarwood - Shower Gel to Mousse",
+      "category": "Pflege",
+      "subcategory": "Körper",
+      "availability": "in stock",
+      "price": "6.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/duschschaum-shower-gel-to-mousse-bergamot-cedarwood",
+      "gtin": "4262500783241"
+    },
+    {
       "sku": "2800101421",
       "name": "Duschschaum Cranberry/Feige, 200 ml",
       "category": "Pflege",
@@ -3210,6 +3210,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/duschschaum-shower-gel-to-mousse-peony-lychee",
       "gtin": "4262500783227"
+    },
+    {
+      "sku": "2925000275",
+      "name": "Duschschaum Shower Foam first crush",
+      "category": "Pflege",
+      "subcategory": "Körper",
+      "availability": "in stock",
+      "price": "3.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/duschschaum-shower-foam-first-crush-cranberry-feige",
+      "gtin": "4262500786938"
     },
     {
       "sku": "2800100513",
@@ -3408,17 +3419,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/shimmer-body-oil-shimmering-dry-oil",
       "gtin": "4262401739798"
-    },
-    {
-      "sku": "2800100328",
-      "name": "Shower Gel to Mousse Bergamot/Cedarwood INT, 200 ml",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "6.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/shower-gel-to-mousse-bergamot-cedarwood",
-      "gtin": "4262401730580"
     },
     {
       "sku": "2925000093",
