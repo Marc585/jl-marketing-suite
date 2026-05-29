@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-28",
-    "totalArticles": 354,
+    "lastUpdated": "2026-05-29",
+    "totalArticles": 357,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -270,7 +270,7 @@
       "subcategory": "",
       "availability": "in stock",
       "price": "79.00 EUR",
-      "salePrice": null,
+      "salePrice": "54.99 EUR",
       "url": "https://www.jeanlen.de/Rosemary-Ginger-EDP-50-ml/2800101542",
       "gtin": "4260602129806"
     },
@@ -2530,6 +2530,17 @@
       "gtin": "4262500785818"
     },
     {
+      "sku": "2925000177",
+      "name": "Avocado Handcreme Let's Avocuddle",
+      "category": "Pflege",
+      "subcategory": "Hände",
+      "availability": "in stock",
+      "price": "2.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/avodaco-handcreme-lets-avocuddle",
+      "gtin": "4262500784859"
+    },
+    {
       "sku": "2902101048",
       "name": "Hand Balm Pfingstrose/Litschi, 250 ml",
       "category": "Pflege",
@@ -2605,17 +2616,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/silky-and-rich-hand-treatment-peony-lychee",
       "gtin": "4262401730764"
-    },
-    {
-      "sku": "2800101050",
-      "name": "Hand Treatment Rosemary/Ginger INT, 30 ml",
-      "category": "Pflege",
-      "subcategory": "Hände",
-      "availability": "in stock",
-      "price": "3.49 EUR",
-      "salePrice": "1.49 EUR",
-      "url": "https://www.jeanlen.de/silky-and-rich-hand-treatment-rosemary-ginger-mini",
-      "gtin": "4262401730863"
     },
     {
       "sku": "2800101042",
@@ -2695,6 +2695,28 @@
       "gtin": "4262401736162"
     },
     {
+      "sku": "2925000178",
+      "name": "Handcreme Kirsche: Merci Mon Cherry",
+      "category": "Pflege",
+      "subcategory": "Hände",
+      "availability": "in stock",
+      "price": "2.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/handcreme-merci-mon-cherry",
+      "gtin": "4262500784873"
+    },
+    {
+      "sku": "2925000179",
+      "name": "Handcreme Mille Grazie Pistazie",
+      "category": "Pflege",
+      "subcategory": "Hände",
+      "availability": "in stock",
+      "price": "2.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/handcreme-mille-grazie-pistazie",
+      "gtin": "4262500784897"
+    },
+    {
       "sku": "2800101065",
       "name": "Handcreme Pfingstrose/Litschi, 75 ml",
       "category": "Pflege",
@@ -2717,6 +2739,17 @@
       "gtin": "4262500782862"
     },
     {
+      "sku": "2925000181",
+      "name": "Handcreme You're One In A Melon",
+      "category": "Pflege",
+      "subcategory": "Hände",
+      "availability": "in stock",
+      "price": "2.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/handcreme-youre-one-in-a-melon",
+      "gtin": "4262500784934"
+    },
+    {
       "sku": "2925000180",
       "name": "Handcreme mit Sheabutter Your Cream Come True",
       "category": "Pflege",
@@ -2737,6 +2770,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/handseife-rosemary-ginger",
       "gtin": "4260372933740"
+    },
+    {
+      "sku": "2925000182",
+      "name": "Pfirsich Handcreme You're Peach Perfect",
+      "category": "Pflege",
+      "subcategory": "Hände",
+      "availability": "in stock",
+      "price": "2.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/pfirsich-handcreme-youre-peach-perfect",
+      "gtin": "4262500784958"
     },
     {
       "sku": "D000000021",
@@ -2957,17 +3001,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/Erfrischende-Bodylotion-Rosemary-Ginger-250ml/2800100539",
       "gtin": "4262401733772"
-    },
-    {
-      "sku": "2800101416",
-      "name": "Body Lotion Vitamin C, 200 ml",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "4.99 EUR",
-      "salePrice": "3.99 EUR",
-      "url": "https://www.jeanlen.de/body-lotion-vitamin-c",
-      "gtin": "4262401738845"
     },
     {
       "sku": "2800101410",
