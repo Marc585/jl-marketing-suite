@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-01",
-    "totalArticles": 357,
+    "lastUpdated": "2026-06-02",
+    "totalArticles": 354,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -660,6 +660,17 @@
       "gtin": "4262401737848"
     },
     {
+      "sku": "2925000135",
+      "name": "Haarparfum Vanille/Kokos für langanhaltende Frische und Pflege",
+      "category": "Haare",
+      "subcategory": "Extrapflege",
+      "availability": "in stock",
+      "price": "3.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/haarparfum-vanille-kokos-youre-my-coco-vanilla",
+      "gtin": "4262500783937"
+    },
+    {
       "sku": "2925000063",
       "name": "Haarparfum from the cotton of my heart, 105 ml",
       "category": "Haare",
@@ -680,17 +691,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/haarparfum-you-blossom-my-heart",
       "gtin": "4262401739460"
-    },
-    {
-      "sku": "2900100227",
-      "name": "Haarparfum you're my coco vanilla, 105 ml",
-      "category": "Haare",
-      "subcategory": "Extrapflege",
-      "availability": "in stock",
-      "price": "3.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/haarparfum-vanille-kokos-youre-my-coco-vanilla",
-      "gtin": "4262401739484"
     },
     {
       "sku": "2925000134",
@@ -1705,17 +1705,6 @@
       "gtin": "4262401739040"
     },
     {
-      "sku": "2800609523",
-      "name": "Gästehandtuch, 100% Bio-Baumwolle, salbei, 30 x 50 cm",
-      "category": "Home",
-      "subcategory": "Handtücher",
-      "availability": "in stock",
-      "price": "3.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/gaestehandtuch-salbei-30x50cm",
-      "gtin": "4262401739088"
-    },
-    {
       "sku": "D000000259",
       "name": "Steingut Seifenspender + Hand  Body Wash Rosemary/Ginger Nachfüllpack 1,5 L",
       "category": "Home",
@@ -2253,17 +2242,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/lippenpflege-mit-farbe-lip-balm-beere",
       "gtin": "4262401738289"
-    },
-    {
-      "sku": "2800109310",
-      "name": "Lip Balm Calendula/Jojobaöl, 4,7 g",
-      "category": "Pflege",
-      "subcategory": "Gesicht & Lippen",
-      "availability": "in stock",
-      "price": "2.99 EUR",
-      "salePrice": "1.49 EUR",
-      "url": "https://www.jeanlen.de/lip-balm-calendula-jojobaoel",
-      "gtin": "4262401734328"
     },
     {
       "sku": "2800109319",
@@ -3573,17 +3551,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/Creme-OEl-Dusche-Hafermilch-Kokosoel/2800100311",
       "gtin": "4260602122715"
-    },
-    {
-      "sku": "2800100321",
-      "name": "reichhaltiger Traumschaum Kokos & Hafermilch, 200 ml",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "4.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/duschschaum-kokos-hafermilch",
-      "gtin": "4262401730092"
     },
     {
       "sku": "2925000074",
