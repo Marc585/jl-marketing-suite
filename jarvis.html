@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jarvis – Kommandozentrale</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="jarvis.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+</head>
+<body>
+  <div class="jarvis-app">
+
+    <!-- Header -->
+    <header class="jarvis-header">
+      <div class="header-left">
+        <a href="index.html" class="back-link" title="Zurück zur Marketing Suite">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
+        </a>
+        <div class="jarvis-orb" id="jarvisOrb">
+          <div class="orb-core"></div>
+          <div class="orb-ring"></div>
+          <div class="orb-ring ring-2"></div>
+        </div>
+        <div class="header-title">
+          <h1>J.A.R.V.I.S.</h1>
+          <span class="header-sub" id="jarvisStatus">Bereit</span>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button class="icon-btn" id="voiceOutputBtn" title="Sprachausgabe an/aus">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+        </button>
+        <button class="icon-btn" id="dashboardToggle" title="Dashboard ein-/ausblenden">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9"/><rect x="14" y="3" width="7" height="5"/><rect x="14" y="12" width="7" height="9"/><rect x="3" y="16" width="7" height="5"/></svg>
+        </button>
+        <button class="icon-btn" id="settingsBtn" title="Einstellungen">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <div class="jarvis-body">
+
+      <!-- Chat -->
+      <main class="chat-panel">
+        <div class="chat-messages" id="chatMessages"></div>
+
+        <div class="quick-actions" id="quickActions">
+          <button class="chip" data-query="Gib mir einen Statusüberblick über alle meine Projekte">📊 Statusüberblick</button>
+          <button class="chip" data-query="Wie ist der Stand der Peptidseite?">🧬 Peptidseite</button>
+          <button class="chip" data-query="Was ist der Stand bei meinen Romanen?">📚 Romane</button>
+          <button class="chip" data-query="Entwirf mir einen Instagram-Post">📱 Social Post</button>
+          <button class="chip" data-query="Welche offenen Aufgaben habe ich?">✅ Aufgaben</button>
+        </div>
+
+        <div class="chat-input-container">
+          <div class="input-wrapper">
+            <button class="mic-btn" id="micBtn" title="Spracheingabe (gedrückt halten oder klicken)">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+            </button>
+            <input type="text" id="chatInput" placeholder="Sprich mit Jarvis – z.B. „Setz die Peptidseite auf 80% fertig“" autocomplete="off">
+            <button class="send-btn" id="sendBtn" title="Senden (Enter)">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+          </div>
+          <span class="input-hint" id="inputHint">Enter zum Senden · 🎤 für Spracheingabe</span>
+        </div>
+      </main>
+
+      <!-- Dashboard -->
+      <aside class="dashboard-panel" id="dashboardPanel">
+        <div class="dashboard-scroll">
+
+          <section class="dash-section">
+            <h2 class="dash-title">Marketing Suite</h2>
+            <div class="stat-grid" id="suiteStats">
+              <div class="stat-card"><span class="stat-value" id="dashArticles">–</span><span class="stat-label">Artikel</span></div>
+              <div class="stat-card"><span class="stat-value" id="dashCategories">–</span><span class="stat-label">Kategorien</span></div>
+              <div class="stat-card wide"><span class="stat-value small" id="dashUpdated">–</span><span class="stat-label">Datenstand</span></div>
+            </div>
+          </section>
+
+          <section class="dash-section">
+            <h2 class="dash-title">Projekte</h2>
+            <div id="projectCards"></div>
+          </section>
+
+          <section class="dash-section">
+            <h2 class="dash-title">Social Media</h2>
+            <div id="channelCards"></div>
+          </section>
+
+          <section class="dash-section">
+            <h2 class="dash-title">Aufgaben</h2>
+            <div id="taskList"></div>
+          </section>
+
+          <section class="dash-section">
+            <h2 class="dash-title">Post-Entwürfe</h2>
+            <div id="draftList"></div>
+          </section>
+
+          <section class="dash-section">
+            <h2 class="dash-title">Notizen</h2>
+            <div id="noteList"></div>
+          </section>
+
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <!-- Settings Modal -->
+  <div class="modal-overlay" id="settingsModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>Einstellungen</h2>
+        <button class="icon-btn" id="closeSettings">✕</button>
+      </div>
+      <div class="modal-body">
+        <label class="field-label">Anthropic API-Key
+          <input type="password" id="apiKeyInput" placeholder="sk-ant-...">
+          <span class="field-hint">Wird nur lokal in deinem Browser gespeichert. Key erstellen: <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">console.anthropic.com</a></span>
+        </label>
+        <label class="field-label">Modell
+          <select id="modelSelect">
+            <option value="claude-opus-4-8">Claude Opus 4.8 (am fähigsten)</option>
+            <option value="claude-sonnet-4-6">Claude Sonnet 4.6 (schnell & stark)</option>
+            <option value="claude-haiku-4-5">Claude Haiku 4.5 (am schnellsten)</option>
+          </select>
+        </label>
+        <label class="field-label checkbox-label">
+          <input type="checkbox" id="ttsCheckbox"> Sprachausgabe aktivieren (Jarvis spricht Antworten)
+        </label>
+        <div class="modal-actions">
+          <button class="btn-secondary" id="resetDataBtn">Dashboard-Daten zurücksetzen</button>
+          <button class="btn-primary" id="saveSettings">Speichern</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="jarvis.js"></script>
+</body>
+</html>
