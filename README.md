@@ -77,12 +77,53 @@ In `jarvis.js`:
 Claude erkennt neue Tools automatisch über die Beschreibung – je präziser dort
 steht, *wann* das Tool zu benutzen ist, desto zuverlässiger ruft er es auf.
 
-### Mögliche nächste Ausbaustufen
+## Verbinden: Second Brain & externe Quellen
 
-- Echte Social-Media-Zahlen automatisch ziehen (z.B. Meta Graph API) – braucht ein
-  kleines Backend (Azure Function), da API-Secrets nicht in den Browser gehören.
-- Direktes Posten auf Kanäle (ebenfalls Backend nötig).
-- Cloud-Sync der Dashboard-Daten statt localStorage (z.B. Azure Table Storage).
+### 1. Second Brain importieren (eingebaut)
+
+⚙️ Einstellungen → **„Dateien importieren“**: beliebige `.md`/`.txt`-Dateien laden
+(Notion-/Obsidian-Export, Kontextdossier aus claude.ai …). Jarvis sieht alle
+Dokumente in seinem Systemkontext und liest sie bei Bedarf vollständig
+(`read_document`-Tool). Dokumente erscheinen im Dashboard unter
+**Wissensspeicher** und lassen sich dort per ✕ entfernen.
+
+> **Tipp für ein claude.ai-Second-Brain:** Da claude.ai-Projektwissen nicht per
+> API abrufbar ist, lass dir dort ein „Kontextdossier“ als Markdown erstellen
+> („Fasse alles, was du über mich und meine Projekte weißt, als strukturiertes
+> Markdown-Dossier zusammen“) und importiere die Datei hier. Bei Updates einfach
+> neu importieren – gleiche Dateinamen werden ersetzt.
+
+### 2. MCP-Server (eingebaut, für Live-Verbindungen)
+
+⚙️ Einstellungen → **„Verbundene MCP-Server“** – eine Zeile pro Server:
+
+```
+Notion | https://mcp.notion.com/mcp | <OAuth-Token>
+```
+
+Jarvis kann dann die Tools dieses Servers direkt nutzen (Anthropic MCP-Connector,
+die Verbindung läuft serverseitig über die Claude-API). Geeignet für Notion,
+Linear, Asana u.a. – der jeweilige Dienst muss einen gehosteten MCP-Endpoint
+anbieten; das Token besorgst du gemäß dessen Doku (meist OAuth-Bearer-Token).
+
+### 3. Websuche (eingebaut)
+
+Standardmäßig aktiv (abschaltbar in den Einstellungen): Jarvis recherchiert
+selbstständig im Internet – Trends, Hashtags, Peptid-News, Konkurrenzanalyse.
+
+### 4. Weitere Ausbaustufen (brauchen ein kleines Backend)
+
+API-Secrets gehören nicht in den Browser – für diese Anbindungen ist eine
+Azure Function (Static Web Apps „Managed Functions“) der natürliche Weg:
+
+| Quelle | Weg |
+|---|---|
+| Instagram/Facebook-Insights (echte Zahlen automatisch) | Meta Graph API |
+| YouTube-Kanalstatistiken | YouTube Data API (öffentliche Stats nur mit API-Key) |
+| Website-Traffic der Peptidseite | GA4 Data API / Matomo |
+| E-Mail & Kalender | Microsoft Graph (AAD-Login ist bereits konfiguriert) |
+| Direktes Posten auf Kanäle | Meta/TikTok/YouTube Publishing APIs |
+| Cloud-Sync der Dashboard-Daten | Azure Table Storage statt localStorage |
 
 ---
 

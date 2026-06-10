@@ -181,6 +181,21 @@
           <textarea id="contextInput" rows="5" placeholder="Füttere Jarvis hier mit allem, was er dauerhaft wissen soll – z.B. Details zur Peptidseite, deinen Romanen, Zielgruppen, Tonalität deiner Kanäle …"></textarea>
           <span class="field-hint">Wird Jarvis bei jedem Gespräch mitgegeben. Zusätzlich merkt er sich Dinge selbst im Wissensspeicher.</span>
         </label>
+        <div class="field-label">Second Brain & Wissen importieren
+          <div class="import-row">
+            <button class="btn-secondary" id="importDocsBtn">📄 Dateien importieren</button>
+            <button class="btn-secondary" id="exportBtn">💾 Backup exportieren</button>
+          </div>
+          <input type="file" id="docFileInput" accept=".md,.txt,.json,.csv" multiple hidden>
+          <span class="field-hint">Importiere dein Second Brain als Textdateien (.md/.txt) – z.B. Notion-/Obsidian-Export oder ein Kontextdossier aus claude.ai. Jarvis sieht alle Dokumente und liest sie bei Bedarf.</span>
+        </div>
+        <label class="field-label">Verbundene MCP-Server (optional, für Fortgeschrittene)
+          <textarea id="mcpInput" rows="2" placeholder="Name | https://mcp.example.com/mcp | Token(optional) – ein Server pro Zeile"></textarea>
+          <span class="field-hint">Verbindet externe Tools/Wissensquellen direkt mit Jarvis (z.B. Notion MCP). Format je Zeile: <code>Name | URL | Token</code></span>
+        </label>
+        <label class="field-label checkbox-label">
+          <input type="checkbox" id="webSearchCheckbox"> Websuche erlauben (Jarvis darf im Internet recherchieren)
+        </label>
         <label class="field-label checkbox-label">
           <input type="checkbox" id="ttsCheckbox"> Sprachausgabe aktivieren (Jarvis spricht Antworten)
         </label>

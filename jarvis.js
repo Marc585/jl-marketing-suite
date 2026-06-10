@@ -20,6 +20,8 @@ const DEFAULT_SETTINGS = {
   model: 'claude-opus-4-8',
   tts: false,
   context: '',
+  webSearch: true,
+  mcpServers: '', // eine Zeile pro Server: "Name | URL | Token(optional)"
 };
 
 const DEFAULT_DATA = {
@@ -66,6 +68,7 @@ const DEFAULT_DATA = {
   notes: [],     // {id, text, createdAt}
   metrics: [],   // {id, label, value, unit, trend, updatedAt}
   knowledge: [], // {id, topic, content, updatedAt}
+  docs: [],      // {id, name, content, size, addedAt} – importierte Second-Brain-Dokumente
 };
 
 let settings = loadJSON(LS_KEYS.settings, DEFAULT_SETTINGS);
@@ -244,6 +247,18 @@ const TOOLS = [
     },
   },
   {
+    name: 'read_document',
+    description: 'Liest den vollständigen Inhalt eines importierten Dokuments aus dem Second Brain / Wissensspeicher. Die verfügbaren Dokumente (mit doc_id) stehen in deinem Systemkontext und in get_overview. Rufe dies auf, wenn du Details aus einem Dokument brauchst, um eine Frage zu beantworten.',
+    input_schema: {
+      type: 'object',
+      properties: {
+        doc_id: { type: 'string', description: 'ID des Dokuments' },
+      },
+      required: ['doc_id'],
+      additionalProperties: false,
+    },
+  },
+  {
     name: 'remember',
     description: 'Speichert dauerhaftes Wissen über den Nutzer und seine Projekte im Wissensspeicher (z.B. "Roman 1 heißt …", "Zielgruppe der Peptidseite ist …", "Tonalität auf Instagram: locker"). Nutze dies proaktiv, wenn der Nutzer dir relevante Fakten über sich, seine Inhalte oder Vorlieben mitteilt. Existiert das Thema bereits, wird es aktualisiert.',
     input_schema: {
@@ -262,7 +277,7 @@ const TOOLS = [
     input_schema: {
       type: 'object',
       properties: {
-        kind: { type: 'string', enum: ['task', 'draft', 'note', 'metric', 'knowledge', 'project', 'channel'] },
+        kind: { type: 'string', enum: ['task', 'draft', 'note', 'metric', 'knowledge', 'doc', 'project', 'channel'] },
         id: { type: 'string' },
       },
       required: ['kind', 'id'],
@@ -305,6 +320,7 @@ function executeTool(name, input) {
         post_drafts: data.drafts.map(d => ({ id: d.id, channelId: d.channelId, topic: d.topic })),
         notes: data.notes,
         wissensspeicher: data.knowledge,
+        dokumente: data.docs.map(d => ({ doc_id: d.id, name: d.name, zeichen: d.size })),
         marketing_suite: marketingStats(),
         heute: today(),
       });
@@ -443,6 +459,12 @@ function executeTool(name, input) {
       return JSON.stringify({ ok: true, aufgabe: t });
     }
 
+    case 'read_document': {
+      const doc = data.docs.find(d => d.id === input.doc_id);
+      if (!doc) return JSON.stringify({ error: `Dokument "${input.doc_id}" nicht gefunden. Vorhanden: ${data.docs.map(d => `${d.id} (${d.name})`).join(', ') || 'keine'}` });
+      return JSON.stringify({ name: doc.name, inhalt: doc.content.slice(0, 60000) });
+    }
+
     case 'remember': {
       let k = data.knowledge.find(x => x.topic.toLowerCase() === input.topic.toLowerCase());
       if (!k) {
@@ -456,7 +478,7 @@ function executeTool(name, input) {
     }
 
     case 'delete_item': {
-      const lists = { task: 'tasks', draft: 'drafts', note: 'notes', metric: 'metrics', knowledge: 'knowledge', project: 'projects', channel: 'channels' };
+      const lists = { task: 'tasks', draft: 'drafts', note: 'notes', metric: 'metrics', knowledge: 'knowledge', doc: 'docs', project: 'projects', channel: 'channels' };
       const list = data[lists[input.kind]];
       if (!list) return JSON.stringify({ error: `Unbekannter Typ: ${input.kind}` });
       const idx = list.findIndex(x => x.id === input.id);
@@ -510,6 +532,7 @@ const TOOL_LABELS = {
   add_task: 'Lege Aufgabe an …',
   complete_task: 'Hake Aufgabe ab …',
   remember: 'Speichere im Wissensspeicher …',
+  read_document: 'Lese Dokument aus dem Second Brain …',
   delete_item: 'Lösche Element …',
   add_note: 'Hefte Notiz an …',
 };
@@ -521,7 +544,7 @@ Deine Aufgaben:
 1. **Projekte besprechen & steuern**: Marc betreibt mehrere Projekte – die Jean&Len Marketing Suite (dieses Dashboard, Produktkatalog mit Auto-Sync), die Peptidseite (Onlineprojekt) und seine Romane (Schreibprojekte). Du kennst den Stand über get_overview und hältst das Dashboard über update_project aktuell.
 2. **Dashboard pflegen**: Wenn Marc etwas berichtet ("Peptidseite ist zu 80% fertig", "neues Kapitel geschrieben"), aktualisiere SOFORT das Dashboard mit den passenden Tools – nicht nur darüber reden. Berufliche Kennzahlen (Umsatz, Verkäufe, Abonnenten …) pflegst du mit add_or_update_metric.
 3. **Social Media & Statistiken**: Du verwaltest seine Kanäle und deren Statistiken. Fragt Marc nach seinen Social-Media-Zahlen → get_social_stats aufrufen und die Werte klar zusammenfassen (inkl. Entwicklung, wenn Historie vorhanden). Nennt er neue Zahlen → SOFORT update_channel_stats. Sind noch keine Zahlen hinterlegt, frag aktiv nach den aktuellen Werten und speichere die Antworten. Du hilfst außerdem bei Content-Ideen, Posting-Plänen und entwirfst Posts/Captions/Reel-Skripte (fertige Entwürfe mit save_social_draft speichern).
-4. **Wissen merken**: Wenn Marc dir Inhalte fütterst – Fakten zu Projekten, Romanfiguren, Zielgruppen, Tonalität, Vorlieben – speichere sie proaktiv mit remember, damit sie dauerhaft erhalten bleiben.
+4. **Wissen merken & Second Brain**: Wenn Marc dir Inhalte füttert – Fakten zu Projekten, Romanfiguren, Zielgruppen, Tonalität, Vorlieben – speichere sie proaktiv mit remember. Importierte Dokumente (sein Second Brain) sind unten aufgelistet; lies sie bei Bedarf vollständig mit read_document, bevor du Fragen dazu beantwortest.
 5. **Aufgaben & Notizen**: Halte To-dos (add_task/complete_task) und wichtige Notizen (add_note) fest, wenn sich aus dem Gespräch etwas ergibt.
 6. **Produktkatalog**: Bei Fragen zu Jean&Len-Artikeln nutze search_articles.
 
@@ -537,32 +560,70 @@ Verhalten:
   }
 
   if (data.knowledge.length) {
-    const facts = data.knowledge.map(k => `- ${k.topic}: ${k.content}`).join('\n').slice(0, 6000);
+    const facts = data.knowledge.map(k => `- ${k.topic}: ${k.content}`).join('\n').slice(0, 8000);
     prompt += `\n\nDein Wissensspeicher (von dir gemerkte Fakten):\n${facts}`;
+  }
+
+  if (data.docs.length) {
+    const docList = data.docs.map(d =>
+      `- doc_id "${d.id}": ${d.name} (${Math.round(d.size / 1000)}k Zeichen) – Anfang: ${d.content.slice(0, 240).replace(/\s+/g, ' ')}…`
+    ).join('\n').slice(0, 8000);
+    prompt += `\n\nImportierte Dokumente (Marcs Second Brain – bei Bedarf mit read_document vollständig lesen):\n${docList}`;
+  }
+
+  if (settings.webSearch) {
+    prompt += `\n\nDu hast Zugriff auf die Websuche (web_search) – nutze sie für aktuelle Informationen, Recherchen, Trends und Hashtag-Ideen.`;
+  }
+
+  const mcp = parseMcpServers();
+  if (mcp.length) {
+    prompt += `\n\nZusätzlich sind externe Werkzeuge über MCP verbunden: ${mcp.map(s => s.name).join(', ')}. Nutze deren Tools, wenn sie zur Aufgabe passen.`;
   }
 
   prompt += `\n\nHeute ist der ${new Date().toLocaleDateString('de-DE', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}.`;
   return prompt;
 }
 
-async function callClaudeStream(messages, onText) {
+function parseMcpServers() {
+  return (settings.mcpServers || '').split('\n').map(line => {
+    const parts = line.split('|').map(p => p.trim());
+    if (!parts[1] || !/^https:\/\//.test(parts[1])) return null;
+    const server = { type: 'url', name: parts[0] || 'mcp', url: parts[1] };
+    if (parts[2]) server.authorization_token = parts[2];
+    return server;
+  }).filter(Boolean);
+}
+
+async function callClaudeStream(messages, onText, onBlockStart) {
+  const headers = {
+    'x-api-key': settings.apiKey,
+    'anthropic-version': '2023-06-01',
+    'anthropic-dangerous-direct-browser-access': 'true',
+    'content-type': 'application/json',
+  };
+  const tools = [...TOOLS];
+  if (settings.webSearch) tools.push({ type: 'web_search_20260209', name: 'web_search' });
+
+  const body = {
+    model: settings.model,
+    max_tokens: 8000,
+    thinking: { type: 'adaptive' },
+    stream: true,
+    system: buildSystemPrompt(),
+    tools,
+    messages,
+  };
+
+  const mcp = parseMcpServers();
+  if (mcp.length) {
+    body.mcp_servers = mcp;
+    headers['anthropic-beta'] = 'mcp-client-2025-04-04';
+  }
+
   const res = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
-    headers: {
-      'x-api-key': settings.apiKey,
-      'anthropic-version': '2023-06-01',
-      'anthropic-dangerous-direct-browser-access': 'true',
-      'content-type': 'application/json',
-    },
-    body: JSON.stringify({
-      model: settings.model,
-      max_tokens: 8000,
-      thinking: { type: 'adaptive' },
-      stream: true,
-      system: buildSystemPrompt(),
-      tools: TOOLS,
-      messages,
-    }),
+    headers,
+    body: JSON.stringify(body),
   });
 
   if (!res.ok) {
@@ -587,10 +648,12 @@ async function callClaudeStream(messages, onText) {
     switch (ev.type) {
       case 'content_block_start': {
         const b = Object.assign({}, ev.content_block);
-        if (b.type === 'tool_use') b._json = '';
+        // Alle Tool-Aufruf-Varianten streamen ihre Eingabe als input_json_delta
+        if (b.type === 'tool_use' || b.type === 'server_tool_use' || b.type === 'mcp_tool_use') b._json = '';
         if (b.type === 'text' && b.text === undefined) b.text = '';
         if (b.type === 'thinking' && b.thinking === undefined) b.thinking = '';
         blocks[ev.index] = b;
+        onBlockStart && onBlockStart(b);
         break;
       }
       case 'content_block_delta': {
@@ -622,12 +685,13 @@ async function callClaudeStream(messages, onText) {
     }
   }
 
-  // Tool-Inputs finalisieren
+  // Tool-Inputs finalisieren (lokale Tools, Server-Tools wie Websuche, MCP-Tools)
   const content = blocks.filter(Boolean).map(b => {
-    if (b.type === 'tool_use') {
+    if (b._json !== undefined) {
       let input = {};
       try { input = b._json ? JSON.parse(b._json) : {}; } catch { /* defekte Eingabe → leeres Objekt */ }
-      return { type: 'tool_use', id: b.id, name: b.name, input };
+      const { _json, ...rest } = b;
+      return { ...rest, input };
     }
     if (b.type === 'thinking') {
       const t = { type: 'thinking', thinking: b.thinking || '' };
@@ -663,30 +727,43 @@ async function processMessage(userText, hooks = {}) {
     hooks.onPartial && hooks.onPartial(liveText);
   };
 
+  // Live-Hinweise, sobald ein Tool-Aufruf im Stream beginnt
+  const onBlockStart = (b) => {
+    let label = null;
+    if (b.type === 'tool_use') label = TOOL_LABELS[b.name] || b.name;
+    else if (b.type === 'server_tool_use') label = b.name === 'web_search' ? 'Durchsuche das Web …' : `${b.name} …`;
+    else if (b.type === 'mcp_tool_use') label = `Nutze ${b.server_name || 'MCP'}: ${b.name} …`;
+    if (label) {
+      addToolPill(label);
+      hooks.onTool && hooks.onTool(label);
+    }
+  };
+
   try {
-    let response = await callClaudeStream(conversation, onText);
+    let response = await callClaudeStream(conversation, onText, onBlockStart);
     let rounds = 0;
     let finalText = liveText;
 
-    while (response.stop_reason === 'tool_use' && rounds < 10) {
+    // tool_use → lokale Tools ausführen; pause_turn → Server-Tool-Lauf (Websuche/MCP) fortsetzen
+    while ((response.stop_reason === 'tool_use' || response.stop_reason === 'pause_turn') && rounds < 12) {
       rounds++;
       conversation.push({ role: 'assistant', content: response.content });
 
       const results = [];
-      for (const block of response.content) {
-        if (block.type === 'tool_use') {
-          addToolPill(TOOL_LABELS[block.name] || block.name);
-          hooks.onTool && hooks.onTool(TOOL_LABELS[block.name] || block.name);
-          let result;
-          try { result = executeTool(block.name, block.input); }
-          catch (e) { result = JSON.stringify({ error: String(e) }); }
-          results.push({ type: 'tool_result', tool_use_id: block.id, content: result });
+      if (response.stop_reason === 'tool_use') {
+        for (const block of response.content) {
+          if (block.type === 'tool_use') {
+            let result;
+            try { result = executeTool(block.name, block.input); }
+            catch (e) { result = JSON.stringify({ error: String(e) }); }
+            results.push({ type: 'tool_result', tool_use_id: block.id, content: result });
+          }
         }
       }
-      conversation.push({ role: 'user', content: results });
+      if (results.length) conversation.push({ role: 'user', content: results });
 
       liveBubble = null; // nächste Antwort in neue Bubble
-      response = await callClaudeStream(conversation, onText);
+      response = await callClaudeStream(conversation, onText, onBlockStart);
       if (liveText) finalText = liveText;
     }
 
@@ -1331,13 +1408,22 @@ function renderDashboard() {
     `<div class="note-item">${escapeHtml(n.text)}</div>`
   ).join('') || '<p class="empty-hint">Keine Notizen.</p>';
 
-  // Wissensspeicher
-  document.getElementById('knowledgeList').innerHTML = data.knowledge.slice(0, 12).map(k => `
+  // Wissensspeicher: importierte Dokumente + gemerkte Fakten
+  const docsHtml = data.docs.map(d => `
+    <div class="knowledge-item doc-item">
+      <div class="k-topic">📄 ${escapeHtml(d.name)}</div>
+      <div class="k-content">${Math.round(d.size / 1000)}k Zeichen · importiert ${escapeHtml(d.addedAt)}</div>
+      <button class="doc-del" data-doc="${d.id}" title="Dokument entfernen">✕</button>
+    </div>
+  `).join('');
+  const factsHtml = data.knowledge.slice(0, 12).map(k => `
     <div class="knowledge-item">
       <div class="k-topic">${escapeHtml(k.topic)}</div>
       <div class="k-content">${escapeHtml(k.content)}</div>
     </div>
-  `).join('') || '<p class="empty-hint">Noch leer – erzähl Jarvis von deinen Projekten, er merkt sich die Fakten.</p>';
+  `).join('');
+  document.getElementById('knowledgeList').innerHTML = (docsHtml + factsHtml) ||
+    '<p class="empty-hint">Noch leer – erzähl Jarvis von deinen Projekten oder importiere dein Second Brain (⚙️ → Dateien importieren).</p>';
 }
 
 // ============================================
@@ -1349,6 +1435,8 @@ function openSettings() {
   document.getElementById('modelSelect').value = settings.model;
   document.getElementById('ttsCheckbox').checked = settings.tts;
   document.getElementById('contextInput').value = settings.context || '';
+  document.getElementById('webSearchCheckbox').checked = settings.webSearch !== false;
+  document.getElementById('mcpInput').value = settings.mcpServers || '';
   document.getElementById('settingsModal').classList.add('open');
 }
 
@@ -1367,10 +1455,66 @@ function initSettings() {
     settings.model = document.getElementById('modelSelect').value;
     settings.tts = document.getElementById('ttsCheckbox').checked;
     settings.context = document.getElementById('contextInput').value;
+    settings.webSearch = document.getElementById('webSearchCheckbox').checked;
+    settings.mcpServers = document.getElementById('mcpInput').value;
     saveSettings();
     updateTtsButton();
     closeSettings();
     addBotMessage('Einstellungen gespeichert. ✓');
+  });
+
+  // Second-Brain-Import: Textdateien in den Wissensspeicher laden
+  const fileInput = document.getElementById('docFileInput');
+  document.getElementById('importDocsBtn').addEventListener('click', () => fileInput.click());
+  fileInput.addEventListener('change', async () => {
+    let imported = 0;
+    for (const f of fileInput.files) {
+      try {
+        const text = await f.text();
+        if (!text.trim()) continue;
+        // gleiche Datei beim erneuten Import ersetzen statt duplizieren
+        data.docs = data.docs.filter(d => d.name !== f.name);
+        data.docs.push({
+          id: uid(),
+          name: f.name,
+          content: text.slice(0, 200000),
+          size: text.length,
+          addedAt: today(),
+        });
+        imported++;
+      } catch { /* unlesbare Datei überspringen */ }
+    }
+    fileInput.value = '';
+    if (imported) {
+      saveData();
+      renderDashboard();
+      flash('knowledgeList');
+      closeSettings();
+      addBotMessage(`📄 **${imported} Dokument${imported > 1 ? 'e' : ''} importiert.** Ich kenne den Inhalt jetzt und lese bei Bedarf die Details nach. Frag mich einfach etwas dazu.`);
+    }
+  });
+
+  // Backup-Export (alle Dashboard-Daten + Einstellungen ohne API-Key)
+  document.getElementById('exportBtn').addEventListener('click', () => {
+    const backup = { exportedAt: new Date().toISOString(), data, settings: { ...settings, apiKey: '' } };
+    const blob = new Blob([JSON.stringify(backup, null, 2)], { type: 'application/json' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `jarvis-backup-${today()}.json`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  });
+
+  // Dokumente direkt im Dashboard entfernen
+  document.getElementById('knowledgeList').addEventListener('click', (e) => {
+    const btn = e.target.closest('.doc-del');
+    if (!btn) return;
+    const doc = data.docs.find(d => d.id === btn.dataset.doc);
+    if (doc && confirm(`Dokument „${doc.name}“ aus dem Wissensspeicher entfernen?`)) {
+      data.docs = data.docs.filter(d => d.id !== doc.id);
+      saveData();
+      renderDashboard();
+    }
   });
   document.getElementById('resetDataBtn').addEventListener('click', () => {
     if (!confirm('Alle Dashboard-Daten (Projekte, Aufgaben, Notizen, Entwürfe, Statistiken, Wissen) auf den Ausgangszustand zurücksetzen?')) return;
