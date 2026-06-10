@@ -1,0 +1,56 @@
+# ---------------------------------------------------------------------------
+# USC Waitlist Sniper - configuration
+# Copy this file to `config.yaml` and fill in your values.
+# `config.yaml` is git-ignored so your credentials never get committed.
+# ---------------------------------------------------------------------------
+
+credentials:
+  email: "you@example.com"
+  password: "your-usc-password"
+
+# Base host for the member-facing web app. Almost always this default.
+base_url: "https://urbansportsclub.com"
+
+# How aggressively to poll. The bot polls slowly when the class is far away
+# and ramps to "fast" inside the hot window (most cancellations happen in the
+# last hour(s) before the class starts).
+polling:
+  idle_interval_seconds: 15      # used when class start is far away
+  hot_interval_seconds: 0.7      # used inside hot_window before class start
+  hot_window_minutes: 180        # how long before class start to go fast
+  jitter_seconds: 0.3            # small random jitter to look less robotic
+  give_up_minutes_after_start: 5 # stop watching a class this long after it began
+
+booking:
+  # If the fast HTTP booking path fails for any reason, fall back to driving
+  # the real website with Playwright and clicking the booking flow.
+  enable_playwright_fallback: true
+  # Re-check the account every N minutes to refresh the waitlist watchlist
+  # automatically (classes you are waitlisted for are picked up on their own).
+  refresh_watchlist_minutes: 30
+
+# Optional: classes to watch explicitly. If `auto_watch_waitlisted` is true the
+# bot also adds every class you are currently waitlisted for. Explicit entries
+# are matched by the fields you provide (all provided fields must match).
+auto_watch_waitlisted: true
+watchlist: []
+#  - venue: "Boulderwelt München Ost"
+#    title: "Yoga"
+#    weekday: "Mon"        # Mon/Tue/Wed/Thu/Fri/Sat/Sun, optional
+#    start_time: "18:30"   # optional, HH:MM local
+
+notifications:
+  telegram:
+    enabled: false
+    bot_token: ""        # from @BotFather
+    chat_id: ""          # your numeric chat id
+
+# Endpoints are auto-discovered into endpoints.json on first run. You normally
+# do not touch this. Override here only if discovery picked the wrong call.
+endpoints_file: "endpoints.json"
+
+# Where the persisted Playwright login session is stored.
+session_file: "session_state.json"
+
+# Set to true to dump raw API responses to the log for debugging/tuning.
+debug: false

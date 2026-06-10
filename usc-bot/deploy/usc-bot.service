@@ -1,0 +1,21 @@
+[Unit]
+Description=USC Waitlist Sniper
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=usc
+WorkingDirectory=/opt/usc-bot
+Environment=PYTHONUNBUFFERED=1
+# headless Chromium needs these on a bare server
+ExecStart=/opt/usc-bot/.venv/bin/python -m usc_bot.main -c /opt/usc-bot/config.yaml run
+Restart=always
+RestartSec=10
+# basic hardening
+NoNewPrivileges=true
+ProtectSystem=full
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
