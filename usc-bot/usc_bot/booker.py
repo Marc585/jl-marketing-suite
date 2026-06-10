@@ -207,6 +207,16 @@ class Booker:
     async def _attempt_booking(self, wc: WatchedClass, state: ClassState) -> None:
         assert self.client is not None
         log.info("SPOT OPEN for %s — booking now!", wc.title)
+
+        if self.cfg.dry_run:
+            log.info("[DRY-RUN] Would fire %s %s",
+                     wc.booking.get("method", "POST"), wc.booking.get("url", "<no url>"))
+            await self.notifier.send(
+                f"🧪 [DRY-RUN] Spot opened for <b>{wc.title}</b> "
+                f"({wc.start}) — would book now (no request sent).")
+            self._booked.add(wc.key())  # avoid re-triggering in a test run
+            return
+
         ok, detail = False, "no booking endpoint"
         if wc.booking.get("url"):
             ok, detail = await self.client.book(wc.booking)

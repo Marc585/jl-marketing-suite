@@ -96,7 +96,9 @@ def main(argv: list[str] | None = None) -> None:
     p_disc = sub.add_parser("discover", help="record API endpoints")
     p_disc.add_argument("--headful", action="store_true")
     sub.add_parser("inspect", help="print discovered endpoints")
-    sub.add_parser("run", help="start the sniper daemon")
+    p_run = sub.add_parser("run", help="start the sniper daemon")
+    p_run.add_argument("--dry-run", action="store_true",
+                       help="watch + detect open spots but never actually book")
 
     args = parser.parse_args(argv)
     cfg_path = Path(args.config)
@@ -114,6 +116,8 @@ def main(argv: list[str] | None = None) -> None:
     elif args.cmd == "inspect":
         asyncio.run(cmd_inspect(cfg))
     elif args.cmd == "run":
+        if getattr(args, "dry_run", False):
+            cfg.dry_run = True
         asyncio.run(cmd_run(cfg))
 
 

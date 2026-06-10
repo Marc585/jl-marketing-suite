@@ -62,6 +62,41 @@ Leave it running. When you join a waitlist in the USC app, the bot picks it up
 on the next refresh (default every 30 min; tune `refresh_watchlist_minutes`) and
 starts sniping. On success you get a Telegram message (if configured).
 
+## Testing it safely
+
+Test in layers, cheapest first — don't validate by sniping a real popular class.
+
+**1. Parser logic (offline, no account needed).**
+```bash
+python -m tests.test_parsers
+```
+Confirms availability detection, watchlist building, id substitution and date
+parsing work.
+
+**2. Login + discovery (against the real site, read-only).**
+```bash
+python -m usc_bot.main login --headful
+python -m usc_bot.main discover --headful
+python -m usc_bot.main inspect
+```
+`inspect` should list non-empty `availability`, `booking` and `my_bookings`
+candidates. This proves the bot can log in and found the right endpoints — it
+books nothing.
+
+**3. Dry run (full pipeline, never books).**
+```bash
+python -m usc_bot.main run --dry-run
+```
+The bot logs in, finds the classes you're waitlisted for, polls availability for
+real, and when a spot opens it logs/notifies **"would book"** instead of sending
+the booking request. Set `debug: true` in `config.yaml` to also see raw API
+responses. Let this run against a class you're actually waitlisted for: if you
+see it detect the open spot, the live path will book it.
+
+**4. Live, low-stakes.** Waitlist a class that is *not* hyper-competitive, run
+without `--dry-run`, and confirm a real booking + Telegram message. Only then
+point it at the classes that vanish in a second.
+
 ## Deploy on Hetzner (systemd)
 
 ```bash

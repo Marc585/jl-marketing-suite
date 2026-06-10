@@ -52,6 +52,8 @@ class Config:
     endpoints_file: str = "endpoints.json"
     session_file: str = "session_state.json"
     debug: bool = False
+    # when true, never fire the real booking request — only log what would happen
+    dry_run: bool = False
     # directory the config lives in, used to resolve relative paths
     base_dir: Path = field(default_factory=Path.cwd)
 
@@ -91,5 +93,6 @@ def load_config(path: str | os.PathLike[str]) -> Config:
         endpoints_file=raw.get("endpoints_file", "endpoints.json"),
         session_file=raw.get("session_file", "session_state.json"),
         debug=raw.get("debug", False),
+        dry_run=raw.get("dry_run", False),
         base_dir=path.resolve().parent,
     )
