@@ -766,4 +766,8 @@ body {
   .chat-messages { padding: 16px; }
   .quick-actions, .chat-input-container { padding-left: 16px; padding-right: 16px; }
   .header-title h1 { font-size: 15px; letter-spacing: 2px; }
+  .voice-orb { width: 140px; height: 140px; }
+  .voice-orb-core { inset: 42px; }
+  .voice-center { gap: 34px; }
+  .voice-transcript { font-size: 15px; }
 }

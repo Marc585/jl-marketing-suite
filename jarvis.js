@@ -1406,6 +1406,9 @@ async function init() {
   initSettings();
   updateTtsButton();
 
+  // Auf Mobilgeräten startet das Dashboard eingeklappt (Chat im Fokus)
+  if (window.innerWidth <= 900) document.getElementById('dashboardPanel').classList.add('hidden');
+
   // Events
   document.getElementById('sendBtn').addEventListener('click', () => handleSend());
   chatInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') handleSend(); });
