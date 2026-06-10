@@ -11,6 +11,11 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
 </head>
 <body>
+
+  <!-- HUD-Hintergrund -->
+  <canvas id="bgCanvas"></canvas>
+  <div class="hud-grid"></div>
+
   <div class="jarvis-app">
 
     <!-- Header -->
@@ -30,6 +35,10 @@
         </div>
       </div>
       <div class="header-actions">
+        <button class="icon-btn voice-mode-btn" id="voiceModeBtn" title="Sprachmodus (Hands-free)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="2.2"/><path d="M12 5.5a6.5 6.5 0 0 1 6.5 6.5"/><path d="M12 2a10 10 0 0 1 10 10"/><path d="M12 18.5A6.5 6.5 0 0 1 5.5 12"/><path d="M12 22A10 10 0 0 1 2 12"/></svg>
+          <span class="voice-mode-label">Sprachmodus</span>
+        </button>
         <button class="icon-btn" id="voiceOutputBtn" title="Sprachausgabe an/aus">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
         </button>
@@ -50,6 +59,7 @@
 
         <div class="quick-actions" id="quickActions">
           <button class="chip" data-query="Gib mir einen Statusüberblick über alle meine Projekte">📊 Statusüberblick</button>
+          <button class="chip" data-query="Wie sind meine Social-Media-Statistiken?">📈 Social-Statistiken</button>
           <button class="chip" data-query="Wie ist der Stand der Peptidseite?">🧬 Peptidseite</button>
           <button class="chip" data-query="Was ist der Stand bei meinen Romanen?">📚 Romane</button>
           <button class="chip" data-query="Entwirf mir einen Instagram-Post">📱 Social Post</button>
@@ -58,7 +68,7 @@
 
         <div class="chat-input-container">
           <div class="input-wrapper">
-            <button class="mic-btn" id="micBtn" title="Spracheingabe (gedrückt halten oder klicken)">
+            <button class="mic-btn" id="micBtn" title="Spracheingabe">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
             </button>
             <input type="text" id="chatInput" placeholder="Sprich mit Jarvis – z.B. „Setz die Peptidseite auf 80% fertig“" autocomplete="off">
@@ -66,7 +76,7 @@
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
             </button>
           </div>
-          <span class="input-hint" id="inputHint">Enter zum Senden · 🎤 für Spracheingabe</span>
+          <span class="input-hint" id="inputHint">Enter zum Senden · 🎤 Einzelaufnahme · ◎ Sprachmodus für freihändige Gespräche</span>
         </div>
       </main>
 
@@ -81,6 +91,11 @@
               <div class="stat-card"><span class="stat-value" id="dashCategories">–</span><span class="stat-label">Kategorien</span></div>
               <div class="stat-card wide"><span class="stat-value small" id="dashUpdated">–</span><span class="stat-label">Datenstand</span></div>
             </div>
+          </section>
+
+          <section class="dash-section" id="metricsSection">
+            <h2 class="dash-title">Kennzahlen</h2>
+            <div class="stat-grid" id="metricCards"></div>
           </section>
 
           <section class="dash-section">
@@ -108,8 +123,38 @@
             <div id="noteList"></div>
           </section>
 
+          <section class="dash-section">
+            <h2 class="dash-title">Wissensspeicher</h2>
+            <div id="knowledgeList"></div>
+          </section>
+
         </div>
       </aside>
+    </div>
+  </div>
+
+  <!-- Voice-Mode Overlay -->
+  <div class="voice-overlay" id="voiceOverlay">
+    <canvas id="voiceCanvas"></canvas>
+    <button class="voice-close" id="voiceClose" title="Sprachmodus beenden">✕</button>
+    <div class="voice-center">
+      <div class="voice-orb" id="voiceOrb">
+        <div class="voice-orb-core"></div>
+        <div class="voice-orb-ring r1"></div>
+        <div class="voice-orb-ring r2"></div>
+        <div class="voice-orb-ring r3"></div>
+      </div>
+      <div class="voice-status" id="voiceStatus">Initialisiere …</div>
+      <div class="voice-transcript" id="voiceTranscript"></div>
+      <button class="voice-talk-btn" id="voiceTalkBtn">Tippen zum Sprechen</button>
+    </div>
+  </div>
+
+  <!-- Boot-Sequenz -->
+  <div class="boot-overlay" id="bootOverlay">
+    <div class="boot-box">
+      <div class="boot-orb"></div>
+      <div class="boot-lines" id="bootLines"></div>
     </div>
   </div>
 
@@ -131,6 +176,10 @@
             <option value="claude-sonnet-4-6">Claude Sonnet 4.6 (schnell & stark)</option>
             <option value="claude-haiku-4-5">Claude Haiku 4.5 (am schnellsten)</option>
           </select>
+        </label>
+        <label class="field-label">Über dich & deine Projekte (Kontext für Jarvis)
+          <textarea id="contextInput" rows="5" placeholder="Füttere Jarvis hier mit allem, was er dauerhaft wissen soll – z.B. Details zur Peptidseite, deinen Romanen, Zielgruppen, Tonalität deiner Kanäle …"></textarea>
+          <span class="field-hint">Wird Jarvis bei jedem Gespräch mitgegeben. Zusätzlich merkt er sich Dinge selbst im Wissensspeicher.</span>
         </label>
         <label class="field-label checkbox-label">
           <input type="checkbox" id="ttsCheckbox"> Sprachausgabe aktivieren (Jarvis spricht Antworten)
