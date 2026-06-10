@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-09",
-    "totalArticles": 354,
+    "lastUpdated": "2026-06-10",
+    "totalArticles": 358,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -1254,15 +1254,15 @@
       "gtin": "4262401731730"
     },
     {
-      "sku": "2800101109",
-      "name": "Repair Shampoo Keratin/Mandel, 300 ml",
+      "sku": "2925000006",
+      "name": "Repair Shampoo Keratin/Mandel",
       "category": "Haare",
       "subcategory": "Shampoo",
       "availability": "in stock",
       "price": "4.29 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Repair-Shampoo-Keratin-Mandel-300-ml/2800101109",
-      "gtin": "4260602121404"
+      "url": "https://www.jeanlen.de/Repair-Shampoo-Keratin-Mandel-300-ml/2925000006",
+      "gtin": "4262500781551"
     },
     {
       "sku": "2800100900",
@@ -1714,6 +1714,17 @@
       "salePrice": "23.99 EUR",
       "url": "https://www.jeanlen.de/steingut-seifenspender-mit-hand-body-wash-rosemary-ginger-refill",
       "gtin": ""
+    },
+    {
+      "sku": "2925000316",
+      "name": "Citronella Kerze mit sanfter Note von weißem Tee",
+      "category": "Home",
+      "subcategory": "Raumduft & Kerzen",
+      "availability": "in stock",
+      "price": "12.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/citronella-kerze-duftkerze-citronella-white-tea",
+      "gtin": "4262500787751"
     },
     {
       "sku": "2925000103",
@@ -3476,6 +3487,17 @@
       "gtin": "4262401732645"
     },
     {
+      "sku": "2925000170",
+      "name": "Spa Ceremony Giftbox Peony/Lychee",
+      "category": "Pflege",
+      "subcategory": "Körper",
+      "availability": "in stock",
+      "price": "24.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/geschenkset-spa-ceremony-peony-lychee",
+      "gtin": "4262500784620"
+    },
+    {
       "sku": "2925000171",
       "name": "Spa Ceremony Giftbox Rosemary/Ginger",
       "category": "Pflege",
@@ -3795,6 +3817,17 @@
       "gtin": ""
     },
     {
+      "sku": "2925000254",
+      "name": "Trockenshampoo ohne Rückstände you're my coco vanilla",
+      "category": "Pflege",
+      "subcategory": "Shampoo",
+      "availability": "in stock",
+      "price": "3.79 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/trockenshampoo-ohne-rueckstaende-youre-my-coco-vanilla",
+      "gtin": "4262500786457"
+    },
+    {
       "sku": "2900100800",
       "name": "100% Aloe Vera-Gel, 100 ml",
       "category": "Pflege",
@@ -4002,6 +4035,17 @@
       "salePrice": "14.99 EUR",
       "url": "https://www.jeanlen.de/handseife-rosemary-ginger-4-er-set",
       "gtin": ""
+    },
+    {
+      "sku": "2925000188",
+      "name": "JeanLen Adventskalender 2026 – Jetzt anmelden",
+      "category": "Sonstiges",
+      "subcategory": "",
+      "availability": "in stock",
+      "price": "89.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/adventskalender-2026",
+      "gtin": "4262500788123"
     },
     {
       "sku": "D000000234",
