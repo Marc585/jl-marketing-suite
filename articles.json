@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-11",
+    "lastUpdated": "2026-06-13",
     "totalArticles": 358,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -902,17 +902,6 @@
       "gtin": "4262401738630"
     },
     {
-      "sku": "2900100230",
-      "name": "Trockenshampoo pump up my volume, 200 ml",
-      "category": "Haare",
-      "subcategory": "Extrapflege",
-      "availability": "in stock",
-      "price": "3.79 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/trockenshampoo-volumen",
-      "gtin": "4262401739569"
-    },
-    {
       "sku": "2900100237",
       "name": "Zuverlässiger Hitzeschutz für Deine Haare",
       "category": "Haare",
@@ -1261,7 +1250,7 @@
       "availability": "in stock",
       "price": "4.29 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Repair-Shampoo-Keratin-Mandel-300-ml/2925000006",
+      "url": "https://www.jeanlen.de/repair-shampoo-keratin-mandel",
       "gtin": "4262500781551"
     },
     {
@@ -1978,6 +1967,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/universalwaschmittel-wasserlilie-hibiskus-fluessigwaschmittel",
       "gtin": "4262500781773"
+    },
+    {
+      "sku": "2925000200",
+      "name": "Fußbalsam für seidige Füße und schöne Nägel",
+      "category": "Pflege",
+      "subcategory": "",
+      "availability": "in stock",
+      "price": "2.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/fussbalsam-nagelbalsam-intensiv-oh-sohle-mio",
+      "gtin": "4262500785214"
     },
     {
       "sku": "2925000201",
