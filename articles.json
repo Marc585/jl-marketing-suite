@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-15",
+    "lastUpdated": "2026-06-16",
     "totalArticles": 358,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -1639,17 +1639,6 @@
       "gtin": "4262500782572"
     },
     {
-      "sku": "2800609512",
-      "name": "Wandhalterung für 2 Seifenflaschen, Aluminium, schwarz - verpackt",
-      "category": "Home",
-      "subcategory": "",
-      "availability": "in stock",
-      "price": "19.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/wandhalterung-fuer-seifenspender-2-seifenflaschen-aluminium-schwarz",
-      "gtin": "4262401738210"
-    },
-    {
       "sku": "2800609513",
       "name": "Wandhalterung für 3 Seifenflaschen, Aluminium, schwarz - verpackt",
       "category": "Home",
@@ -1670,6 +1659,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/wandhalterung-fuer-seifenspender-aluminium-schwarz",
       "gtin": "4262401738258"
+    },
+    {
+      "sku": "2925000057",
+      "name": "Wandhalterung für Seifenspender aus schwarzem Aluminium mit Platz für 2 Seifenflaschen",
+      "category": "Home",
+      "subcategory": "",
+      "availability": "in stock",
+      "price": "19.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/wandhalterung-fuer-seifenspender-2-seifenflaschen-aluminium-schwarz",
+      "gtin": "4262500782596"
     },
     {
       "sku": "2800609522",
