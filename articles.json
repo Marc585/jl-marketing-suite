@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-16",
-    "totalArticles": 358,
+    "lastUpdated": "2026-06-17",
+    "totalArticles": 356,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -1991,17 +1991,6 @@
       "gtin": "4262500785245"
     },
     {
-      "sku": "2800101011",
-      "name": "Hand & Body Wash Pfingstrose/Litschi,  500ml",
-      "category": "Pflege",
-      "subcategory": "",
-      "availability": "in stock",
-      "price": "11.99 EUR",
-      "salePrice": "5.99 EUR",
-      "url": "https://www.jeanlen.de/Hand-Body-Wash-Pfingstrose-Litschi-500ml/2800101011",
-      "gtin": "4260702184767"
-    },
-    {
       "sku": "2925000176",
       "name": "48 Stunden Deo – Deospray 5in1 protect",
       "category": "Pflege",
@@ -3628,17 +3617,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/hair-and-body-wash-cardamom-tonka-nachfuellpack-1500-ml",
       "gtin": "4262401735929"
-    },
-    {
-      "sku": "D000000158",
-      "name": "Hand  Body Wash Pfingstrose/Litschi + Nachfüllpack",
-      "category": "Pflege",
-      "subcategory": "Nachfüllpack",
-      "availability": "in stock",
-      "price": "29.98 EUR",
-      "salePrice": "24.99 EUR",
-      "url": "https://www.jeanlen.de/hand-body-wash-nachfuellpack-pfingstrose-litschi",
-      "gtin": ""
     },
     {
       "sku": "D000000037",
