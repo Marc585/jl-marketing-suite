@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-18",
-    "totalArticles": 356,
+    "lastUpdated": "2026-06-19",
+    "totalArticles": 355,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -2671,17 +2671,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/handcreme-kamille-olivenoel",
       "gtin": "4262401736162"
-    },
-    {
-      "sku": "2925000178",
-      "name": "Handcreme Kirsche: Merci Mon Cherry",
-      "category": "Pflege",
-      "subcategory": "Hände",
-      "availability": "in stock",
-      "price": "2.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/handcreme-merci-mon-cherry",
-      "gtin": "4262500784873"
     },
     {
       "sku": "2925000179",
