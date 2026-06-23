@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-21",
+    "lastUpdated": "2026-06-23",
     "totalArticles": 355,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -3690,7 +3690,7 @@
       "category": "Pflege",
       "subcategory": "Sets",
       "availability": "in stock",
-      "price": "19.99 EUR",
+      "price": "18.99 EUR",
       "salePrice": null,
       "url": "https://www.jeanlen.de/geschenkset-body-ceremony-bergamot-cedarwood",
       "gtin": "4262500781247"
