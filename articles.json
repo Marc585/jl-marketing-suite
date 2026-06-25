@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-24",
-    "totalArticles": 355,
+    "lastUpdated": "2026-06-25",
+    "totalArticles": 354,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -361,17 +361,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/sea-salt-spray",
       "gtin": "4262500781148"
-    },
-    {
-      "sku": "2900100231",
-      "name": "Styling Wax Stick you're so sleek, 25 g",
-      "category": "Haare",
-      "subcategory": "",
-      "availability": "in stock",
-      "price": "4.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/styling-wax-stick",
-      "gtin": "4262401739583"
     },
     {
       "sku": "2800100193",
