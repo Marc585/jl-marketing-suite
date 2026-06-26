@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-25",
-    "totalArticles": 354,
+    "lastUpdated": "2026-06-26",
+    "totalArticles": 353,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -484,15 +484,15 @@
       "gtin": "4260602120254"
     },
     {
-      "sku": "2800100216",
-      "name": "Pflege Conditioner Jojoba/Apfel, 300 ml",
+      "sku": "2925000005",
+      "name": "Pflege Conditioner Jojoba/Apfel für gesund aussehende Haare und bessere Kämmbarkeit",
       "category": "Haare",
       "subcategory": "Conditioner",
       "availability": "in stock",
       "price": "4.29 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Pflege-Conditioner-Jojoba-Apfel-300-ml/2800100216",
-      "gtin": "4262401731686"
+      "url": "https://www.jeanlen.de/Pflege-Conditioner-Jojoba-Apfel-300-ml/2925000005",
+      "gtin": "4262500781537"
     },
     {
       "sku": "2925000007",
@@ -3012,17 +3012,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/melting-moisture-body-treatment-cardamom-tonka",
       "gtin": "4262401731013"
-    },
-    {
-      "sku": "2800100530",
-      "name": "Body Treatment Peony/Lychee INT, 200 ml",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "9.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/melting-moisture-body-treatment-peony-lychee",
-      "gtin": "4262401731037"
     },
     {
       "sku": "2800100531",
