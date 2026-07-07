@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-06",
-    "totalArticles": 353,
+    "lastUpdated": "2026-07-07",
+    "totalArticles": 350,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -1661,17 +1661,6 @@
       "gtin": "4262500782596"
     },
     {
-      "sku": "2800609522",
-      "name": "Gästehandtuch aus 100% Bio-Baumwolle, rosmarin, 30 x 50 cm",
-      "category": "Home",
-      "subcategory": "Handtücher",
-      "availability": "in stock",
-      "price": "3.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/gaestehandtuch-rosmarin-30x50cm",
-      "gtin": "4262401739064"
-    },
-    {
       "sku": "2800609521",
       "name": "Gästehandtuch, 100% Bio-Baumwolle, beige, 30 x 50 cm",
       "category": "Home",
@@ -2022,17 +2011,6 @@
       "salePrice": "1.99 EUR",
       "url": "https://www.jeanlen.de/deo-zerstaeuber-rosenwasser",
       "gtin": "4262401733390"
-    },
-    {
-      "sku": "2800100620",
-      "name": "Deo-Zerstäuber Wasserlilie, 75 ml",
-      "category": "Pflege",
-      "subcategory": "Deos",
-      "availability": "in stock",
-      "price": "3.99 EUR",
-      "salePrice": "1.99 EUR",
-      "url": "https://www.jeanlen.de/deo-zerstaeuber-wasserlilie",
-      "gtin": "4262401733277"
     },
     {
       "sku": "2800100623",
@@ -2935,17 +2913,6 @@
       "salePrice": "3.99 EUR",
       "url": "https://www.jeanlen.de/body-lotion-niacinamide",
       "gtin": "4262401738807"
-    },
-    {
-      "sku": "2800100534",
-      "name": "Body Lotion Orange/Ingwer, 250 ml",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "4.49 EUR",
-      "salePrice": "2.99 EUR",
-      "url": "https://www.jeanlen.de/body-lotion-orange-ingwer",
-      "gtin": "4262401731938"
     },
     {
       "sku": "2800100539",
