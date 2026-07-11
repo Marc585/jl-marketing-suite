@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-10",
+    "lastUpdated": "2026-07-11",
     "totalArticles": 350,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -2888,7 +2888,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "4.99 EUR",
-      "salePrice": "3.99 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/bodylotion-mit-hyaluron",
       "gtin": "4262401738784"
     },
