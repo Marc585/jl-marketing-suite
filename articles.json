@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-13",
-    "totalArticles": 350,
+    "lastUpdated": "2026-07-14",
+    "totalArticles": 351,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -3991,6 +3991,17 @@
       "salePrice": "6.99 EUR",
       "url": "https://www.jeanlen.de/bodycare-set-mango-avocado-500ml",
       "gtin": ""
+    },
+    {
+      "sku": "2925000545",
+      "name": "Mystery Summer Box mit Pflege-Highlights",
+      "category": "Sonstiges",
+      "subcategory": "",
+      "availability": "in stock",
+      "price": "25.25 EUR",
+      "salePrice": "19.99 EUR",
+      "url": "https://www.jeanlen.de/mystery-summer-box",
+      "gtin": "4262578632649"
     },
     {
       "sku": "2925000060",
