@@ -1,0 +1,17 @@
+# Niemals committen: Daten, Secrets, Schlüssel
+data/
+*.db
+*.db-journal
+*.sqlite*
+.env
+*.pem
+*.key
+*.p12
+feed_downloads/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
