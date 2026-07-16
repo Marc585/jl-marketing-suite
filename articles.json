@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-15",
+    "lastUpdated": "2026-07-16",
     "totalArticles": 351,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -391,7 +391,7 @@
       "subcategory": "Conditioner",
       "availability": "in stock",
       "price": "10.49 EUR",
-      "salePrice": null,
+      "salePrice": "6.49 EUR",
       "url": "https://www.jeanlen.de/conditioner-cardamom-tonka",
       "gtin": "4262401735950"
     },
@@ -1414,7 +1414,7 @@
       "subcategory": "Shampoo",
       "availability": "in stock",
       "price": "4.29 EUR",
-      "salePrice": null,
+      "salePrice": "2.99 EUR",
       "url": "https://www.jeanlen.de/silbershampoo-silberweide-cassis",
       "gtin": "4262401732218"
     },
