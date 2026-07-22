@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-21",
-    "totalArticles": 351,
+    "lastUpdated": "2026-07-22",
+    "totalArticles": 350,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -2530,17 +2530,6 @@
       "gtin": "4262401739668"
     },
     {
-      "sku": "2800101047",
-      "name": "Hand Treatment Bergamot/Cedarwood INT, 30 ml",
-      "category": "Pflege",
-      "subcategory": "Hände",
-      "availability": "in stock",
-      "price": "3.49 EUR",
-      "salePrice": "1.49 EUR",
-      "url": "https://www.jeanlen.de/silky-and-rich-hand-treatment-bergamot-cedarwood-mini",
-      "gtin": "4262401730801"
-    },
-    {
       "sku": "2800101043",
       "name": "Hand Treatment Cedarwood/Bergamot INT, 75 ml",
       "category": "Pflege",
@@ -3548,7 +3537,7 @@
       "subcategory": "Nachfüllpack",
       "availability": "in stock",
       "price": "24.99 EUR",
-      "salePrice": null,
+      "salePrice": "14.99 EUR",
       "url": "https://www.jeanlen.de/hair-and-body-wash-cardamom-tonka-nachfuellpack-1500-ml",
       "gtin": "4262401735929"
     },
