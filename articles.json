@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-22",
-    "totalArticles": 350,
+    "lastUpdated": "2026-07-23",
+    "totalArticles": 348,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -1529,17 +1529,6 @@
       "gtin": "4262401738111"
     },
     {
-      "sku": "2800609524",
-      "name": "Holz Storage, Akazie, 18x12x5 cm",
-      "category": "Home",
-      "subcategory": "",
-      "availability": "in stock",
-      "price": "12.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/ordnungsbox-holz-storage-akazie",
-      "gtin": "4262401739101"
-    },
-    {
       "sku": "2800609542",
       "name": "Holz Tray, Akazie, 28x10x1,5cm",
       "category": "Home",
@@ -1571,6 +1560,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/kosmetikspiegel-eisen-beige",
       "gtin": "4262500780264"
+    },
+    {
+      "sku": "2800609545",
+      "name": "Ordnungsbox Holz - elegante und stillvolle Aufbewahrung",
+      "category": "Home",
+      "subcategory": "",
+      "availability": "in stock",
+      "price": "12.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/ordnungsbox-holz-storage-akazie",
+      "gtin": "4262500780813"
     },
     {
       "sku": "2800609517",
@@ -2811,7 +2811,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "19.99 EUR",
-      "salePrice": null,
+      "salePrice": "14.99 EUR",
       "url": "https://www.jeanlen.de/geschenkset-body-ceremony-cardamom-tonka",
       "gtin": "4262401732775"
     },
@@ -3949,24 +3949,13 @@
       "gtin": "4262500788123"
     },
     {
-      "sku": "D000000234",
-      "name": "Kalender mit Wochenübersicht 2026 Modularer Aufbau",
-      "category": "Sonstiges",
-      "subcategory": "",
-      "availability": "in stock",
-      "price": "36.98 EUR",
-      "salePrice": "19.99 EUR",
-      "url": "https://www.jeanlen.de/kalender-mit-wochenuebersicht-2026-kalenderheftchen-notizbuch-kalendercover",
-      "gtin": ""
-    },
-    {
       "sku": "2800608205",
       "name": "Kalendercover, veganes Leder, DIN A5",
       "category": "Sonstiges",
       "subcategory": "",
       "availability": "in stock",
       "price": "21.99 EUR",
-      "salePrice": "14.99 EUR",
+      "salePrice": "9.99 EUR",
       "url": "https://www.jeanlen.de/kalender-cover-veganes-leder-a5",
       "gtin": "4262500780554"
     },
@@ -4002,17 +3991,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/achtsamkeitsjournal-ohne-gedoens-journal",
       "gtin": "4262500782657"
-    },
-    {
-      "sku": "2800109436",
-      "name": "Set zwei Kalenderheftchen 2026 und Notizbuch, DIN A5",
-      "category": "Sonstiges",
-      "subcategory": "",
-      "availability": "in stock",
-      "price": "14.99 EUR",
-      "salePrice": "9.99 EUR",
-      "url": "https://www.jeanlen.de/kalendereinlagen-set-kalenderheftchen-2026-und-notizbuch-a5",
-      "gtin": "4262500780547"
     },
     {
       "sku": "D000000223",
