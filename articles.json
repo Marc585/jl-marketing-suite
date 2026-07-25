@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-24",
-    "totalArticles": 348,
+    "lastUpdated": "2026-07-25",
+    "totalArticles": 349,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -2046,6 +2046,17 @@
       "gtin": "4262401734656"
     },
     {
+      "sku": "2925000197",
+      "name": "Deostick 5in1 protect",
+      "category": "Pflege",
+      "subcategory": "Deos",
+      "availability": "in stock",
+      "price": "2.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/deostick-5in1-protect",
+      "gtin": "4262500785146"
+    },
+    {
       "sku": "2925000174",
       "name": "Gourmandiges Vanille-Deo – Deospray Vanilla Comfort",
       "category": "Pflege",
@@ -2987,7 +2998,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "1.49 EUR",
-      "salePrice": "0.99 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/Creme-OEl-Dusche-Hafermilch-Kokos-50-ml/2800100348",
       "gtin": "4260602127833"
     },
