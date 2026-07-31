@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-29",
-    "totalArticles": 347,
+    "lastUpdated": "2026-07-31",
+    "totalArticles": 348,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -2046,6 +2046,17 @@
       "gtin": "4262500785146"
     },
     {
+      "sku": "2925000198",
+      "name": "Deostick ohne Aluminium Pure Cotton Power",
+      "category": "Pflege",
+      "subcategory": "Deos",
+      "availability": "in stock",
+      "price": "2.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/deostick-ohne-aluminium-pure-cotton-power",
+      "gtin": "4262500785160"
+    },
+    {
       "sku": "2925000174",
       "name": "Gourmandiges Vanille-Deo – Deospray Vanilla Comfort",
       "category": "Pflege",
@@ -2536,7 +2547,7 @@
       "subcategory": "Hände",
       "availability": "in stock",
       "price": "6.99 EUR",
-      "salePrice": null,
+      "salePrice": "4.49 EUR",
       "url": "https://www.jeanlen.de/silky-and-rich-hand-treatment-bergamot-cedarwood",
       "gtin": "4262401730726"
     },
@@ -2547,7 +2558,7 @@
       "subcategory": "Hände",
       "availability": "in stock",
       "price": "6.99 EUR",
-      "salePrice": null,
+      "salePrice": "4.49 EUR",
       "url": "https://www.jeanlen.de/silky-and-rich-hand-treatment-peony-lychee",
       "gtin": "4262401730764"
     },
@@ -2558,7 +2569,7 @@
       "subcategory": "Hände",
       "availability": "in stock",
       "price": "6.99 EUR",
-      "salePrice": null,
+      "salePrice": "4.49 EUR",
       "url": "https://www.jeanlen.de/silky-and-rich-hand-treatment-rosemary-ginger",
       "gtin": "4262401730702"
     },
@@ -2723,7 +2734,7 @@
       "subcategory": "Hände",
       "availability": "in stock",
       "price": "6.99 EUR",
-      "salePrice": null,
+      "salePrice": "4.49 EUR",
       "url": "https://www.jeanlen.de/silky-and-rich-hand-treatment-cardamom-tonka",
       "gtin": "4262401730740"
     },
@@ -2877,7 +2888,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "4.99 EUR",
-      "salePrice": null,
+      "salePrice": "3.99 EUR",
       "url": "https://www.jeanlen.de/bodylotion-mit-hyaluron",
       "gtin": "4262401738784"
     },
