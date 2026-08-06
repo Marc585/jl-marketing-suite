@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-08-05",
-    "totalArticles": 349,
+    "lastUpdated": "2026-08-06",
+    "totalArticles": 347,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -3575,17 +3575,6 @@
       "gtin": ""
     },
     {
-      "sku": "2800101060",
-      "name": "Hand & Body Cleanser Cardamom/Tonka Refill INT, 1,5 L",
-      "category": "Pflege",
-      "subcategory": "Nachfüllpack",
-      "availability": "in stock",
-      "price": "24.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/hand-and-body-cleanser-cardamom-tonka-refill",
-      "gtin": "4262401735431"
-    },
-    {
       "sku": "2800101068",
       "name": "Hand & Body Wash Blutorange/Vetiver Refill INT, 1,5 L",
       "category": "Pflege",
@@ -3958,17 +3947,6 @@
       "salePrice": "14.99 EUR",
       "url": "https://www.jeanlen.de/handseife-rosemary-ginger-4-er-set",
       "gtin": ""
-    },
-    {
-      "sku": "2925000188",
-      "name": "JeanLen Adventskalender 2026 – Jetzt anmelden",
-      "category": "Sonstiges",
-      "subcategory": "",
-      "availability": "in stock",
-      "price": "89.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/adventskalender-2026",
-      "gtin": "4262500788123"
     },
     {
       "sku": "2800608205",
