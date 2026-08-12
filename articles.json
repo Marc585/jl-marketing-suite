@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-08-09",
+    "lastUpdated": "2026-08-12",
     "totalArticles": 347,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -2596,15 +2596,15 @@
       "gtin": "4262401736148"
     },
     {
-      "sku": "2800101120",
+      "sku": "2925000226",
       "name": "Handbalsam Baumwolle  Sheabutter in der Reisegröße",
       "category": "Pflege",
       "subcategory": "Hände",
       "availability": "in stock",
       "price": "1.49 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Handbalsam-Baumwolle-Sheabutter-Reisegroesse-20ml/2800101120",
-      "gtin": "4260602128588"
+      "url": "https://www.jeanlen.de/Handbalsam-Baumwolle-Sheabutter-20ml/2925000226",
+      "gtin": "4262500785832"
     },
     {
       "sku": "2925000122",
