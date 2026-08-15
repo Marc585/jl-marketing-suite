@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-08-14",
+    "lastUpdated": "2026-08-15",
     "totalArticles": 347,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -3080,6 +3080,17 @@
       "gtin": "4262401732997"
     },
     {
+      "sku": "2925000397",
+      "name": "Duschgel Mango/Avocado, 250 ml",
+      "category": "Pflege",
+      "subcategory": "Körper",
+      "availability": "in stock",
+      "price": "2.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/Duschgel-Mango-Avocado-250-ml/2925000397",
+      "gtin": "4262578630324"
+    },
+    {
       "sku": "2925000129",
       "name": "Duschgel Mango/Maracuja, 250ml",
       "category": "Pflege",
@@ -3188,17 +3199,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/exotische-body-butter-mango-avocado",
       "gtin": "4260702189014"
-    },
-    {
-      "sku": "2800100190",
-      "name": "Exotisches Duschgel Mango/Avocado, 250 ml",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "2.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/Exotisches-Duschgel-Mango-Avocado-250-ml/2800100190",
-      "gtin": "4260602128359"
     },
     {
       "sku": "2800100532",
