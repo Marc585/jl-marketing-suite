@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-25",
-    "totalArticles": 347,
+    "lastUpdated": "2026-09-26",
+    "totalArticles": 355,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -227,7 +227,7 @@
       "availability": "in stock",
       "price": "7.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/eau-de-toilette-peony-lychee",
+      "url": "https://www.jeanlen.de/eau-de-toilette-rosemary-ginger",
       "gtin": "4262401738432"
     },
     {
@@ -238,7 +238,7 @@
       "availability": "in stock",
       "price": "7.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/eau-de-toilette-rosemary-ginger",
+      "url": "https://www.jeanlen.de/eau-de-toilette-peony-lychee",
       "gtin": "4262401738494"
     },
     {
@@ -259,7 +259,7 @@
       "subcategory": "",
       "availability": "in stock",
       "price": "79.00 EUR",
-      "salePrice": "54.99 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/Rosemary-Ginger-EDP-50-ml/2800101542",
       "gtin": "4260602129806"
     },
@@ -292,7 +292,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "3.99 EUR",
-      "salePrice": null,
+      "salePrice": "3.59 EUR",
       "url": "https://www.jeanlen.de/body-mist-pure-joy",
       "gtin": "4262500784347"
     },
@@ -363,17 +363,6 @@
       "gtin": "4260602128427"
     },
     {
-      "sku": "2800100904",
-      "name": "Colorglanz Conditioner Arganöl/Feige, 300 ml",
-      "category": "Haare",
-      "subcategory": "Conditioner",
-      "availability": "in stock",
-      "price": "4.29 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/Colorglanz-Conditioner-Arganoel-Feige-300-ml/2800100904",
-      "gtin": "4260602129110"
-    },
-    {
       "sku": "2902101028",
       "name": "Conditioner Cardamom/Tonka",
       "category": "Haare",
@@ -440,6 +429,17 @@
       "gtin": "4262401735615"
     },
     {
+      "sku": "2925000384",
+      "name": "Feuchtigkeits-Conditioner Aloe Vera/Basilikum",
+      "category": "Haare",
+      "subcategory": "Conditioner",
+      "availability": "in stock",
+      "price": "4.29 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/feuchtigkeits-conditioner-aloe-vera-basilikum",
+      "gtin": "4262500789861"
+    },
+    {
       "sku": "2800100209",
       "name": "Frische Conditioner Grüner Tee/ Limette, 300ml",
       "category": "Haare",
@@ -480,7 +480,7 @@
       "availability": "in stock",
       "price": "4.29 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Pflege-Conditioner-Jojoba-Apfel-300-ml/2925000005",
+      "url": "https://www.jeanlen.de/pflege-conditioner-jojoba-apfel",
       "gtin": "4262500781537"
     },
     {
@@ -634,7 +634,7 @@
       "availability": "in stock",
       "price": "5.39 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Haarkur-Mandel-Keratin-250-ml/2900100215",
+      "url": "https://www.jeanlen.de/keratin-haarmaske-haarkur-mandel-keratin",
       "gtin": "4262401737848"
     },
     {
@@ -644,7 +644,7 @@
       "subcategory": "Extrapflege",
       "availability": "in stock",
       "price": "3.99 EUR",
-      "salePrice": null,
+      "salePrice": "3.59 EUR",
       "url": "https://www.jeanlen.de/haarparfum-vanille-kokos-youre-my-coco-vanilla",
       "gtin": "4262500783937"
     },
@@ -748,6 +748,28 @@
       "gtin": "4262500781476"
     },
     {
+      "sku": "2925000136",
+      "name": "Keratin Haarkur – Repair Haarkur Keratin/Mandel",
+      "category": "Haare",
+      "subcategory": "Extrapflege",
+      "availability": "in stock",
+      "price": "1.79 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/keratin-haarkur-mandel-keratin",
+      "gtin": "4262500783951"
+    },
+    {
+      "sku": "2900100240",
+      "name": "Keratin Spray für kraftvolles, gesundaussehendes Haar",
+      "category": "Haare",
+      "subcategory": "Extrapflege",
+      "availability": "in stock",
+      "price": "4.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/express-repair-keratin-spray",
+      "gtin": "4262500781100"
+    },
+    {
       "sku": "2925000025",
       "name": "Kopfhaut Peeling Pink Grapefruit/Spirulina, 200 ml",
       "category": "Haare",
@@ -757,17 +779,6 @@
       "salePrice": "3.49 EUR",
       "url": "https://www.jeanlen.de/kopfhaut-peeling-pink-grapefruit-spirulina",
       "gtin": "4262500782008"
-    },
-    {
-      "sku": "2800101116",
-      "name": "Leave-In Aufbauspray, 100 ml",
-      "category": "Haare",
-      "subcategory": "Extrapflege",
-      "availability": "in stock",
-      "price": "5.39 EUR",
-      "salePrice": "3.49 EUR",
-      "url": "https://www.jeanlen.de/Leave-In-Aufbauspray-100-ml/2800101116",
-      "gtin": "4260602121497"
     },
     {
       "sku": "2900100233",
@@ -801,17 +812,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/Nutri-Care-Long-Hair-Haarkur-Mango-Avocado/2800101124",
       "gtin": "4260702186723"
-    },
-    {
-      "sku": "2800101115",
-      "name": "Repair Haarkur Keratin/Mandel, 20 ml",
-      "category": "Haare",
-      "subcategory": "Extrapflege",
-      "availability": "in stock",
-      "price": "1.79 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/Repair-Haarkur-Keratin-Mandel-20-ml/2800101115",
-      "gtin": "4260602121510"
     },
     {
       "sku": "2900100243",
@@ -865,7 +865,7 @@
       "availability": "in stock",
       "price": "3.79 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/trockenshampoo-frische-und-geschmeidigkeit",
+      "url": "https://www.jeanlen.de/trockenshampoo-ohne-rueckstaende-mango-my-mood",
       "gtin": "4262401739545"
     },
     {
@@ -1012,17 +1012,6 @@
       "gtin": ""
     },
     {
-      "sku": "D000000010",
-      "name": "Haarpflegeset Glanz  Colorschutz Marokkanisches Arganöl  Feige für farbbehandeltes, coloriertes oder blondiertes Haar, vegan",
-      "category": "Haare",
-      "subcategory": "Sets",
-      "availability": "in stock",
-      "price": "8.58 EUR",
-      "salePrice": "7.99 EUR",
-      "url": "https://www.jeanlen.de/haarpflege-arganoel",
-      "gtin": ""
-    },
-    {
       "sku": "D000000078",
       "name": "Haarpflegeset Jojoba/Apfel",
       "category": "Haare",
@@ -1133,17 +1122,6 @@
       "gtin": ""
     },
     {
-      "sku": "D000000095",
-      "name": "Probierset für coloriertes Haar",
-      "category": "Haare",
-      "subcategory": "Sets",
-      "availability": "in stock",
-      "price": "13.97 EUR",
-      "salePrice": "12.99 EUR",
-      "url": "https://www.jeanlen.de/Probierset-fuer-coloriertes-Haar/D000000095",
-      "gtin": ""
-    },
-    {
       "sku": "D000000096",
       "name": "Probierset für trockenes Haar",
       "category": "Haare",
@@ -1217,7 +1195,7 @@
       "availability": "in stock",
       "price": "4.29 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Pflege-Shampoo-Jojoba-Apfel-300-ml/2800100134",
+      "url": "https://www.jeanlen.de/pflege-shampoo-jojoba-apfel",
       "gtin": "4262401731730"
     },
     {
@@ -1397,6 +1375,17 @@
       "gtin": "4262401739699"
     },
     {
+      "sku": "2900100234",
+      "name": "Shampoo für Feuchtigkeit Aloe Vera/Basilikum",
+      "category": "Haare",
+      "subcategory": "Shampoo",
+      "availability": "in stock",
+      "price": "4.29 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/shampoo-fuer-feuchtigkeit-aloe-vera-basilikum",
+      "gtin": "4262500780301"
+    },
+    {
       "sku": "2800100137",
       "name": "Silbershampoo Silberweide/Cassis, 300 ml",
       "category": "Haare",
@@ -1426,7 +1415,7 @@
       "availability": "in stock",
       "price": "4.29 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/shampoo-volumen",
+      "url": "https://www.jeanlen.de/volumen-shampoo-bambus-lilie",
       "gtin": "4262500780325"
     },
     {
@@ -1518,17 +1507,6 @@
       "gtin": "4262401738111"
     },
     {
-      "sku": "2800609542",
-      "name": "Holz Tray, Akazie, 28x10x1,5cm",
-      "category": "Home",
-      "subcategory": "",
-      "availability": "in stock",
-      "price": "9.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/kleines-holztablett-holz-tray-akazie",
-      "gtin": "4262500780509"
-    },
-    {
       "sku": "2925000071",
       "name": "Klebeset zur Wandmontage der Badezimmeraccessoires aus unserer HOME Kollektion",
       "category": "Home",
@@ -1551,6 +1529,17 @@
       "gtin": "4262500780264"
     },
     {
+      "sku": "2925000215",
+      "name": "Metall Gießkanne in Dunkelgrün, 1,3L",
+      "category": "Home",
+      "subcategory": "",
+      "availability": "in stock",
+      "price": "14.95 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/metall-giesskanne-dunkelgruen-1-3-L",
+      "gtin": "4262500785634"
+    },
+    {
       "sku": "2800609545",
       "name": "Ordnungsbox Holz - elegante und stillvolle Aufbewahrung",
       "category": "Home",
@@ -1558,7 +1547,7 @@
       "availability": "in stock",
       "price": "12.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/ordnungsbox-holz-storage-akazie",
+      "url": "https://www.jeanlen.de/organizer-aus-holz-storage-akazie",
       "gtin": "4262500780813"
     },
     {
@@ -1650,15 +1639,92 @@
       "gtin": "4262500782596"
     },
     {
-      "sku": "2800609521",
-      "name": "Gästehandtuch, 100% Bio-Baumwolle, beige, 30 x 50 cm",
+      "sku": "2925000256",
+      "name": "Aufbewahrungsbox aus Holz, Akazienholz, 24 x 14 x 7,5 cm",
       "category": "Home",
-      "subcategory": "Handtücher",
+      "subcategory": "Aufbewahrung",
       "availability": "in stock",
-      "price": "3.99 EUR",
+      "price": "19.95 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/gaestehandtuch-beige-30x50cm",
-      "gtin": "4262401739040"
+      "url": "https://www.jeanlen.de/aufbewahrungsbox-aus-holz-akazie",
+      "gtin": "4262500786501"
+    },
+    {
+      "sku": "2800609542",
+      "name": "Holz Tray, Akazie, 28x10x1,5cm",
+      "category": "Home",
+      "subcategory": "Aufbewahrung",
+      "availability": "in stock",
+      "price": "9.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/kleines-holztablett-holz-tray-akazie",
+      "gtin": "4262500780509"
+    },
+    {
+      "sku": "2925000214",
+      "name": "Kleines ovales Holztablett aus hochwertigem Akazienholz, 30 x 12 x 1,8 cm",
+      "category": "Home",
+      "subcategory": "Aufbewahrung",
+      "availability": "in stock",
+      "price": "12.95 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/holz-tray-akazie-oval",
+      "gtin": "4262500785610"
+    },
+    {
+      "sku": "2925000208",
+      "name": "Metall Organizer in Beige",
+      "category": "Home",
+      "subcategory": "Aufbewahrung",
+      "availability": "in stock",
+      "price": "14.95 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/metall-organizer-beige",
+      "gtin": "4262500785474"
+    },
+    {
+      "sku": "D000000265",
+      "name": "Farbige Trinkgläser Salbei im 8er Set| JeanLen",
+      "category": "Home",
+      "subcategory": "Geschirr & Gläser",
+      "availability": "in stock",
+      "price": "39.60 EUR",
+      "salePrice": "34.99 EUR",
+      "url": "https://www.jeanlen.de/farbige-trinkglaeser-salbei-350-ml-8er-set",
+      "gtin": ""
+    },
+    {
+      "sku": "2925000216",
+      "name": "French Press Glas im Chrom-Look, 800 ml",
+      "category": "Home",
+      "subcategory": "Geschirr & Gläser",
+      "availability": "in stock",
+      "price": "14.95 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/french-press-glas-chrom-look-800-ml",
+      "gtin": "4262500785658"
+    },
+    {
+      "sku": "2925000211",
+      "name": "Grünes Trinkglas Salbei",
+      "category": "Home",
+      "subcategory": "Geschirr & Gläser",
+      "availability": "in stock",
+      "price": "4.95 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/gruenes-trinkglas-salbei-350-ml",
+      "gtin": "4262500785559"
+    },
+    {
+      "sku": "D000000264",
+      "name": "Keramik Tasse Off-White im 6er Set",
+      "category": "Home",
+      "subcategory": "Geschirr & Gläser",
+      "availability": "in stock",
+      "price": "29.70 EUR",
+      "salePrice": "24.99 EUR",
+      "url": "https://www.jeanlen.de/keramik-tasse-off-white-400-ml-6er-set",
+      "gtin": ""
     },
     {
       "sku": "D000000259",
@@ -1670,6 +1736,28 @@
       "salePrice": "23.99 EUR",
       "url": "https://www.jeanlen.de/steingut-seifenspender-mit-hand-body-wash-rosemary-ginger-refill",
       "gtin": ""
+    },
+    {
+      "sku": "2925000257",
+      "name": "Veganes Notizbuch-Set mit Lederoptik-Cover, Journal  Notizheft",
+      "category": "Home",
+      "subcategory": "Papeterie",
+      "availability": "in stock",
+      "price": "14.95 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/notizbuch-set-pu-leder-cover-mit-zwei-notizheften",
+      "gtin": "4262500786532"
+    },
+    {
+      "sku": "2925000262",
+      "name": "3-Docht-Kerze Bergamot/Cedarwood",
+      "category": "Home",
+      "subcategory": "Raumduft & Kerzen",
+      "availability": "in stock",
+      "price": "14.95 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/3-docht-kerze-scented-candle-bergamot-cedarwood",
+      "gtin": "4262500786679"
     },
     {
       "sku": "2925000316",
@@ -1769,6 +1857,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/raumduft-nachfueller-rosemary-ginger",
       "gtin": "4260702181421"
+    },
+    {
+      "sku": "2925000261",
+      "name": "Räucherstäbchen Zedernholz  Bergamotte, 20 Stk.",
+      "category": "Home",
+      "subcategory": "Raumduft & Kerzen",
+      "availability": "in stock",
+      "price": "6.95 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/raeucherstaebchen-zedernholz-bergamotte-20-stk",
+      "gtin": "4262500786648"
     },
     {
       "sku": "2800609315",
@@ -1903,6 +2002,28 @@
       "gtin": "4262500783852"
     },
     {
+      "sku": "2925000210",
+      "name": "Schwarzer Kerzenlöscher aus Metall",
+      "category": "Home",
+      "subcategory": "Raumduft & Kerzen",
+      "availability": "in stock",
+      "price": "4.95 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/kerzenloescher-metall-schwarz",
+      "gtin": "4262500785528"
+    },
+    {
+      "sku": "2925000219",
+      "name": "Stabkerzen Set Rosemary/Ginger, 3 Stk",
+      "category": "Home",
+      "subcategory": "Raumduft & Kerzen",
+      "availability": "in stock",
+      "price": "6.95 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/duft-stabkerzen-set-rosemary-ginger-3-stk",
+      "gtin": "4262500785696"
+    },
+    {
       "sku": "2925000003",
       "name": "Colorwaschmittel Wasserlilie/Lotus, 1 L",
       "category": "Home",
@@ -1932,7 +2053,7 @@
       "availability": "in stock",
       "price": "5.45 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/universalwaschmittel-wasserlilie-hibiskus-fluessigwaschmittel",
+      "url": "https://www.jeanlen.de/fluessigwaschmittel-universalwaschmittel-wasserlilie-hibiskus",
       "gtin": "4262500781773"
     },
     {
@@ -2130,7 +2251,7 @@
       "availability": "in stock",
       "price": "17.98 EUR",
       "salePrice": "15.99 EUR",
-      "url": "https://www.jeanlen.de/Gesichtspflege-Feuchtigkeit-Hydration-Duo/D000000231",
+      "url": "https://www.jeanlen.de/gesichtspflege-feuchtigkeit-hydration-duo",
       "gtin": ""
     },
     {
@@ -2152,7 +2273,7 @@
       "availability": "in stock",
       "price": "29.96 EUR",
       "salePrice": "27.99 EUR",
-      "url": "https://www.jeanlen.de/Gesichtspflege-fuer-trockene-Haut-Set/D000000229",
+      "url": "https://www.jeanlen.de/gesichtspflege-fuer-trockene-haut-set",
       "gtin": ""
     },
     {
@@ -2163,7 +2284,7 @@
       "availability": "in stock",
       "price": "20.97 EUR",
       "salePrice": "18.99 EUR",
-      "url": "https://www.jeanlen.de/Gesichtspflege-fuer-unebene-Haut-Set/D000000232",
+      "url": "https://www.jeanlen.de/gesichtspflege-fuer-unebene-haut-set",
       "gtin": ""
     },
     {
@@ -2198,17 +2319,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/gesichtstoner-hydrating-liquid-toner",
       "gtin": "4262401737213"
-    },
-    {
-      "sku": "2800109314",
-      "name": "Lip Balm Arganöl, 4,7 g",
-      "category": "Pflege",
-      "subcategory": "Gesicht & Lippen",
-      "availability": "in stock",
-      "price": "2.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/intensiv-pflegender-lipbalm-lovely-rose",
-      "gtin": "4262401735769"
     },
     {
       "sku": "2800109320",
@@ -2295,7 +2405,7 @@
       "availability": "in stock",
       "price": "7.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/vitamin-c-cremE-ultimate-glow-creme",
+      "url": "https://www.jeanlen.de/vitamin-c-creme-ultimate-glow-creme",
       "gtin": "4262401734953"
     },
     {
@@ -2306,7 +2416,7 @@
       "availability": "in stock",
       "price": "17.98 EUR",
       "salePrice": "13.99 EUR",
-      "url": "https://www.jeanlen.de/Vitamin-C-Gesichtspflege-Glow-Duo/D000000230",
+      "url": "https://www.jeanlen.de/vitamin-c-gesichtspflege-glow-duo",
       "gtin": ""
     },
     {
@@ -2449,7 +2559,7 @@
       "availability": "in stock",
       "price": "38.61 EUR",
       "salePrice": "34.99 EUR",
-      "url": "https://www.jeanlen.de/Hand-Soap-Scent-Collection/D000000227",
+      "url": "https://www.jeanlen.de/hand-soap-scent-collection-seifen-set",
       "gtin": ""
     },
     {
@@ -2497,6 +2607,17 @@
       "gtin": "4262500784859"
     },
     {
+      "sku": "2925000167",
+      "name": "Geschenkset Hand Ceremony Cardamom/Tonka",
+      "category": "Pflege",
+      "subcategory": "Hände",
+      "availability": "in stock",
+      "price": "14.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/geschenkset-hand-ceremony-cardamom-tonka",
+      "gtin": "4262500784569"
+    },
+    {
       "sku": "2925000332",
       "name": "Hand  Body Wash Bergamot/Cedarwood in der Glasflasche",
       "category": "Pflege",
@@ -2508,17 +2629,6 @@
       "gtin": "4262500788062"
     },
     {
-      "sku": "2902101048",
-      "name": "Hand Balm Pfingstrose/Litschi, 250 ml",
-      "category": "Pflege",
-      "subcategory": "Hände",
-      "availability": "in stock",
-      "price": "4.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/hand-balm-pfingstrose-litschi",
-      "gtin": "4262401739620"
-    },
-    {
       "sku": "2902101047",
       "name": "Hand Balm Rosemary/Ginger, 250 ml",
       "category": "Pflege",
@@ -2528,17 +2638,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/hand-balm-rosemary-ginger",
       "gtin": "4262401739606"
-    },
-    {
-      "sku": "2800109412",
-      "name": "Hand Ceremony Cardamom/Tonka INT",
-      "category": "Pflege",
-      "subcategory": "Hände",
-      "availability": "in stock",
-      "price": "14.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/geschenkset-hand-ceremony-cardamom-tonka",
-      "gtin": "4262401732744"
     },
     {
       "sku": "2902101050",
@@ -2766,7 +2865,7 @@
       "category": "Pflege",
       "subcategory": "Hände",
       "availability": "in stock",
-      "price": "3.99 EUR",
+      "price": "2.99 EUR",
       "salePrice": null,
       "url": "https://www.jeanlen.de/urea-handcreme-sehr-geile-handcreme-rosemary-ginger",
       "gtin": "4262500783777"
@@ -2777,7 +2876,7 @@
       "category": "Pflege",
       "subcategory": "Hände",
       "availability": "in stock",
-      "price": "3.99 EUR",
+      "price": "2.99 EUR",
       "salePrice": null,
       "url": "https://www.jeanlen.de/sehr-geile-Handcreme-75-ml/2800101000",
       "gtin": "4260372938271"
@@ -2811,7 +2910,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "4.99 EUR",
-      "salePrice": null,
+      "salePrice": "3.99 EUR",
       "url": "https://www.jeanlen.de/verwoehnende-body-butter-arganoel-feige",
       "gtin": "4260702189038"
     },
@@ -2844,7 +2943,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "19.99 EUR",
-      "salePrice": null,
+      "salePrice": "14.99 EUR",
       "url": "https://www.jeanlen.de/geschenkset-body-ceremony-peony-lychee",
       "gtin": "4262401732805"
     },
@@ -2888,7 +2987,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "4.49 EUR",
-      "salePrice": null,
+      "salePrice": "3.59 EUR",
       "url": "https://www.jeanlen.de/feuchtigkeitslotion-body-lotion-express-refresh-and-moisture",
       "gtin": "4262500783067"
     },
@@ -2902,17 +3001,6 @@
       "salePrice": "3.99 EUR",
       "url": "https://www.jeanlen.de/bodylotion-mit-hyaluron",
       "gtin": "4262401738784"
-    },
-    {
-      "sku": "2800100538",
-      "name": "Body Lotion Mango/Avocado, 250 ml",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "4.49 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/Body-Lotion-Mango-Avocado-250-ml/2800100538",
-      "gtin": "4262401732973"
     },
     {
       "sku": "2800101414",
@@ -2932,7 +3020,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "4.49 EUR",
-      "salePrice": null,
+      "salePrice": "3.59 EUR",
       "url": "https://www.jeanlen.de/Erfrischende-Bodylotion-Rosemary-Ginger-250ml/2800100539",
       "gtin": "4262401733772"
     },
@@ -2944,19 +3032,8 @@
       "availability": "in stock",
       "price": "4.49 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Body-Milk-Ceramide-Complex-Kokosoel-250-ml/2800101410",
+      "url": "https://www.jeanlen.de/body-milk-ceramide-complex-kokosoel",
       "gtin": "4262500780363"
-    },
-    {
-      "sku": "2800100545",
-      "name": "Body Milk Nourish & Care, 250 ml",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "4.49 EUR",
-      "salePrice": "2.99 EUR",
-      "url": "https://www.jeanlen.de/body-milk-nurish-care-bodylotion-urea",
-      "gtin": "4262401735196"
     },
     {
       "sku": "2800100334",
@@ -3058,15 +3135,15 @@
       "gtin": "4262401737961"
     },
     {
-      "sku": "2800101419",
-      "name": "Duschcreme Mandelblüte/Reismilch, 250 ml",
+      "sku": "2925000172",
+      "name": "Duschcreme Mandelblüte/Reismilch",
       "category": "Pflege",
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "2.99 EUR",
       "salePrice": null,
       "url": "https://www.jeanlen.de/duschcreme-mandelbluete-reismilch",
-      "gtin": "4262401739835"
+      "gtin": "4262500784750"
     },
     {
       "sku": "2800100346",
@@ -3075,7 +3152,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "2.99 EUR",
-      "salePrice": null,
+      "salePrice": "2.39 EUR",
       "url": "https://www.jeanlen.de/deuschgel-gruener-tee-thymian",
       "gtin": "4262401732997"
     },
@@ -3087,7 +3164,7 @@
       "availability": "in stock",
       "price": "2.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Duschgel-Mango-Avocado-250-ml/2925000397",
+      "url": "https://www.jeanlen.de/fruchtiges-duschgel-mango-avocado",
       "gtin": "4262578630324"
     },
     {
@@ -3097,7 +3174,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "2.99 EUR",
-      "salePrice": null,
+      "salePrice": "2.39 EUR",
       "url": "https://www.jeanlen.de/duschgel-mango-maracuja",
       "gtin": "4262500783838"
     },
@@ -3196,9 +3273,20 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "4.99 EUR",
-      "salePrice": null,
+      "salePrice": "3.99 EUR",
       "url": "https://www.jeanlen.de/exotische-body-butter-mango-avocado",
       "gtin": "4260702189014"
+    },
+    {
+      "sku": "2925000195",
+      "name": "Exotische Mango Body Lotion mit feuchtigkeitsspendenden Inhaltsstoffen",
+      "category": "Pflege",
+      "subcategory": "Körper",
+      "availability": "in stock",
+      "price": "4.49 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/exotische-mango-body-lotion-mango-avocado",
+      "gtin": "4262500785115"
     },
     {
       "sku": "2800100532",
@@ -3300,15 +3388,15 @@
       "gtin": "4260602120872"
     },
     {
-      "sku": "2800100502",
-      "name": "Hautstraffende Bodylotion Aprikosenkernöl/Q10,",
+      "sku": "2925000398",
+      "name": "Hautstraffende Bodylotion Aprikosenkernöl  Q10",
       "category": "Pflege",
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "4.49 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Hautstraffende-Bodylotion-Aprikosenkernoel-Q10-250-ml/2800100502",
-      "gtin": "4260602127819"
+      "url": "https://www.jeanlen.de/hautstraffende-bodylotion-aprikosenkernoel-Q10",
+      "gtin": "4262578630348"
     },
     {
       "sku": "2925000184",
@@ -3318,7 +3406,7 @@
       "availability": "in stock",
       "price": "2.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/fruchtiges-duschgel-pfirsich-maracuja",
+      "url": "https://www.jeanlen.de/pfirsich-duschgel-pfirsch-maracuja",
       "gtin": "4262500784989"
     },
     {
@@ -3361,7 +3449,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "9.99 EUR",
-      "salePrice": null,
+      "salePrice": "8.49 EUR",
       "url": "https://www.jeanlen.de/schimmerndes-koerperoel-shimmering-dry-oil-rose",
       "gtin": "4262500784262"
     },
@@ -3372,7 +3460,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "9.99 EUR",
-      "salePrice": null,
+      "salePrice": "8.49 EUR",
       "url": "https://www.jeanlen.de/shimmer-body-oil-shimmering-dry-oil",
       "gtin": "4262401739798"
     },
@@ -3405,9 +3493,9 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "2.99 EUR",
-      "salePrice": null,
+      "salePrice": "2.39 EUR",
       "url": "https://www.jeanlen.de/erfrischendes-duschgel-zitronengras-minze",
-      "gtin": "4262401739859"
+      "gtin": "4262500783791"
     },
     {
       "sku": "2800109409",
@@ -3575,17 +3663,6 @@
       "gtin": ""
     },
     {
-      "sku": "2800101068",
-      "name": "Hand & Body Wash Blutorange/Vetiver Refill INT, 1,5 L",
-      "category": "Pflege",
-      "subcategory": "Nachfüllpack",
-      "availability": "in stock",
-      "price": "17.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/nachfuellpacks-blutorange-vetiver-1500ml",
-      "gtin": "4262401736469"
-    },
-    {
       "sku": "2800101073",
       "name": "Hand & Body Wash Pfingstrose/Litschi Nachfüllpack INT, 1,5 L",
       "category": "Pflege",
@@ -3735,7 +3812,7 @@
       "subcategory": "Shampoo",
       "availability": "in stock",
       "price": "3.79 EUR",
-      "salePrice": null,
+      "salePrice": "3.41 EUR",
       "url": "https://www.jeanlen.de/trockenshampoo-ohne-rueckstaende-youre-my-coco-vanilla",
       "gtin": "4262500786457"
     },
@@ -3757,7 +3834,7 @@
       "subcategory": "Sonne",
       "availability": "in stock",
       "price": "7.99 EUR",
-      "salePrice": null,
+      "salePrice": "6.79 EUR",
       "url": "https://www.jeanlen.de/sonnencreme-lippen-und-gesicht-lsf-50",
       "gtin": "4262500781865"
     },
@@ -3779,7 +3856,7 @@
       "subcategory": "Sonne",
       "availability": "in stock",
       "price": "8.99 EUR",
-      "salePrice": null,
+      "salePrice": "7.64 EUR",
       "url": "https://www.jeanlen.de/sensitive-sonnencreme-gesicht-lsf-50",
       "gtin": "4262500784026"
     },
@@ -3812,7 +3889,7 @@
       "subcategory": "Sonne",
       "availability": "in stock",
       "price": "11.49 EUR",
-      "salePrice": null,
+      "salePrice": "9.77 EUR",
       "url": "https://www.jeanlen.de/sensitives-sonnenschutz-spray-lsf-30",
       "gtin": "4260702189755"
     },
@@ -3823,7 +3900,7 @@
       "subcategory": "Sonne",
       "availability": "in stock",
       "price": "14.99 EUR",
-      "salePrice": null,
+      "salePrice": "12.74 EUR",
       "url": "https://www.jeanlen.de/sensitives-sonnenspray-lsf-50",
       "gtin": "4262500784040"
     },
@@ -3878,7 +3955,7 @@
       "subcategory": "Sonne",
       "availability": "in stock",
       "price": "9.99 EUR",
-      "salePrice": null,
+      "salePrice": "8.99 EUR",
       "url": "https://www.jeanlen.de/sonnenoel-spray-lsf-30",
       "gtin": "4262500784774"
     },
@@ -3890,7 +3967,7 @@
       "availability": "in stock",
       "price": "119.00 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Online-Geschenkgutschein-Konfetti-ab-5/2800609198",
+      "url": "https://www.jeanlen.de/Online-Geschenkgutschein-Konfetti-5/2800609198",
       "gtin": "4260602126317"
     },
     {
@@ -3947,6 +4024,17 @@
       "salePrice": "14.99 EUR",
       "url": "https://www.jeanlen.de/handseife-rosemary-ginger-4-er-set",
       "gtin": ""
+    },
+    {
+      "sku": "2925000188",
+      "name": "JeanLen Adventskalender 2026 – Jetzt kaufen",
+      "category": "Sonstiges",
+      "subcategory": "",
+      "availability": "in stock",
+      "price": "89.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/adventskalender-2026",
+      "gtin": "4262500788123"
     },
     {
       "sku": "2800608205",
