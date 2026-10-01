@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-30",
-    "totalArticles": 355,
+    "lastUpdated": "2026-10-01",
+    "totalArticles": 344,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -438,17 +438,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/feuchtigkeits-conditioner-aloe-vera-basilikum",
       "gtin": "4262500789861"
-    },
-    {
-      "sku": "2800100209",
-      "name": "Frische Conditioner Grüner Tee/ Limette, 300ml",
-      "category": "Haare",
-      "subcategory": "Conditioner",
-      "availability": "in stock",
-      "price": "4.29 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/Frische-Conditioner-Gruener-Tee-Limette/2800100209",
-      "gtin": "4260702181193"
     },
     {
       "sku": "2925000009",
@@ -2112,50 +2101,6 @@
       "gtin": "4262500784811"
     },
     {
-      "sku": "2800100621",
-      "name": "Deo-Zerstäuber Rosenwasser, 75 ml",
-      "category": "Pflege",
-      "subcategory": "Deos",
-      "availability": "in stock",
-      "price": "3.99 EUR",
-      "salePrice": "1.99 EUR",
-      "url": "https://www.jeanlen.de/deo-zerstaeuber-rosenwasser",
-      "gtin": "4262401733390"
-    },
-    {
-      "sku": "2800100623",
-      "name": "Deospray Glycerin/Rosenblütenwasser, 150 ml",
-      "category": "Pflege",
-      "subcategory": "Deos",
-      "availability": "in stock",
-      "price": "3.49 EUR",
-      "salePrice": "1.99 EUR",
-      "url": "https://www.jeanlen.de/deospray-glycerin-rosenbluetenwasser",
-      "gtin": "4262401734618"
-    },
-    {
-      "sku": "2800100624",
-      "name": "Deospray Menthol/Wasserlilie, 150 ml",
-      "category": "Pflege",
-      "subcategory": "Deos",
-      "availability": "in stock",
-      "price": "3.49 EUR",
-      "salePrice": "1.99 EUR",
-      "url": "https://www.jeanlen.de/deospray-menthol-wasserlilie",
-      "gtin": "4262401734632"
-    },
-    {
-      "sku": "2800100625",
-      "name": "Deospray Panthenol/Baumwollsaatöl, 150 ml",
-      "category": "Pflege",
-      "subcategory": "Deos",
-      "availability": "in stock",
-      "price": "3.49 EUR",
-      "salePrice": "1.99 EUR",
-      "url": "https://www.jeanlen.de/deospray-panthenol-baumwollsaatoel",
-      "gtin": "4262401734656"
-    },
-    {
       "sku": "2925000197",
       "name": "Deostick 5in1 protect",
       "category": "Pflege",
@@ -2299,17 +2244,6 @@
       "gtin": "4262401735103"
     },
     {
-      "sku": "2800109236",
-      "name": "Hydrating Booster Serum INT, 30 ml",
-      "category": "Pflege",
-      "subcategory": "Gesicht & Lippen",
-      "availability": "in stock",
-      "price": "9.99 EUR",
-      "salePrice": "7.99 EUR",
-      "url": "https://www.jeanlen.de/polyglutamin-serum-hydrating-booster-serum",
-      "gtin": "4262401735134"
-    },
-    {
       "sku": "2800109242",
       "name": "Hydrating Liquid Toner INT, 150 ml",
       "category": "Pflege",
@@ -2385,28 +2319,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/refreshing-gel-cleanser",
       "gtin": "4262401737176"
-    },
-    {
-      "sku": "2800109244",
-      "name": "Renewing Booster Serum INT, 30 ml",
-      "category": "Pflege",
-      "subcategory": "Gesicht & Lippen",
-      "availability": "in stock",
-      "price": "9.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/retinol-serum-renewing-booster-serum",
-      "gtin": "4262500780226"
-    },
-    {
-      "sku": "2800109230",
-      "name": "Ultimate Glow Cream INT, 50 ml",
-      "category": "Pflege",
-      "subcategory": "Gesicht & Lippen",
-      "availability": "in stock",
-      "price": "7.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/vitamin-c-creme-ultimate-glow-creme",
-      "gtin": "4262401734953"
     },
     {
       "sku": "D000000230",
@@ -2992,28 +2904,6 @@
       "gtin": "4262500783067"
     },
     {
-      "sku": "2800101413",
-      "name": "Body Lotion Hyaluron, 200 ml",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "4.99 EUR",
-      "salePrice": "3.99 EUR",
-      "url": "https://www.jeanlen.de/bodylotion-mit-hyaluron",
-      "gtin": "4262401738784"
-    },
-    {
-      "sku": "2800101414",
-      "name": "Body Lotion Niacinamide, 200 ml",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "4.99 EUR",
-      "salePrice": "3.99 EUR",
-      "url": "https://www.jeanlen.de/body-lotion-niacinamide",
-      "gtin": "4262401738807"
-    },
-    {
       "sku": "2800100539",
       "name": "Body Lotion Rosemary Ginger, 250 ml",
       "category": "Pflege",
@@ -3045,17 +2935,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/body-milk-shea-supreme-hydration",
       "gtin": "4260702189113"
-    },
-    {
-      "sku": "2800101417",
-      "name": "Body Serum AHA/PHA, 200 ml",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "4.99 EUR",
-      "salePrice": "3.99 EUR",
-      "url": "https://www.jeanlen.de/chemisches-peeling-koerper-body-serum-aha-pha",
-      "gtin": "4262401738869"
     },
     {
       "sku": "2800100529",
