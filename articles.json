@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-03",
-    "totalArticles": 399,
+    "lastUpdated": "2026-10-04",
+    "totalArticles": 398,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -2825,17 +2825,6 @@
       "salePrice": "9.99 EUR",
       "url": "https://www.jeanlen.de/tagescreme-mit-lsf-essential-day-cream",
       "gtin": "4262401734984"
-    },
-    {
-      "sku": "D000000229",
-      "name": "Gesichtspflege für trockene Haut – Produktset",
-      "category": "Pflege",
-      "subcategory": "Gesicht & Lippen",
-      "availability": "in stock",
-      "price": "29.96 EUR",
-      "salePrice": "27.99 EUR",
-      "url": "https://www.jeanlen.de/gesichtspflege-fuer-trockene-haut-set",
-      "gtin": ""
     },
     {
       "sku": "D000000232",
