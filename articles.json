@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-06",
-    "totalArticles": 398,
+    "lastUpdated": "2026-10-07",
+    "totalArticles": 399,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -1397,17 +1397,6 @@
       "gtin": "4262500781100"
     },
     {
-      "sku": "2925000025",
-      "name": "Kopfhaut Peeling Pink Grapefruit/Spirulina, 200 ml",
-      "category": "Haare",
-      "subcategory": "Extrapflege",
-      "availability": "in stock",
-      "price": "4.99 EUR",
-      "salePrice": "3.49 EUR",
-      "url": "https://www.jeanlen.de/kopfhaut-peeling-pink-grapefruit-spirulina",
-      "gtin": "4262500782008"
-    },
-    {
       "sku": "2900100233",
       "name": "Leave-In Maske Peptide Intense Repair, 100 ml",
       "category": "Haare",
@@ -1912,17 +1901,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/repair-shampoo-kokos-macadamia-reisegroesse",
       "gtin": "4262401734533"
-    },
-    {
-      "sku": "2800100146",
-      "name": "Shampoo Mango/Avocado Vorteilsgrösse, 500 ml",
-      "category": "Haare",
-      "subcategory": "Shampoo",
-      "availability": "in stock",
-      "price": "5.49 EUR",
-      "salePrice": "4.49 EUR",
-      "url": "https://www.jeanlen.de/shampoo-mango-avocado-vorteilsgroesse-500ml",
-      "gtin": "4262401735721"
     },
     {
       "sku": "2800100140",
@@ -3058,6 +3036,17 @@
       "gtin": "4262401736766"
     },
     {
+      "sku": "2902101022",
+      "name": "Hand Soap Rosemary/Ginger Christmas Edition",
+      "category": "Pflege",
+      "subcategory": "Handseifen",
+      "availability": "in stock",
+      "price": "4.29 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/hand-soap-rosemary-ginger-christmas",
+      "gtin": "4262401734670"
+    },
+    {
       "sku": "D000000227",
       "name": "Hand Soap Scent Collection – Seifen Set",
       "category": "Pflege",
@@ -3342,6 +3331,17 @@
       "salePrice": "51.49 EUR",
       "url": "https://www.jeanlen.de/Rosemary-Ginger-Handcreme-Parfum/D000000021",
       "gtin": ""
+    },
+    {
+      "sku": "2800101071",
+      "name": "Sehr geile Handcreme Rosemary/Ginger Christmas",
+      "category": "Pflege",
+      "subcategory": "Hände",
+      "availability": "in stock",
+      "price": "2.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/handcreme-rosemary-ginger-christmas",
+      "gtin": "4262401737510"
     },
     {
       "sku": "2800101044",
@@ -4189,6 +4189,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/geschenkset-body-ceremony-bergamot-cedarwood",
       "gtin": "4262500781247"
+    },
+    {
+      "sku": "D000000239",
+      "name": "Christmas Limited Edition – Handseife  Handcreme im Set",
+      "category": "Pflege",
+      "subcategory": "Sets",
+      "availability": "in stock",
+      "price": "8.28 EUR",
+      "salePrice": "7.99 EUR",
+      "url": "https://www.jeanlen.de/christmas-limited-edition-handseife-und-handcreme-set",
+      "gtin": ""
     },
     {
       "sku": "D000000244",
