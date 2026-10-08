@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-07",
-    "totalArticles": 399,
+    "lastUpdated": "2026-10-08",
+    "totalArticles": 391,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -1463,17 +1463,6 @@
       "gtin": "4262401735455"
     },
     {
-      "sku": "2900100244",
-      "name": "Trockenshampoo Volumen, 200 ml",
-      "category": "Haare",
-      "subcategory": "Extrapflege",
-      "availability": "in stock",
-      "price": "3.79 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/trockenshampoo-fuer-feines-haar",
-      "gtin": "4262500781360"
-    },
-    {
       "sku": "2900100229",
       "name": "Trockenshampoo fresh mango mood, 200 ml",
       "category": "Haare",
@@ -1559,28 +1548,6 @@
       "price": "8.58 EUR",
       "salePrice": "7.99 EUR",
       "url": "https://www.jeanlen.de/feuchtigkeitspflege-fuer-die-haare-haarpflegeset-pfirsich-chiasamen",
-      "gtin": ""
-    },
-    {
-      "sku": "D000000080",
-      "name": "Frische Haarpflegeset Grüner Tee/Limette",
-      "category": "Haare",
-      "subcategory": "Sets",
-      "availability": "in stock",
-      "price": "8.58 EUR",
-      "salePrice": "7.99 EUR",
-      "url": "https://www.jeanlen.de/Frische-Haarpflegeset-Gruener-Tee-Limette/D000000080",
-      "gtin": ""
-    },
-    {
-      "sku": "D000000237",
-      "name": "Haar Tiefenreinigung im Set mit Shampoo  Kopfhaut Peeling",
-      "category": "Haare",
-      "subcategory": "Sets",
-      "availability": "in stock",
-      "price": "9.28 EUR",
-      "salePrice": "7.49 EUR",
-      "url": "https://www.jeanlen.de/haar-tiefenreinigung-set-pink-grapefruit-spirulina",
       "gtin": ""
     },
     {
@@ -3245,17 +3212,6 @@
       "gtin": "4262401736162"
     },
     {
-      "sku": "2925000179",
-      "name": "Handcreme Mille Grazie Pistazie",
-      "category": "Pflege",
-      "subcategory": "Hände",
-      "availability": "in stock",
-      "price": "2.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/handcreme-mille-grazie-pistazie",
-      "gtin": "4262500784897"
-    },
-    {
       "sku": "2800101065",
       "name": "Handcreme Pfingstrose/Litschi, 75 ml",
       "category": "Pflege",
@@ -3309,17 +3265,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/handseife-rosemary-ginger",
       "gtin": "4260372933740"
-    },
-    {
-      "sku": "2925000182",
-      "name": "Pfirsich Handcreme You're Peach Perfect",
-      "category": "Pflege",
-      "subcategory": "Hände",
-      "availability": "in stock",
-      "price": "2.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/pfirsich-handcreme-youre-peach-perfect",
-      "gtin": "4262500784958"
     },
     {
       "sku": "D000000021",
@@ -3430,17 +3375,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/body-butter-vanille-cranberry",
       "gtin": "4262401732058"
-    },
-    {
-      "sku": "2800109413",
-      "name": "Body Ceremony Giftbox Cardamom/Tonka INT",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "19.99 EUR",
-      "salePrice": "14.99 EUR",
-      "url": "https://www.jeanlen.de/geschenkset-body-ceremony-cardamom-tonka",
-      "gtin": "4262401732775"
     },
     {
       "sku": "2800109414",
@@ -3705,17 +3639,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/duschschaum-shower-gel-to-mousse-bergamot-cedarwood",
       "gtin": "4262500783241"
-    },
-    {
-      "sku": "2800101421",
-      "name": "Duschschaum Cranberry/Feige, 200 ml",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "4.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/duschschaum-cranberry-feige",
-      "gtin": "4262401739873"
     },
     {
       "sku": "2925000091",
@@ -4463,17 +4386,6 @@
       "price": "3.99 EUR",
       "salePrice": null,
       "url": "https://www.jeanlen.de/glasflasche-leer-mit-pumpspender",
-      "gtin": ""
-    },
-    {
-      "sku": "D000000024",
-      "name": "Hair  Body Care sensitiv",
-      "category": "Sonstiges",
-      "subcategory": "",
-      "availability": "in stock",
-      "price": "13.07 EUR",
-      "salePrice": "12.49 EUR",
-      "url": "https://www.jeanlen.de/Hair-Body-Care-sensitiv/D000000024",
       "gtin": ""
     },
     {
