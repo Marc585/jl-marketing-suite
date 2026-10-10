@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-09",
-    "totalArticles": 391,
+    "lastUpdated": "2026-10-10",
+    "totalArticles": 400,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -2739,6 +2739,17 @@
       "gtin": "4262500781285"
     },
     {
+      "sku": "2925000317",
+      "name": "Anti Pickel Patches, zinc about it",
+      "category": "Pflege",
+      "subcategory": "Gesicht & Lippen",
+      "availability": "in stock",
+      "price": "2.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/anti-pickel-patches-zinc-about-it",
+      "gtin": "4262500787775"
+    },
+    {
       "sku": "2800109234",
       "name": "Barrier Booster Serum INT, 30 ml",
       "category": "Pflege",
@@ -2772,6 +2783,28 @@
       "gtin": "4262401734984"
     },
     {
+      "sku": "2925000387",
+      "name": "Eyeconic Peptide Hydrogel Augenpads",
+      "category": "Pflege",
+      "subcategory": "Gesicht & Lippen",
+      "availability": "in stock",
+      "price": "0.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/eyeconic-peptide-hydrogel-augenpads",
+      "gtin": "4262500789946"
+    },
+    {
+      "sku": "2925000377",
+      "name": "Feuchtigkeitsspray Gesicht – Glazing Mist Face Spray",
+      "category": "Pflege",
+      "subcategory": "Gesicht & Lippen",
+      "availability": "in stock",
+      "price": "8.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/feuchtigkeitsspray-gesicht-glazing-mist-face-spray",
+      "gtin": "4262500789755"
+    },
+    {
       "sku": "D000000232",
       "name": "Gesichtspflege für unebene Haut – Produktset",
       "category": "Pflege",
@@ -2781,6 +2814,28 @@
       "salePrice": "18.99 EUR",
       "url": "https://www.jeanlen.de/gesichtspflege-fuer-unebene-haut-set",
       "gtin": ""
+    },
+    {
+      "sku": "2925000385",
+      "name": "Glass Skin Maske – Glazing Milk Tuchmaske",
+      "category": "Pflege",
+      "subcategory": "Gesicht & Lippen",
+      "availability": "in stock",
+      "price": "1.55 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/glass-skin-maske-glazing-milk-tuchmaske",
+      "gtin": "4262500789885"
+    },
+    {
+      "sku": "2925000379",
+      "name": "Glazing Milk Milky Toner",
+      "category": "Pflege",
+      "subcategory": "Gesicht & Lippen",
+      "availability": "in stock",
+      "price": "8.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/glazing-milk-milky-toner",
+      "gtin": "4262500789793"
     },
     {
       "sku": "2800109235",
@@ -2849,6 +2904,17 @@
       "gtin": "4262500782909"
     },
     {
+      "sku": "2925000452",
+      "name": "Lippenbalsam Vanille, 4,8 g",
+      "category": "Pflege",
+      "subcategory": "Gesicht & Lippen",
+      "availability": "in stock",
+      "price": "2.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/lippenbalsam-vanille",
+      "gtin": "4262578631321"
+    },
+    {
       "sku": "2800109241",
       "name": "Peeling Gel Cleanser INT, 125 ml",
       "category": "Pflege",
@@ -2869,6 +2935,28 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/refreshing-gel-cleanser",
       "gtin": "4262401737176"
+    },
+    {
+      "sku": "2925000378",
+      "name": "Zink Gesichtsspray, Multipurpose Mist Zinc Face Spray",
+      "category": "Pflege",
+      "subcategory": "Gesicht & Lippen",
+      "availability": "in stock",
+      "price": "8.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/zink-gesichtsspray-multipurpose-mist-zinc-face-spray",
+      "gtin": "4262500789779"
+    },
+    {
+      "sku": "2925000386",
+      "name": "Zink Maske – Clarifying Zinc Tuchmaske",
+      "category": "Pflege",
+      "subcategory": "Gesicht & Lippen",
+      "availability": "in stock",
+      "price": "1.55 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/zink-maske-clarifying-zinc-tuchmaske",
+      "gtin": "4262500789915"
     },
     {
       "sku": "2902101043",
@@ -3188,6 +3276,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/repair-handcreme-ceramide-sheabutter",
       "gtin": "4262500783753"
+    },
+    {
+      "sku": "2925000363",
+      "name": "Handcreme I Love You Merry Much, 75ml",
+      "category": "Pflege",
+      "subcategory": "Hände",
+      "availability": "in stock",
+      "price": "2.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/handcreme-i-love-you-merry-much",
+      "gtin": "4262500789489"
     },
     {
       "sku": "2925000121",
