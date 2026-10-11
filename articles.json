@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-11",
     "totalArticles": 400,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -930,7 +930,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "3.99 EUR",
-      "salePrice": "3.59 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/body-mist-pure-joy",
       "gtin": "4262500784347"
     },
@@ -1271,7 +1271,7 @@
       "subcategory": "Extrapflege",
       "availability": "in stock",
       "price": "3.99 EUR",
-      "salePrice": "3.59 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/haarparfum-vanille-kokos-youre-my-coco-vanilla",
       "gtin": "4262500783937"
     },
@@ -3460,7 +3460,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "4.99 EUR",
-      "salePrice": "3.99 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/verwoehnende-body-butter-arganoel-feige",
       "gtin": "4260702189038"
     },
@@ -3526,7 +3526,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "4.49 EUR",
-      "salePrice": "3.59 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/feuchtigkeitslotion-body-lotion-express-refresh-and-moisture",
       "gtin": "4262500783067"
     },
@@ -3537,7 +3537,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "4.49 EUR",
-      "salePrice": "3.59 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/Erfrischende-Bodylotion-Rosemary-Ginger-250ml/2800100539",
       "gtin": "4262401733772"
     },
@@ -3658,7 +3658,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "2.99 EUR",
-      "salePrice": "2.39 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/deuschgel-gruener-tee-thymian",
       "gtin": "4262401732997"
     },
@@ -3680,7 +3680,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "2.99 EUR",
-      "salePrice": "2.39 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/duschgel-mango-maracuja",
       "gtin": "4262500783838"
     },
@@ -3768,7 +3768,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "4.99 EUR",
-      "salePrice": "3.99 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/exotische-body-butter-mango-avocado",
       "gtin": "4260702189014"
     },
@@ -3944,7 +3944,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "9.99 EUR",
-      "salePrice": "8.49 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/schimmerndes-koerperoel-shimmering-dry-oil-rose",
       "gtin": "4262500784262"
     },
@@ -3955,7 +3955,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "9.99 EUR",
-      "salePrice": "8.49 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/shimmer-body-oil-shimmering-dry-oil",
       "gtin": "4262401739798"
     },
@@ -3988,7 +3988,7 @@
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "2.99 EUR",
-      "salePrice": "2.39 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/erfrischendes-duschgel-zitronengras-minze",
       "gtin": "4262500783791"
     },
@@ -4318,7 +4318,7 @@
       "subcategory": "Shampoo",
       "availability": "in stock",
       "price": "3.79 EUR",
-      "salePrice": "3.41 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/trockenshampoo-ohne-rueckstaende-youre-my-coco-vanilla",
       "gtin": "4262500786457"
     },
@@ -4340,7 +4340,7 @@
       "subcategory": "Sonne",
       "availability": "in stock",
       "price": "7.99 EUR",
-      "salePrice": "6.79 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/sonnencreme-lippen-und-gesicht-lsf-50",
       "gtin": "4262500781865"
     },
@@ -4362,7 +4362,7 @@
       "subcategory": "Sonne",
       "availability": "in stock",
       "price": "8.99 EUR",
-      "salePrice": "7.64 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/sensitive-sonnencreme-gesicht-lsf-50",
       "gtin": "4262500784026"
     },
@@ -4395,7 +4395,7 @@
       "subcategory": "Sonne",
       "availability": "in stock",
       "price": "11.49 EUR",
-      "salePrice": "9.77 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/sensitives-sonnenschutz-spray-lsf-30",
       "gtin": "4260702189755"
     },
@@ -4406,7 +4406,7 @@
       "subcategory": "Sonne",
       "availability": "in stock",
       "price": "14.99 EUR",
-      "salePrice": "12.74 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/sensitives-sonnenspray-lsf-50",
       "gtin": "4262500784040"
     },
@@ -4461,7 +4461,7 @@
       "subcategory": "Sonne",
       "availability": "in stock",
       "price": "9.99 EUR",
-      "salePrice": "8.99 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/sonnenoel-spray-lsf-30",
       "gtin": "4262500784774"
     },
