@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-11",
+    "lastUpdated": "2026-10-12",
     "totalArticles": 400,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -3382,7 +3382,7 @@
       "category": "Pflege",
       "subcategory": "Hände",
       "availability": "in stock",
-      "price": "2.99 EUR",
+      "price": "3.99 EUR",
       "salePrice": null,
       "url": "https://www.jeanlen.de/handcreme-rosemary-ginger-christmas",
       "gtin": "4262401737510"
@@ -3415,7 +3415,7 @@
       "category": "Pflege",
       "subcategory": "Hände",
       "availability": "in stock",
-      "price": "2.99 EUR",
+      "price": "3.99 EUR",
       "salePrice": null,
       "url": "https://www.jeanlen.de/urea-handcreme-sehr-geile-handcreme-rosemary-ginger",
       "gtin": "4262500783777"
@@ -3426,7 +3426,7 @@
       "category": "Pflege",
       "subcategory": "Hände",
       "availability": "in stock",
-      "price": "2.99 EUR",
+      "price": "3.99 EUR",
       "salePrice": null,
       "url": "https://www.jeanlen.de/sehr-geile-Handcreme-75-ml/2800101000",
       "gtin": "4260372938271"
