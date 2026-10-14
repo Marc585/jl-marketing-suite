@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-13",
+    "lastUpdated": "2026-10-14",
     "totalArticles": 400,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -4219,7 +4219,7 @@
       "subcategory": "Sets",
       "availability": "in stock",
       "price": "8.28 EUR",
-      "salePrice": "7.99 EUR",
+      "salePrice": "7.49 EUR",
       "url": "https://www.jeanlen.de/christmas-limited-edition-handseife-und-handcreme-set",
       "gtin": ""
     },
