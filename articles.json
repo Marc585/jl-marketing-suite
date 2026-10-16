@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-15",
-    "totalArticles": 400,
+    "lastUpdated": "2026-10-16",
+    "totalArticles": 398,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -1980,6 +1980,17 @@
       "gtin": "4260702185672"
     },
     {
+      "sku": "2925000383",
+      "name": "Trockenshampoo Schaum Cheat Day für Dein Haar",
+      "category": "Haare",
+      "subcategory": "Shampoo",
+      "availability": "in stock",
+      "price": "3.79 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/trockenshampoo-schaum-cheat-day-fuer-dein-haar",
+      "gtin": "4262500789847"
+    },
+    {
       "sku": "2900100235",
       "name": "Volumen Shampoo Bambus/Lilie",
       "category": "Haare",
@@ -2255,17 +2266,6 @@
       "gtin": "4262500785474"
     },
     {
-      "sku": "D000000265",
-      "name": "Farbige Trinkgläser Salbei im 8er Set| JeanLen",
-      "category": "Home",
-      "subcategory": "Geschirr & Gläser",
-      "availability": "in stock",
-      "price": "39.60 EUR",
-      "salePrice": "34.99 EUR",
-      "url": "https://www.jeanlen.de/farbige-trinkglaeser-salbei-350-ml-8er-set",
-      "gtin": ""
-    },
-    {
       "sku": "2925000216",
       "name": "French Press Glas im Chrom-Look, 800 ml",
       "category": "Home",
@@ -2275,28 +2275,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/french-press-glas-chrom-look-800-ml",
       "gtin": "4262500785658"
-    },
-    {
-      "sku": "2925000211",
-      "name": "Grünes Trinkglas Salbei",
-      "category": "Home",
-      "subcategory": "Geschirr & Gläser",
-      "availability": "in stock",
-      "price": "4.95 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/gruenes-trinkglas-salbei-350-ml",
-      "gtin": "4262500785559"
-    },
-    {
-      "sku": "D000000264",
-      "name": "Keramik Tasse Off-White im 6er Set",
-      "category": "Home",
-      "subcategory": "Geschirr & Gläser",
-      "availability": "in stock",
-      "price": "29.70 EUR",
-      "salePrice": "24.99 EUR",
-      "url": "https://www.jeanlen.de/keramik-tasse-off-white-400-ml-6er-set",
-      "gtin": ""
     },
     {
       "sku": "D000000259",
@@ -3054,7 +3032,7 @@
       "availability": "in stock",
       "price": "4.29 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/hand-soap-marrakech-garden",
+      "url": "https://www.jeanlen.de/hand-soap-marrakesh-garden",
       "gtin": "4262401736742"
     },
     {
