@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-19",
-    "totalArticles": 398,
+    "lastUpdated": "2026-10-20",
+    "totalArticles": 399,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -2110,6 +2110,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/kosmetikspiegel-eisen-beige",
       "gtin": "4262500780264"
+    },
+    {
+      "sku": "2925000255",
+      "name": "Lange Streichhölzer – Streichholz Box, 60 Stk",
+      "category": "Home",
+      "subcategory": "",
+      "availability": "in stock",
+      "price": "5.95 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/lange-streichhoelzer-streichholz-box-60-stk",
+      "gtin": "4262500786471"
     },
     {
       "sku": "2925000215",
