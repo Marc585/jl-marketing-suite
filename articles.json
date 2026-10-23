@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-22",
-    "totalArticles": 399,
+    "lastUpdated": "2026-10-23",
+    "totalArticles": 400,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -1738,6 +1738,17 @@
       "gtin": "4260602128687"
     },
     {
+      "sku": "2925000443",
+      "name": "Entfettendes Shampoo Bergamot/Cedarwood",
+      "category": "Haare",
+      "subcategory": "Shampoo",
+      "availability": "in stock",
+      "price": "6.49 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/entfettendes-shampoo-bergamot-cedarwood",
+      "gtin": "4262578631147"
+    },
+    {
       "sku": "2800100115",
       "name": "Frische Shampoo Grüner Tee/Limette, 300ml",
       "category": "Haare",
@@ -1936,17 +1947,6 @@
       "gtin": "4262401735653"
     },
     {
-      "sku": "2900100232",
-      "name": "Shampoo Thymian/Minze, 300 ml",
-      "category": "Haare",
-      "subcategory": "Shampoo",
-      "availability": "in stock",
-      "price": "4.29 EUR",
-      "salePrice": "3.49 EUR",
-      "url": "https://www.jeanlen.de/anti-schuppen-shampoo-thymian-minze",
-      "gtin": "4262401739699"
-    },
-    {
       "sku": "2900100234",
       "name": "Shampoo für Feuchtigkeit Aloe Vera/Basilikum",
       "category": "Haare",
@@ -2088,6 +2088,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/badezimmer-handtuchhaken-aluminium-schwarz",
       "gtin": "4262401738111"
+    },
+    {
+      "sku": "D000000277",
+      "name": "Kalender mit Wochenübersicht 2027 Modularer Aufbau",
+      "category": "Home",
+      "subcategory": "",
+      "availability": "in stock",
+      "price": "36.98 EUR",
+      "salePrice": "29.99 EUR",
+      "url": "https://www.jeanlen.de/kalender-mit-wochenuebersicht-2027-kalenderheftchen-notizbuch-kalendercover",
+      "gtin": ""
     },
     {
       "sku": "2925000071",
@@ -2299,6 +2310,28 @@
       "gtin": ""
     },
     {
+      "sku": "2925000154",
+      "name": "Kalendercover in Lederoptik DIN A5",
+      "category": "Home",
+      "subcategory": "Papeterie",
+      "availability": "in stock",
+      "price": "21.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/kalendercover-in-lederoptik-din-a5",
+      "gtin": "4262500784316"
+    },
+    {
+      "sku": "2925000153",
+      "name": "Kalendereinlagen Set zwei Kalenderhefte 2027  Notizbuch",
+      "category": "Home",
+      "subcategory": "Papeterie",
+      "availability": "in stock",
+      "price": "14.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/kalendereinlagen-set-zwei-kalenderhefte-2027-und-notizbuch",
+      "gtin": "4262500784309"
+    },
+    {
       "sku": "2925000257",
       "name": "Veganes Notizbuch-Set mit Lederoptik-Cover, Journal  Notizheft",
       "category": "Home",
@@ -2416,7 +2449,7 @@
       "availability": "in stock",
       "price": "24.99 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/raumduft-nachfueller-rosemary-ginger",
+      "url": "https://www.jeanlen.de/raumduft-nachfüller-rosemary-ginger",
       "gtin": "4260702181421"
     },
     {
@@ -2970,17 +3003,6 @@
       "gtin": "4262401739200"
     },
     {
-      "sku": "2902101045",
-      "name": "Hand & Body Cleanser Marrakesh Garden INT, 500 ml",
-      "category": "Pflege",
-      "subcategory": "Handseifen",
-      "availability": "in stock",
-      "price": "9.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/hand-and-body-cleanser-marrakesh-garden",
-      "gtin": "4262401739224"
-    },
-    {
       "sku": "2902101046",
       "name": "Hand & Body Cleanser Pink Pepper/Dark Rose INT, 500 ml",
       "category": "Pflege",
@@ -3043,7 +3065,7 @@
       "availability": "in stock",
       "price": "4.29 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/hand-soap-marrakesh-garden",
+      "url": "https://www.jeanlen.de/hand-soap-marrakech-garden",
       "gtin": "4262401736742"
     },
     {
@@ -3133,17 +3155,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/hand-soap-vanille-sandelholz",
       "gtin": "4262500785818"
-    },
-    {
-      "sku": "2925000177",
-      "name": "Avocado Handcreme Let's Avocuddle",
-      "category": "Pflege",
-      "subcategory": "Hände",
-      "availability": "in stock",
-      "price": "2.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/avodaco-handcreme-lets-avocuddle",
-      "gtin": "4262500784859"
     },
     {
       "sku": "2925000167",
