@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-24",
+    "lastUpdated": "2026-10-25",
     "totalArticles": 400,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -1551,6 +1551,17 @@
       "gtin": ""
     },
     {
+      "sku": "2925000722",
+      "name": "Haarpflege Feuchtigkeit Rosemary/Ginger",
+      "category": "Haare",
+      "subcategory": "Sets",
+      "availability": "in stock",
+      "price": "13.48 EUR",
+      "salePrice": "12.99 EUR",
+      "url": "https://www.jeanlen.de/haarpflege-feuchtigkeit-rosemary-ginger",
+      "gtin": "4262401738555"
+    },
+    {
       "sku": "D000000007",
       "name": "Haarpflege Nutri Care - Haarpflege Long Hair",
       "category": "Haare",
@@ -1648,17 +1659,6 @@
       "salePrice": "7.99 EUR",
       "url": "https://www.jeanlen.de/haarpflege-repair",
       "gtin": ""
-    },
-    {
-      "sku": "2800109432",
-      "name": "Haarpflegeset Rosemary/Ginger, 2er Set",
-      "category": "Haare",
-      "subcategory": "Sets",
-      "availability": "in stock",
-      "price": "13.48 EUR",
-      "salePrice": "12.99 EUR",
-      "url": "https://www.jeanlen.de/haarpflege-feuchtigkeit-rosemary-ginger",
-      "gtin": "4262401738555"
     },
     {
       "sku": "2800109433",
