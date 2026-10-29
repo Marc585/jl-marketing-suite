@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-28",
-    "totalArticles": 400,
+    "lastUpdated": "2026-10-29",
+    "totalArticles": 403,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -836,6 +836,17 @@
       "gtin": ""
     },
     {
+      "sku": "2925000444",
+      "name": "Cashmere Parfum – Eau de Parfum Sparkling Cashmere, 10ml",
+      "category": "Duft",
+      "subcategory": "",
+      "availability": "in stock",
+      "price": "7.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/cashmere-parfum-eau-de-parfum-sparkling-cashmere",
+      "gtin": "4262578631161"
+    },
+    {
       "sku": "2900101611",
       "name": "Eau de Toilette Bergamot/Cedarwood",
       "category": "Duft",
@@ -911,6 +922,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/eau-de-toilette-cardamom-tonka",
       "gtin": "4262401738371"
+    },
+    {
+      "sku": "2925000446",
+      "name": "Süßes Parfum – Eau de Parfum Pink Muse, 10ml",
+      "category": "Duft",
+      "subcategory": "",
+      "availability": "in stock",
+      "price": "7.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/suesses-parfum-eau-de-parfum-pink-muse",
+      "gtin": "4262578631208"
     },
     {
       "sku": "2925000155",
@@ -1661,17 +1683,6 @@
       "gtin": ""
     },
     {
-      "sku": "2800109433",
-      "name": "Haarpflegeset Rosemary/Ginger, 3er Set",
-      "category": "Haare",
-      "subcategory": "Sets",
-      "availability": "in stock",
-      "price": "21.47 EUR",
-      "salePrice": "19.99 EUR",
-      "url": "https://www.jeanlen.de/haarpflege-set-mit-haarkur-rosemary-ginger",
-      "gtin": "4262401738579"
-    },
-    {
       "sku": "D000000008",
       "name": "Haarpflegeset Sensitiv Hafermilch  Baumwollsamenöl für trockenes bis empfindliches Haar, geeignet für sensible Kopfhaut, milde, sanfte Pflege, vegan",
       "category": "Haare",
@@ -1681,6 +1692,17 @@
       "salePrice": "7.99 EUR",
       "url": "https://www.jeanlen.de/haarpflege-sensitiv",
       "gtin": ""
+    },
+    {
+      "sku": "2925000723",
+      "name": "Haarpflegeset Shampoo, Conditioner  Haarkur Rosemary/Ginger",
+      "category": "Haare",
+      "subcategory": "Sets",
+      "availability": "in stock",
+      "price": "21.47 EUR",
+      "salePrice": "19.99 EUR",
+      "url": "https://www.jeanlen.de/haarpflege-set-mit-haarkur-rosemary-ginger",
+      "gtin": "4262401738579"
     },
     {
       "sku": "D000000236",
@@ -2761,6 +2783,17 @@
       "gtin": "4262500781285"
     },
     {
+      "sku": "2800100638",
+      "name": "Wasserlilien Deo – Roll-On Fresh Waterlily",
+      "category": "Pflege",
+      "subcategory": "Deos",
+      "availability": "in stock",
+      "price": "3.49 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/wasserlilien-deo-roll-on-fresh-waterlily",
+      "gtin": "4262500781322"
+    },
+    {
       "sku": "2925000317",
       "name": "Anti Pickel Patches, zinc about it",
       "category": "Pflege",
@@ -2891,17 +2924,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/lippenpflege-mit-farbe-lip-balm-beere",
       "gtin": "4262401738289"
-    },
-    {
-      "sku": "2800109319",
-      "name": "Lip Balm Express Repair & Care, 4,7 g",
-      "category": "Pflege",
-      "subcategory": "Gesicht & Lippen",
-      "availability": "in stock",
-      "price": "3.49 EUR",
-      "salePrice": "2.29 EUR",
-      "url": "https://www.jeanlen.de/lippenpflege-mit-panthenol-lip-balm-repair-care",
-      "gtin": "4262401737589"
     },
     {
       "sku": "2925000018",
@@ -3342,6 +3364,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/handcreme-youre-one-in-a-melon",
       "gtin": "4262500784934"
+    },
+    {
+      "sku": "2902101049",
+      "name": "Handcreme für trockene Hände Hand Cream Day",
+      "category": "Pflege",
+      "subcategory": "Hände",
+      "availability": "in stock",
+      "price": "6.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/handcreme-fuer-trockene-haende-hand-cream-day",
+      "gtin": "4262401739644"
     },
     {
       "sku": "2925000180",
