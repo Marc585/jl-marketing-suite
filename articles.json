@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-10-29",
-    "totalArticles": 403,
+    "lastUpdated": "2026-10-30",
+    "totalArticles": 404,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -1580,8 +1580,8 @@
       "availability": "in stock",
       "price": "13.48 EUR",
       "salePrice": "12.99 EUR",
-      "url": "https://www.jeanlen.de/haarpflege-feuchtigkeit-rosemary-ginger",
-      "gtin": "4262401738555"
+      "url": "https://www.jeanlen.de/https://www.jeanlen.de/haarpflege-feuchtigkeit-rosemary-ginger",
+      "gtin": "4262578636104"
     },
     {
       "sku": "D000000007",
@@ -1702,7 +1702,7 @@
       "price": "21.47 EUR",
       "salePrice": "19.99 EUR",
       "url": "https://www.jeanlen.de/haarpflege-set-mit-haarkur-rosemary-ginger",
-      "gtin": "4262401738579"
+      "gtin": "4262578636111"
     },
     {
       "sku": "D000000236",
@@ -2814,6 +2814,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/ceramide-serum-barrier-booster-serum",
       "gtin": "4262401735073"
+    },
+    {
+      "sku": "2925000019",
+      "name": "Beruhigende Lippenpflege mit Panthenol",
+      "category": "Pflege",
+      "subcategory": "Gesicht & Lippen",
+      "availability": "in stock",
+      "price": "3.49 EUR",
+      "salePrice": "2.29 EUR",
+      "url": "https://www.jeanlen.de/lippenpflege-mit-panthenol-lip-balm-repair-care",
+      "gtin": "4262401737589"
     },
     {
       "sku": "2800109232",
