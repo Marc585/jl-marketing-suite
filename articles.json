@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-01",
-    "totalArticles": 404,
+    "lastUpdated": "2026-11-02",
+    "totalArticles": 410,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -4257,6 +4257,28 @@
       "gtin": "4262500781247"
     },
     {
+      "sku": "D000000273",
+      "name": "Cardamom/Tonka – The Scent of Fall Bundle",
+      "category": "Pflege",
+      "subcategory": "Sets",
+      "availability": "in stock",
+      "price": "46.95 EUR",
+      "salePrice": "32.99 EUR",
+      "url": "https://www.jeanlen.de/the-scent-of-fall-bundle-black-month-deal",
+      "gtin": ""
+    },
+    {
+      "sku": "D000000274",
+      "name": "Christmas Limited Edition – Christmas Bundle",
+      "category": "Pflege",
+      "subcategory": "Sets",
+      "availability": "in stock",
+      "price": "10.27 EUR",
+      "salePrice": "6.99 EUR",
+      "url": "https://www.jeanlen.de/christmas-bundle-black-month-deal",
+      "gtin": ""
+    },
+    {
       "sku": "D000000239",
       "name": "Christmas Limited Edition – Handseife  Handcreme im Set",
       "category": "Pflege",
@@ -4265,6 +4287,17 @@
       "price": "8.28 EUR",
       "salePrice": "7.49 EUR",
       "url": "https://www.jeanlen.de/christmas-limited-edition-handseife-und-handcreme-set",
+      "gtin": ""
+    },
+    {
+      "sku": "D000000272",
+      "name": "Cozy Care Bundle",
+      "category": "Pflege",
+      "subcategory": "Sets",
+      "availability": "in stock",
+      "price": "21.46 EUR",
+      "salePrice": "14.99 EUR",
+      "url": "https://www.jeanlen.de/cozy-care-bundle-black-month-deal",
       "gtin": ""
     },
     {
@@ -4298,6 +4331,28 @@
       "price": "38.96 EUR",
       "salePrice": "35.99 EUR",
       "url": "https://www.jeanlen.de/duftwelten-set-cardamom-tonka",
+      "gtin": ""
+    },
+    {
+      "sku": "D000000271",
+      "name": "Jean Len Rosemary Ginger Lovestory Bundle",
+      "category": "Pflege",
+      "subcategory": "Sets",
+      "availability": "in stock",
+      "price": "44.46 EUR",
+      "salePrice": "29.98 EUR",
+      "url": "https://www.jeanlen.de/rosemary-ginger-lovestory-bundle-black-month-deal",
+      "gtin": ""
+    },
+    {
+      "sku": "D000000276",
+      "name": "Last Chance Bundle – Pflegefavoriten sichern",
+      "category": "Pflege",
+      "subcategory": "Sets",
+      "availability": "in stock",
+      "price": "24.96 EUR",
+      "salePrice": "16.99 EUR",
+      "url": "https://www.jeanlen.de/last-chance-bundle-black-month-deal",
       "gtin": ""
     },
     {
@@ -4342,6 +4397,17 @@
       "price": "20.46 EUR",
       "salePrice": "18.99 EUR",
       "url": "https://www.jeanlen.de/vanilla-lover-set",
+      "gtin": ""
+    },
+    {
+      "sku": "D000000275",
+      "name": "Wirkstoff Pflege – Power Care Bundle",
+      "category": "Pflege",
+      "subcategory": "Sets",
+      "availability": "in stock",
+      "price": "20.96 EUR",
+      "salePrice": "14.99 EUR",
+      "url": "https://www.jeanlen.de/power-care-bundle-black-month-deal",
       "gtin": ""
     },
     {
