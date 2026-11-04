@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-03",
-    "totalArticles": 410,
+    "lastUpdated": "2026-11-04",
+    "totalArticles": 407,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -2112,17 +2112,6 @@
       "gtin": "4262401738111"
     },
     {
-      "sku": "D000000277",
-      "name": "Kalender mit Wochenübersicht 2027 Modularer Aufbau",
-      "category": "Home",
-      "subcategory": "",
-      "availability": "in stock",
-      "price": "36.98 EUR",
-      "salePrice": "29.99 EUR",
-      "url": "https://www.jeanlen.de/kalender-mit-wochenuebersicht-2027-kalenderheftchen-notizbuch-kalendercover",
-      "gtin": ""
-    },
-    {
       "sku": "2925000071",
       "name": "Klebeset zur Wandmontage der Badezimmeraccessoires aus unserer HOME Kollektion",
       "category": "Home",
@@ -2341,17 +2330,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/kalendercover-in-lederoptik-din-a5",
       "gtin": "4262500784316"
-    },
-    {
-      "sku": "2925000153",
-      "name": "Kalendereinlagen Set zwei Kalenderhefte 2027  Notizbuch",
-      "category": "Home",
-      "subcategory": "Papeterie",
-      "availability": "in stock",
-      "price": "14.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/kalendereinlagen-set-zwei-kalenderhefte-2027-und-notizbuch",
-      "gtin": "4262500784309"
     },
     {
       "sku": "2925000257",
@@ -3531,17 +3509,6 @@
       "gtin": "4262401732805"
     },
     {
-      "sku": "2800109415",
-      "name": "Body Ceremony Giftbox Rosemary/Ginger INT",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "19.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/geschenkset-body-ceremony-rosemary-ginger",
-      "gtin": "4262401732836"
-    },
-    {
       "sku": "2800100544",
       "name": "Body Lotion Arganöl/Feige, 250 ml",
       "category": "Pflege",
@@ -3826,6 +3793,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/exotische-mango-body-lotion-mango-avocado",
       "gtin": "4262500785115"
+    },
+    {
+      "sku": "2925000169",
+      "name": "Geschenkset Body Ceremony Rosemary/Ginger",
+      "category": "Pflege",
+      "subcategory": "Körper",
+      "availability": "in stock",
+      "price": "18.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/geschenkset-body-ceremony-rosemary-ginger",
+      "gtin": "4262500784606"
     },
     {
       "sku": "2800100532",
@@ -4276,17 +4254,6 @@
       "price": "10.27 EUR",
       "salePrice": "6.99 EUR",
       "url": "https://www.jeanlen.de/christmas-bundle-black-month-deal",
-      "gtin": ""
-    },
-    {
-      "sku": "D000000239",
-      "name": "Christmas Limited Edition – Handseife  Handcreme im Set",
-      "category": "Pflege",
-      "subcategory": "Sets",
-      "availability": "in stock",
-      "price": "8.28 EUR",
-      "salePrice": "7.49 EUR",
-      "url": "https://www.jeanlen.de/christmas-limited-edition-handseife-und-handcreme-set",
       "gtin": ""
     },
     {
