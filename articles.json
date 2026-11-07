@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-06",
+    "lastUpdated": "2026-11-07",
     "totalArticles": 407,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -1012,17 +1012,6 @@
       "gtin": "4262500781148"
     },
     {
-      "sku": "2800100193",
-      "name": "Aufbau Conditioner Mandel/Keratin, 300ml",
-      "category": "Haare",
-      "subcategory": "Conditioner",
-      "availability": "in stock",
-      "price": "4.29 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/Pflegender-Aufbau-Conditioner-mit-pflanzlichem-Keratin-vegane-Haarpflege/2800100193",
-      "gtin": "4260602128427"
-    },
-    {
       "sku": "2902101028",
       "name": "Conditioner Cardamom/Tonka",
       "category": "Haare",
@@ -1131,6 +1120,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/pflege-conditioner-jojoba-apfel",
       "gtin": "4262500781537"
+    },
+    {
+      "sku": "2925000047",
+      "name": "Pflegender Aufbau Conditioner mit pflanzlichem Keratin - vegane Haarpflege",
+      "category": "Haare",
+      "subcategory": "Conditioner",
+      "availability": "in stock",
+      "price": "4.29 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/Pflegender-Aufbau-Conditioner-mit-pflanzlichem-Keratin-vegane-Haarpflege/2925000047",
+      "gtin": "4260602128427"
     },
     {
       "sku": "2925000007",
@@ -2022,17 +2022,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/volumen-shampoo-bambus-lilie",
       "gtin": "4262500780325"
-    },
-    {
-      "sku": "2800609516",
-      "name": "Aufbewahrungsdose, Dolomit, salbei, 16 x 12 cm",
-      "category": "Home",
-      "subcategory": "",
-      "availability": "in stock",
-      "price": "7.99 EUR",
-      "salePrice": "4.99 EUR",
-      "url": "https://www.jeanlen.de/aufbewahrungsdose-dolomit-salbei",
-      "gtin": "4262401738692"
     },
     {
       "sku": "2800609515",
@@ -4164,7 +4153,7 @@
       "subcategory": "Nachfüllpack",
       "availability": "in stock",
       "price": "24.99 EUR",
-      "salePrice": "14.99 EUR",
+      "salePrice": null,
       "url": "https://www.jeanlen.de/hair-and-body-wash-cardamom-tonka-nachfuellpack-1500-ml",
       "gtin": "4262401735929"
     },
@@ -4640,6 +4629,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/achtsamkeitsjournal-ohne-gedoens-journal",
       "gtin": "4262500782657"
+    },
+    {
+      "sku": "2925000161",
+      "name": "Rosa Haarklammer für Deine Lieblings-Styles",
+      "category": "Sonstiges",
+      "subcategory": "",
+      "availability": "in stock",
+      "price": "9.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/haarklammer-rosa",
+      "gtin": "4262500784446"
     },
     {
       "sku": "D000000223",
