@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-09",
+    "lastUpdated": "2026-11-10",
     "totalArticles": 407,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
@@ -3509,15 +3509,15 @@
       "gtin": "4262401735165"
     },
     {
-      "sku": "2800100533",
-      "name": "Body Lotion Cranberry/Vanille, 250 ml",
+      "sku": "2925000356",
+      "name": "Body Lotion Cranberry/Vanille - Vanille Body Lotion",
       "category": "Pflege",
       "subcategory": "Körper",
       "availability": "in stock",
       "price": "4.49 EUR",
       "salePrice": null,
       "url": "https://www.jeanlen.de/vanille-body-lotion-cranberry-vanille",
-      "gtin": "4262401731914"
+      "gtin": "4262500789168"
     },
     {
       "sku": "2925000078",
@@ -4587,7 +4587,7 @@
       "gtin": ""
     },
     {
-      "sku": "2925000188",
+      "sku": "2925000187",
       "name": "JeanLen Adventskalender 2026 – Jetzt kaufen",
       "category": "Sonstiges",
       "subcategory": "",
@@ -4595,7 +4595,7 @@
       "price": "89.99 EUR",
       "salePrice": null,
       "url": "https://www.jeanlen.de/adventskalender-2026",
-      "gtin": "4262500788123"
+      "gtin": "4262500788116"
     },
     {
       "sku": "2800608205",
