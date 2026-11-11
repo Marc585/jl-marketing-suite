@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-10",
-    "totalArticles": 407,
+    "lastUpdated": "2026-11-11",
+    "totalArticles": 408,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -1129,8 +1129,8 @@
       "availability": "in stock",
       "price": "4.29 EUR",
       "salePrice": null,
-      "url": "https://www.jeanlen.de/Pflegender-Aufbau-Conditioner-mit-pflanzlichem-Keratin-vegane-Haarpflege/2925000047",
-      "gtin": "4260602128427"
+      "url": "https://www.jeanlen.de/keratin-conditioner-aufbau-conditioner-mandel-keratin",
+      "gtin": "4262500782398"
     },
     {
       "sku": "2925000007",
@@ -2979,6 +2979,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/zink-maske-clarifying-zinc-tuchmaske",
       "gtin": "4262500789915"
+    },
+    {
+      "sku": "D000000278",
+      "name": "4er Set Hand Soap Rosemary/Ginger Christmas",
+      "category": "Pflege",
+      "subcategory": "Handseifen",
+      "availability": "in stock",
+      "price": "17.16 EUR",
+      "salePrice": "14.99 EUR",
+      "url": "https://www.jeanlen.de/4er-set-hand-soap-christmas-llimited-edition",
+      "gtin": ""
     },
     {
       "sku": "2902101043",
