@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-12",
-    "totalArticles": 408,
+    "lastUpdated": "2026-11-13",
+    "totalArticles": 407,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -1329,17 +1329,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/haarparfum-youre-so-berry-special",
       "gtin": "4262500783913"
-    },
-    {
-      "sku": "2925000089",
-      "name": "Haarparfum you’re my cutie chai, 105 ml",
-      "category": "Haare",
-      "subcategory": "Extrapflege",
-      "availability": "in stock",
-      "price": "3.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/haarduft-haarparfum-youre-my-cutie-chai",
-      "gtin": "4262500783180"
     },
     {
       "sku": "2800101131",
@@ -3289,17 +3278,6 @@
       "gtin": "4262500783753"
     },
     {
-      "sku": "2925000363",
-      "name": "Handcreme I Love You Merry Much, 75ml",
-      "category": "Pflege",
-      "subcategory": "Hände",
-      "availability": "in stock",
-      "price": "2.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/handcreme-i-love-you-merry-much",
-      "gtin": "4262500789489"
-    },
-    {
       "sku": "2925000121",
       "name": "Handcreme I Love You So Matcha",
       "category": "Pflege",
@@ -3317,7 +3295,7 @@
       "subcategory": "Hände",
       "availability": "in stock",
       "price": "2.99 EUR",
-      "salePrice": null,
+      "salePrice": "1.99 EUR",
       "url": "https://www.jeanlen.de/handcreme-kamille-olivenoel",
       "gtin": "4262401736162"
     },
@@ -4246,14 +4224,14 @@
       "gtin": ""
     },
     {
-      "sku": "D000000274",
-      "name": "Christmas Limited Edition – Christmas Bundle",
+      "sku": "D000000239",
+      "name": "Christmas Limited Edition – Handseife  Handcreme im Set",
       "category": "Pflege",
       "subcategory": "Sets",
       "availability": "in stock",
-      "price": "10.27 EUR",
+      "price": "8.28 EUR",
       "salePrice": "6.99 EUR",
-      "url": "https://www.jeanlen.de/christmas-bundle-black-month-deal",
+      "url": "https://www.jeanlen.de/christmas-limited-edition-handseife-und-handcreme-set",
       "gtin": ""
     },
     {
@@ -4321,6 +4299,17 @@
       "salePrice": "16.99 EUR",
       "url": "https://www.jeanlen.de/last-chance-bundle-black-month-deal",
       "gtin": ""
+    },
+    {
+      "sku": "2925000720",
+      "name": "Len's Favorites zu unserem Geburtsag – sichere Dir das limitierte Set",
+      "category": "Pflege",
+      "subcategory": "Sets",
+      "availability": "in stock",
+      "price": "30.25 EUR",
+      "salePrice": "23.99 EUR",
+      "url": "https://www.jeanlen.de/lens-favorites-set",
+      "gtin": "4262578636081"
     },
     {
       "sku": "D000000240",
