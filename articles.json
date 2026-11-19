@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-18",
-    "totalArticles": 404,
+    "lastUpdated": "2026-11-19",
+    "totalArticles": 405,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -2893,6 +2893,17 @@
       "gtin": "4262500782909"
     },
     {
+      "sku": "2925000434",
+      "name": "Lip Mask Vanilla Tarte, 4,5 ml",
+      "category": "Pflege",
+      "subcategory": "Gesicht & Lippen",
+      "availability": "in stock",
+      "price": "3.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/lippenmaske-lip-mask-vanilla-tarte",
+      "gtin": "4262578630966"
+    },
+    {
       "sku": "2925000452",
       "name": "Lippenbalsam Vanille, 4,8 g",
       "category": "Pflege",
@@ -2902,6 +2913,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/lippenbalsam-vanille",
       "gtin": "4262578631321"
+    },
+    {
+      "sku": "2925000433",
+      "name": "Lippenmaske, Lip Mask Coco Cream, 4,5 ml",
+      "category": "Pflege",
+      "subcategory": "Gesicht & Lippen",
+      "availability": "in stock",
+      "price": "3.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/lippenmaske-lip-mask-coco-cream",
+      "gtin": "4262578630942"
     },
     {
       "sku": "2800109241",
@@ -3166,17 +3188,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/hand-balm-rosemary-ginger",
       "gtin": "4262401739606"
-    },
-    {
-      "sku": "2902101050",
-      "name": "Hand Cream Night INT, 75 ml",
-      "category": "Pflege",
-      "subcategory": "Hände",
-      "availability": "in stock",
-      "price": "6.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/handcreme-fuer-die-nacht-hand-cream-night",
-      "gtin": "4262401739668"
     },
     {
       "sku": "2800101043",
