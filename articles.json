@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-19",
-    "totalArticles": 405,
+    "lastUpdated": "2026-11-20",
+    "totalArticles": 406,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -1208,6 +1208,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/locken-creme-reiswasser-acai",
       "gtin": "4262401738616"
+    },
+    {
+      "sku": "2925000441",
+      "name": "Curling Cream curls are forever, 100 ml",
+      "category": "Haare",
+      "subcategory": "Extrapflege",
+      "availability": "in stock",
+      "price": "3.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/curling-cream-curls-are-forever",
+      "gtin": "4262578631109"
     },
     {
       "sku": "2900100241",
@@ -3454,17 +3465,6 @@
       "gtin": "4262401732058"
     },
     {
-      "sku": "2800109414",
-      "name": "Body Ceremony Giftbox Peony/Lychee INT",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "19.99 EUR",
-      "salePrice": "14.99 EUR",
-      "url": "https://www.jeanlen.de/geschenkset-body-ceremony-peony-lychee",
-      "gtin": "4262401732805"
-    },
-    {
       "sku": "2800100544",
       "name": "Body Lotion Arganöl/Feige, 250 ml",
       "category": "Pflege",
@@ -3749,6 +3749,17 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/exotische-mango-body-lotion-mango-avocado",
       "gtin": "4262500785115"
+    },
+    {
+      "sku": "2925000168",
+      "name": "Geschenkset Body Ceremony Peony/Lychee",
+      "category": "Pflege",
+      "subcategory": "Körper",
+      "availability": "in stock",
+      "price": "18.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/geschenkset-body-ceremony-peony-lychee",
+      "gtin": "4262500784583"
     },
     {
       "sku": "2925000169",
