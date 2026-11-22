@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-21",
-    "totalArticles": 406,
+    "lastUpdated": "2026-11-22",
+    "totalArticles": 402,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -4131,7 +4131,7 @@
       "subcategory": "Nachfüllpack",
       "availability": "in stock",
       "price": "24.99 EUR",
-      "salePrice": null,
+      "salePrice": "14.99 EUR",
       "url": "https://www.jeanlen.de/hair-and-body-wash-cardamom-tonka-nachfuellpack-1500-ml",
       "gtin": "4262401735929"
     },
@@ -4312,17 +4312,6 @@
       "gtin": ""
     },
     {
-      "sku": "D000000202",
-      "name": "Sommer Essentials Set – Adults",
-      "category": "Pflege",
-      "subcategory": "Sets",
-      "availability": "in stock",
-      "price": "27.47 EUR",
-      "salePrice": "21.99 EUR",
-      "url": "https://www.jeanlen.de/sommer-essentials-set-adult",
-      "gtin": ""
-    },
-    {
       "sku": "D000000200",
       "name": "Sommer Essentials – Sonnencreme für die ganze Familie",
       "category": "Pflege",
@@ -4444,18 +4433,7 @@
       "gtin": "4262401739774"
     },
     {
-      "sku": "2900200819",
-      "name": "Sensitives Sonnenspray LSF 30, 250ml",
-      "category": "Pflege",
-      "subcategory": "Sonne",
-      "availability": "in stock",
-      "price": "11.49 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/sensitives-sonnenschutz-spray-lsf-30",
-      "gtin": "4260702189755"
-    },
-    {
-      "sku": "2925000140",
+      "sku": "2900200818",
       "name": "Sensitives Sonnenspray LSF 50",
       "category": "Pflege",
       "subcategory": "Sonne",
@@ -4463,18 +4441,7 @@
       "price": "14.99 EUR",
       "salePrice": null,
       "url": "https://www.jeanlen.de/sensitives-sonnenspray-lsf-50",
-      "gtin": "4262500784040"
-    },
-    {
-      "sku": "D000000114",
-      "name": "Sommer Essentials Set",
-      "category": "Pflege",
-      "subcategory": "Sonne",
-      "availability": "in stock",
-      "price": "28.47 EUR",
-      "salePrice": "23.99 EUR",
-      "url": "https://www.jeanlen.de/sommer-essentials-set",
-      "gtin": ""
+      "gtin": "4260702189731"
     },
     {
       "sku": "D000000117",
@@ -4485,17 +4452,6 @@
       "price": "17.99 EUR",
       "salePrice": "15.99 EUR",
       "url": "https://www.jeanlen.de/sommer-essentials-set-reisegroesse",
-      "gtin": ""
-    },
-    {
-      "sku": "D000000004",
-      "name": "Sommer Essentials Set – Mini",
-      "category": "Pflege",
-      "subcategory": "Sonne",
-      "availability": "in stock",
-      "price": "19.48 EUR",
-      "salePrice": "15.99 EUR",
-      "url": "https://www.jeanlen.de/Sommer-Essentials-Set-Klein/D000000004",
       "gtin": ""
     },
     {
