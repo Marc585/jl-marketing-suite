@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-22",
-    "totalArticles": 402,
+    "lastUpdated": "2026-11-23",
+    "totalArticles": 401,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -4276,17 +4276,6 @@
       "price": "44.46 EUR",
       "salePrice": "29.98 EUR",
       "url": "https://www.jeanlen.de/rosemary-ginger-lovestory-bundle-black-month-deal",
-      "gtin": ""
-    },
-    {
-      "sku": "D000000276",
-      "name": "Last Chance Bundle – Pflegefavoriten sichern",
-      "category": "Pflege",
-      "subcategory": "Sets",
-      "availability": "in stock",
-      "price": "24.96 EUR",
-      "salePrice": "16.99 EUR",
-      "url": "https://www.jeanlen.de/last-chance-bundle-black-month-deal",
       "gtin": ""
     },
     {
