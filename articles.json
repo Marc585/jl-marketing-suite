@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-23",
-    "totalArticles": 401,
+    "lastUpdated": "2026-11-24",
+    "totalArticles": 397,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -889,17 +889,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/Rosemary-Ginger-EDP-30-ml/2900101606",
       "gtin": "4260602128755"
-    },
-    {
-      "sku": "2800101542",
-      "name": "Rosemary/Ginger EdP, 50 ml",
-      "category": "Duft",
-      "subcategory": "",
-      "availability": "in stock",
-      "price": "79.00 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/Rosemary-Ginger-EDP-50-ml/2800101542",
-      "gtin": "4260602129806"
     },
     {
       "sku": "2900101613",
@@ -2321,17 +2310,6 @@
       "gtin": "4262500786532"
     },
     {
-      "sku": "2925000316",
-      "name": "Citronella Kerze mit sanfter Note von weißem Tee",
-      "category": "Home",
-      "subcategory": "Raumduft & Kerzen",
-      "availability": "in stock",
-      "price": "12.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/citronella-kerze-duftkerze-citronella-white-tea",
-      "gtin": "4262500787751"
-    },
-    {
       "sku": "2925000103",
       "name": "Home Perfume Bergamot/Cedarwood INT, 500 ml",
       "category": "Home",
@@ -3311,17 +3289,6 @@
       "gtin": "4262500782862"
     },
     {
-      "sku": "2925000181",
-      "name": "Handcreme You're One In A Melon",
-      "category": "Pflege",
-      "subcategory": "Hände",
-      "availability": "in stock",
-      "price": "2.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/handcreme-youre-one-in-a-melon",
-      "gtin": "4262500784934"
-    },
-    {
       "sku": "2902101049",
       "name": "Handcreme für trockene Hände Hand Cream Day",
       "category": "Pflege",
@@ -3749,17 +3716,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/exotische-mango-body-lotion-mango-avocado",
       "gtin": "4262500785115"
-    },
-    {
-      "sku": "2925000168",
-      "name": "Geschenkset Body Ceremony Peony/Lychee",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "18.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/geschenkset-body-ceremony-peony-lychee",
-      "gtin": "4262500784583"
     },
     {
       "sku": "2925000169",
@@ -4268,6 +4224,17 @@
       "gtin": ""
     },
     {
+      "sku": "2925000168",
+      "name": "Geschenkset Body Ceremony Peony/Lychee",
+      "category": "Pflege",
+      "subcategory": "Sets",
+      "availability": "in stock",
+      "price": "18.99 EUR",
+      "salePrice": null,
+      "url": "https://www.jeanlen.de/geschenkset-body-ceremony-peony-lychee",
+      "gtin": "4262500784583"
+    },
+    {
       "sku": "D000000271",
       "name": "Jean Len Rosemary Ginger Lovestory Bundle",
       "category": "Pflege",
@@ -4277,17 +4244,6 @@
       "salePrice": "29.98 EUR",
       "url": "https://www.jeanlen.de/rosemary-ginger-lovestory-bundle-black-month-deal",
       "gtin": ""
-    },
-    {
-      "sku": "2925000720",
-      "name": "Len's Favorites zu unserem Geburtsag – sichere Dir das limitierte Set",
-      "category": "Pflege",
-      "subcategory": "Sets",
-      "availability": "in stock",
-      "price": "30.25 EUR",
-      "salePrice": "23.99 EUR",
-      "url": "https://www.jeanlen.de/lens-favorites-set",
-      "gtin": "4262578636081"
     },
     {
       "sku": "D000000240",
@@ -4340,7 +4296,7 @@
       "subcategory": "Sets",
       "availability": "in stock",
       "price": "8.28 EUR",
-      "salePrice": "7.49 EUR",
+      "salePrice": "6.99 EUR",
       "url": "https://www.jeanlen.de/handpflege-set-sehr-geiles-set-handseife-handcreme-rosemary-ginger",
       "gtin": ""
     },
