@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-11-26",
-    "totalArticles": 400,
+    "lastUpdated": "2026-11-27",
+    "totalArticles": 396,
     "source": "Shopware Feed (auto-sync)",
     "feedUrl": "https://www.jeanlen.de/store-api/product-export/SWPERW1QSK80Z1DSAHHWCDIZRA/chatchamp.xml"
   },
@@ -2959,17 +2959,6 @@
       "gtin": "4262500789915"
     },
     {
-      "sku": "D000000278",
-      "name": "4er Set Hand Soap Rosemary/Ginger Christmas",
-      "category": "Pflege",
-      "subcategory": "Handseifen",
-      "availability": "in stock",
-      "price": "17.16 EUR",
-      "salePrice": "14.99 EUR",
-      "url": "https://www.jeanlen.de/4er-set-hand-soap-christmas-llimited-edition",
-      "gtin": ""
-    },
-    {
       "sku": "2902101043",
       "name": "Hand & Body Cleanser Arabica/Musk INT, 500 ml",
       "category": "Pflege",
@@ -3089,17 +3078,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/hand-soap-pink-pepper-dark-rose",
       "gtin": "4262401736766"
-    },
-    {
-      "sku": "2902101022",
-      "name": "Hand Soap Rosemary/Ginger Christmas Edition",
-      "category": "Pflege",
-      "subcategory": "Handseifen",
-      "availability": "in stock",
-      "price": "4.29 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/hand-soap-rosemary-ginger-christmas",
-      "gtin": "4262401734670"
     },
     {
       "sku": "D000000227",
@@ -3938,17 +3916,6 @@
       "gtin": "4262500783791"
     },
     {
-      "sku": "2800109409",
-      "name": "Spa Ceremony Giftbox Cardamom/Tonka INT",
-      "category": "Pflege",
-      "subcategory": "Körper",
-      "availability": "in stock",
-      "price": "24.99 EUR",
-      "salePrice": "19.99 EUR",
-      "url": "https://www.jeanlen.de/geschenkset-spa-ceremony-cardamom-tonka",
-      "gtin": "4262401732645"
-    },
-    {
       "sku": "2925000170",
       "name": "Spa Ceremony Giftbox Peony/Lychee",
       "category": "Pflege",
@@ -4068,17 +4035,6 @@
       "salePrice": null,
       "url": "https://www.jeanlen.de/lippenpflege-vanille-lip-treatment-pink-pillow",
       "gtin": "4262500786020"
-    },
-    {
-      "sku": "2902101026",
-      "name": "Hair  Body Wash Cardamom/Tonka",
-      "category": "Pflege",
-      "subcategory": "Nachfüllpack",
-      "availability": "in stock",
-      "price": "9.99 EUR",
-      "salePrice": null,
-      "url": "https://www.jeanlen.de/hair-and-body-wash-cardamom-tonka",
-      "gtin": "4262401735936"
     },
     {
       "sku": "2902101025",
